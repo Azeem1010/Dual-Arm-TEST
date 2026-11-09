@@ -1,0 +1,35 @@
+[2.962s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'dual_arm_moveit_config' is in: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_moveit_config
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding dual_arm_moveit_config
+
+This may be promoted to an error in a future release of colcon-override-check.
+Starting >>> dual_arm_moveit_config
+-- Install configuration: ""
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/config
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/config/dual_arm.srdf
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/config/joint_limits.yaml
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/config/kinematics.yaml
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/config/moveit_controllers.yaml
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/config/ompl_planning.yaml
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_moveit_config/share/ament_index/resource_index/package_run_dependencies/dual_arm_moveit_config
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_moveit_config/share/ament_index/resource_index/parent_prefix_path/dual_arm_moveit_config
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/environment/ament_prefix_path.sh
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/environment/ament_prefix_path.dsv
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/environment/path.sh
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/environment/path.dsv
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/local_setup.bash
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/local_setup.sh
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/local_setup.zsh
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/local_setup.dsv
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/package.dsv
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_moveit_config/share/ament_index/resource_index/packages/dual_arm_moveit_config
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/cmake/dual_arm_moveit_configConfig.cmake
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/cmake/dual_arm_moveit_configConfig-version.cmake
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/package.xml
+Finished <<< dual_arm_moveit_config [4.70s]
+
+Summary: 1 package finished [6.20s]

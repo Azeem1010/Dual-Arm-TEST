@@ -1,0 +1,6 @@
+Starting >>> dual_arm_moveit_config
+Finished <<< dual_arm_moveit_config [2.48s]
+Starting >>> dual_arm_bringup
+Finished <<< dual_arm_bringup [3.15s]
+
+Summary: 2 packages finished [6.78s]

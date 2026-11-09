@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "scope": "Discrete self/inter-arm collision with URDF boxes and SRDF exclusions",
+  "world_collision_status": "NOT_RUN",
+  "continuous_path_status": "NOT_RUN",
+  "urdf_sha256": "43725c9afec73dcbb574d786e626d754c81256a6903696c41d61a7ccead46f6a",
+  "srdf_sha256": "945b3b3a5500c532c7b8f708f7373e8aa25c2c837736acfd4ed34fc8abda9be8",
+  "joint_rad": {
+    "arm1": [
+      -0.5235987755982989,
+      -0.32936052013441397,
+      0.06372243163439731,
+      1.6020177591619507
+    ],
+    "arm2": [
+      0.3992248728901986,
+      -0.32936052013441397,
+      0.06372243163439731,
+      1.6020177591619507
+    ]
+  },
+  "states": {
+    "home_A_home_C": {
+      "valid": true,
+      "contacts": []
+    },
+    "home_A_arm2_cad_zero": {
+      "valid": true,
+      "contacts": []
+    },
+    "arm1_cad_zero_home_C": {
+      "valid": true,
+      "contacts": []
+    }
+  }
+}

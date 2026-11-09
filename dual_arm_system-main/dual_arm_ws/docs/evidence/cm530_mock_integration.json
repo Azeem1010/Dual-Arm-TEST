@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "scope": "Mock serial with v17 firmware parser; no hardware",
+  "phases": {
+    "read_only": {
+      "status": "PASS",
+      "detail": {
+        "centered": true,
+        "no_arm_controllers": true
+      }
+    },
+    "refused_calibration": {
+      "status": "PASS",
+      "detail": "NOT_RUN calibration blocks motion"
+    },
+    "template_refused": {
+      "status": "PASS",
+      "detail": "null calibration template blocks configure"
+    },
+    "controllers_required": {
+      "status": "PASS",
+      "detail": "motion without goal tolerances is refused"
+    },
+    "motion_and_fault": {
+      "status": "PASS",
+      "detail": {
+        "error_code": 0,
+        "max_arm1_error_rad": 0.002365352023127834,
+        "max_arm2_motion_rad": 0.0,
+        "fault_detected": true
+      }
+    }
+  }
+}

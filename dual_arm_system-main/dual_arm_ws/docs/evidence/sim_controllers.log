@@ -1,0 +1,4 @@
+joint_state_broadcaster joint_state_broadcaster/JointStateBroadcaster          active
+arm1_controller         joint_trajectory_controller/JointTrajectoryController  active
+arm2_controller         joint_trajectory_controller/JointTrajectoryController  active
+[INFO] [1794156860.311565028] [_ros2cli_4105]: waiting for service /controller_manager/list_controllers to become available...

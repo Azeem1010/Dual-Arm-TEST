@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "components": 264,
+  "corrected_components": [
+    10,
+    11,
+    17,
+    18,
+    19,
+    231,
+    232,
+    238,
+    239,
+    240
+  ],
+  "camera_support_forward": "PASS",
+  "motor_axes_and_TCP_preserved": "PASS",
+  "white_flush_pads": 8,
+  "pad_top_z_m": 0.014,
+  "scope": "Geometry consistency, not physical collision or hardware acceptance"
+}

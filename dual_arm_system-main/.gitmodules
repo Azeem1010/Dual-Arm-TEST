@@ -1,0 +1,13 @@
+[submodule "dual_arm_ws/third_party/CM530_ROS_BRIDGE"]
+	path = dual_arm_ws/third_party/CM530_ROS_BRIDGE
+	url = https://github.com/xian1022/CM530_ROS_BRIDGE.git
+[submodule "dual_arm_ws/third_party/dual_arm_3d"]
+	path = dual_arm_ws/third_party/dual_arm_3d
+	url = https://github.com/xian1022/dual_arm_3d.git
+[submodule "dual_arm_ws/third_party/phantomx_pincher"]
+	path = dual_arm_ws/third_party/phantomx_pincher
+	url = https://github.com/snt-spacer/phantomx_pincher.git
+	branch = ros2
+[submodule "dual_arm_ws/third_party/three-camera-vision-ros2"]
+	path = dual_arm_ws/third_party/three-camera-vision-ros2
+	url = https://github.com/Azeem1010/three-camera-vision-ros2.git

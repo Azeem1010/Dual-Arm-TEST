@@ -1,0 +1,10 @@
+# /vision/env/capture_ranking
+# 此場地瓶蓋大小相同、不排序：只清點環境相機看到的 A 區瓶蓋數（保留此介面讓協調器流程不必改）。
+# 只有影像中斷 / 場地未定位時失敗；數量不是 8 個只在 message 提醒。
+---
+bool success
+string message
+# A 區偵測到的瓶蓋數量
+int32 count
+# 固定 false（不排序）
+bool low_confidence

@@ -1,0 +1,72 @@
+{
+  "passed": true,
+  "scenario": "existing_b",
+  "state": {
+    "state": "SUCCEEDED",
+    "cycle_id": "10104a45ff6d496896b8aa0b845d47bd",
+    "active_arm": "",
+    "holding": "empty",
+    "b_locked": false,
+    "b_owner": "",
+    "occupied": [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "slot": 1,
+    "completed": 1,
+    "arms": {
+      "arm2": {
+        "state": "SUCCEEDED",
+        "holding": "empty",
+        "b_locked": false,
+        "occupied": [
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "slot": 1
+      }
+    },
+    "message": "Verified A\u2192B\u2192C transfer complete",
+    "confirmation_token": "",
+    "confirmation_operation": "",
+    "config_fingerprint": "f8296172f21028e49627519381492e7453da0cb7029094ef7290d3682b4b4528",
+    "busy": false
+  },
+  "history": [
+    "IDLE",
+    "STARTING",
+    "INITIALIZING",
+    "ARM2:CHECK_B_READY",
+    "ARM2:VERIFY_LAYOUT",
+    "ARM2:PREFLIGHT",
+    "ARM2:B_RESERVED",
+    "ARM2:DESCEND_B",
+    "ARM2:GRASP_B",
+    "ARM2:ATTACH",
+    "ARM2:LIFT_B",
+    "ARM2:HOME_WITH_OBJECT",
+    "ARM2:VERIFY_B_EMPTY",
+    "ARM2:B_EMPTY",
+    "ARM2:APPROACH_C",
+    "ARM2:DESCEND_C",
+    "ARM2:RELEASE_C",
+    "ARM2:DETACH",
+    "ARM2:LIFT_C",
+    "ARM2:RETURN_HOME",
+    "ARM2:VERIFY_C",
+    "ARM2:SUCCEEDED",
+    "SUCCEEDED"
+  ]
+}

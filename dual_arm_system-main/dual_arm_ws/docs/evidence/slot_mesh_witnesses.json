@@ -1,0 +1,48 @@
+{
+  "scope": "Six selected witnesses, primary component STL surfaces only; no full-path clearance certification",
+  "no_crossing_meaning": "Does not exclude containment or other components; retain conservative collision rejection",
+  "witnesses": [
+    {
+      "candidate": "toward_user_y",
+      "slot": 1,
+      "lift_m": 0.03,
+      "surface_crossings": [],
+      "collision_status": "NOT_RUN"
+    },
+    {
+      "candidate": "toward_user_y",
+      "slot": 2,
+      "lift_m": 0.03,
+      "surface_crossings": [],
+      "collision_status": "NOT_RUN"
+    },
+    {
+      "candidate": "toward_arm_base_x",
+      "slot": 1,
+      "lift_m": 0.03,
+      "surface_crossings": [],
+      "collision_status": "NOT_RUN"
+    },
+    {
+      "candidate": "toward_arm_base_x",
+      "slot": 2,
+      "lift_m": 0.03,
+      "surface_crossings": [],
+      "collision_status": "NOT_RUN"
+    },
+    {
+      "candidate": "toward_user_y_10mm",
+      "slot": 1,
+      "lift_m": 0.03,
+      "surface_crossings": [],
+      "collision_status": "NOT_RUN"
+    },
+    {
+      "candidate": "toward_user_y_10mm",
+      "slot": 2,
+      "lift_m": 0.03,
+      "surface_crossings": [],
+      "collision_status": "NOT_RUN"
+    }
+  ]
+}

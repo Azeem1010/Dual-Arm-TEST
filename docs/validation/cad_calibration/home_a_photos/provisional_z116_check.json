@@ -1,0 +1,39 @@
+{
+  "purpose": "user-authorized provisional 116 mm calculation; not a hardware calibration",
+  "assumed_xyz_mm": [
+    135.0,
+    -80.0,
+    116.0
+  ],
+  "original_measured_xyz_mm": [
+    135.0,
+    -80.0,
+    120.0
+  ],
+  "assumptions": [
+    "shoulder axis above base yaw axis",
+    "shoulder height 85.5 mm above field",
+    "two links 93.5 mm",
+    "wrist to TCP 71 mm",
+    "suction TCP vertical downward"
+  ],
+  "radial_distance_mm": 156.92354826475216,
+  "shoulder_to_wrist_distance_mm": 186.8883356445768,
+  "maximum_two_link_length_mm": 187.0,
+  "planar_solutions": [
+    {
+      "upper_arm_elevation_deg": 30.91512547196104,
+      "forearm_elevation_deg": 34.87540387791934,
+      "elbow_relative_deg": 3.9602784059582943,
+      "wrist_relative_to_forearm_for_downward_tcp_deg": -124.87540387791934
+    },
+    {
+      "upper_arm_elevation_deg": 34.87540387791933,
+      "forearm_elevation_deg": 30.915125471961037,
+      "elbow_relative_deg": -3.9602784059582943,
+      "wrist_relative_to_forearm_for_downward_tcp_deg": -120.91512547196103
+    }
+  ],
+  "physical_consistency": "Both solutions imply almost straight upper arm and forearm, unlike the visibly bent elbow in supplied Home_A photos. This pose assumption must not be used to set motor zeros or authorize a Cartesian hardware move.",
+  "motion_commands_sent": false
+}

@@ -1,0 +1,188 @@
+# SIMULATION ONLY: HOME points away from the shared B region.
+dual_coordinator:
+  ros__parameters:
+    simulation: true
+    auto_confirm_demo: false
+    cycles: 1
+    safety_max_age: 2.0
+    arm1.calibrated: false
+    arm1.home_joints:
+    - 1.5708
+    - 0.0
+    - 1.5708
+    - 1.5708
+    arm1.pick_z: 0.02
+    arm1.b_place:
+    - 0.15
+    - -0.04
+    - 0.02
+    arm1.a_min:
+    - 0.08
+    - 0.0
+    - 0.017
+    arm1.a_max:
+    - 0.2
+    - 0.1
+    - 0.023
+    arm1.approach_height: 0.02
+    arm1.home_settle: 1.1
+    arm1.peek_only: true
+    arm1.target_rank: 0
+    arm1.table_size:
+    - 0.6
+    - 0.6
+    - 0.02
+    arm1.table_center:
+    - 0.0
+    - 0.0
+    - -0.06
+    arm1.disk_radius: 0.01
+    arm1.disk_thickness: 0.002
+    arm2.calibrated: false
+    arm2.base_frame: arm2_base
+    arm2.tcp_link: arm2_suction_tcp
+    arm2.planning_group: arm2
+    arm2.controller_name: arm2_controller
+    arm2.joint_names:
+    - arm2_arm_shoulder_pan_joint
+    - arm2_arm_shoulder_lift_joint
+    - arm2_arm_elbow_flex_joint
+    - arm2_arm_wrist_flex_joint
+    arm2.grid_verification: true
+    arm2.grid_service: /vision/arm2/get_grid_state
+    arm2.verify_service: /vision/arm2/verify_place
+    arm2.grid_position_tolerance: 0.01
+    arm2.require_size_order: false
+    arm2.service_timeout: 4.0
+    arm2.planning_timeout: 5.0
+    arm2.execution_margin: 20.0
+    arm2.joint_state_max_age: 1.0
+    arm2.zone_wait_timeout: 30.0
+    arm2.zone_poll_period: 0.2
+    arm2.manual_timeout: 600.0
+    arm2.calibration_id: DEMO_ONLY
+    arm2.home_joints:
+    - 1.5708
+    - 0.0
+    - 1.5708
+    - 1.5708
+    arm2.b_pick:
+    - 0.15
+    - -0.04
+    - 0.02
+    - 0.9915228034698058
+    - -0.12993279108591818
+    - 0.0
+    - 0.0
+    arm2.c_poses:
+    - 0.115
+    - -0.005
+    - 0.02
+    - 0.9997640117435362
+    - -0.0217237386853697
+    - 0.0
+    - 0.0
+    - 0.115
+    - 0.02
+    - 0.02
+    - 0.9962960791902361
+    - 0.08598908413375944
+    - 0.0
+    - 0.0
+    - 0.115
+    - 0.045
+    - 0.02
+    - 0.9826603634282176
+    - 0.18541469776456043
+    - 0.0
+    - 0.0
+    - 0.115
+    - 0.07
+    - 0.02
+    - 0.9628599471404028
+    - 0.2700013373907261
+    - 0.0
+    - 0.0
+    - 0.14
+    - -0.005
+    - 0.02
+    - 0.9998407008987855
+    - -0.017848608523501966
+    - 0.0
+    - 0.0
+    - 0.14
+    - 0.02
+    - 0.02
+    - 0.9974842088126424
+    - 0.0708890200906793
+    - 0.0
+    - 0.0
+    - 0.14
+    - 0.045
+    - 0.02
+    - 0.9879343503708291
+    - 0.1548732364140682
+    - 0.0
+    - 0.0
+    - 0.14
+    - 0.07
+    - 0.02
+    - 0.9732489894677302
+    - 0.22975292054736118
+    - 0.0
+    - 0.0
+    arm2.rows: 2
+    arm2.columns: 4
+    arm2.approach_height: 0.02
+    arm2.home_settle: 1.1
+    arm2.velocity_scale: 0.25
+    arm2.acceleration_scale: 0.25
+    arm2.table_size:
+    - 0.6
+    - 0.6
+    - 0.02
+    arm2.table_center:
+    - 0.0
+    - 0.0
+    - -0.06
+    arm2.disk_radius: 0.01
+    arm2.disk_thickness: 0.002
+    arm2.obstacle_boxes:
+    - 0.0
+    - 0.0
+    - -0.2
+    - 0.01
+    - 0.01
+    - 0.01
+    arm2.safety_max_age: 2.0
+cm530_bridge:
+  ros__parameters:
+    mock_hardware: true
+    mock_time_scale: 1.0
+    arms:
+    - arm1
+    - arm2
+    command_period: 0.15
+    position_tolerance: 0.025
+    stable_count: 3
+    arm1.initial_rad:
+    - 1.5708
+    - 0.0
+    - 1.5708
+    - 1.5708
+    arm2.initial_rad:
+    - 1.5708
+    - 0.0
+    - 1.5708
+    - 1.5708
+    require_safety_inputs: true
+    require_arm1_clear: false
+    require_coordinator: true
+    startup_listen: 6.0
+dual_mock_vision:
+  ros__parameters:
+    pick_xyz:
+    - 0.15
+    - 0.04
+    - 0.02
+    supply: 8

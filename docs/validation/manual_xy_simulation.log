@@ -1,0 +1,329 @@
+[INFO] [launch]: All log files can be found below /tmp/dual-arm-ros2/manual_xy_logs/2026-11-05-14-52-44-302331-AGX-Orin-19364
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [robot_state_publisher-1]: process started with pid [19379]
+[INFO] [cm530_bridge-2]: process started with pid [19380]
+[INFO] [move_group-3]: process started with pid [19381]
+[INFO] [manual_xy_server-4]: process started with pid [19382]
+[robot_state_publisher-1] [INFO] [1793861564.838128812] [robot_state_publisher]: Robot initialized
+[move_group-3] [INFO] [1793861564.923401601] [move_group.moveit.moveit.ros.rdf_loader]: Loaded robot model in 0.00678492 seconds
+[move_group-3] [INFO] [1793861564.923737316] [move_group.moveit.moveit.core.robot_model]: Loading robot model 'dual_arm_pincher'...
+[move_group-3] [INFO] [1793861564.923783716] [move_group.moveit.moveit.core.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[move_group-3] [INFO] [1793861564.929241876] [move_group.moveit.moveit.kinematics.kdl_kinematics_plugin]: Joint weights for group 'arm1': 1 1 1 1
+[move_group-3] [INFO] [1793861564.951209687] [move_group.moveit.moveit.ros.moveit_cpp]: Listening to 'joint_states' for joint states
+[move_group-3] [INFO] [1793861564.955644159] [move_group.moveit.moveit.ros.current_state_monitor]: Listening to joint states on topic 'joint_states'
+[move_group-3] [INFO] [1793861564.976235829] [move_group.moveit.moveit.ros.planning_scene_monitor]: Listening to '/attached_collision_object' for attached collision objects
+[move_group-3] [INFO] [1793861564.979807925] [move_group.moveit.moveit.ros.planning_scene_monitor]: Publishing maintained planning scene on 'monitored_planning_scene'
+[move_group-3] [INFO] [1793861564.980271257] [move_group.moveit.moveit.ros.planning_scene_monitor]: Starting planning scene monitor
+[move_group-3] [INFO] [1793861564.981718246] [move_group.moveit.moveit.ros.planning_scene_monitor]: Listening to '/planning_scene'
+[move_group-3] [INFO] [1793861564.981783046] [move_group.moveit.moveit.ros.planning_scene_monitor]: Starting world geometry update monitor for collision objects, attached objects, octomap updates.
+[move_group-3] [INFO] [1793861564.982830576] [move_group.moveit.moveit.ros.planning_scene_monitor]: Listening to 'collision_object'
+[move_group-3] [INFO] [1793861564.983771800] [move_group.moveit.moveit.ros.planning_scene_monitor]: Listening to 'planning_scene_world' for planning scene world geometry
+[move_group-3] [WARN] [1793861564.984151771] [move_group.moveit.moveit.ros.occupancy_map_monitor]: Resolution not specified for Octomap. Assuming resolution = 0.1 instead
+[move_group-3] [ERROR] [1793861564.984203836] [move_group.moveit.moveit.ros.occupancy_map_monitor]: No 3D sensor plugin(s) defined for octomap updates
+[move_group-3] [INFO] [1793861565.018502284] [move_group.moveit.moveit.ros.planning_pipeline]: Successfully loaded planner 'OMPL'
+[move_group-3] [INFO] [1793861565.020063546] [move_group]: Try loading adapter 'default_planning_request_adapters/ResolveConstraintFrames'
+[move_group-3] [INFO] [1793861565.021848585] [move_group]: Loaded adapter 'default_planning_request_adapters/ResolveConstraintFrames'
+[move_group-3] [INFO] [1793861565.021913930] [move_group]: Try loading adapter 'default_planning_request_adapters/ValidateWorkspaceBounds'
+[move_group-3] [INFO] [1793861565.022437743] [move_group]: Loaded adapter 'default_planning_request_adapters/ValidateWorkspaceBounds'
+[move_group-3] [INFO] [1793861565.022476239] [move_group]: Try loading adapter 'default_planning_request_adapters/CheckStartStateBounds'
+[move_group-3] [INFO] [1793861565.022551920] [move_group]: Loaded adapter 'default_planning_request_adapters/CheckStartStateBounds'
+[move_group-3] [INFO] [1793861565.022574544] [move_group]: Try loading adapter 'default_planning_request_adapters/CheckStartStateCollision'
+[move_group-3] [INFO] [1793861565.022612368] [move_group]: Loaded adapter 'default_planning_request_adapters/CheckStartStateCollision'
+[move_group-3] [INFO] [1793861565.023919516] [move_group]: Try loading adapter 'default_planning_response_adapters/AddTimeOptimalParameterization'
+[move_group-3] [INFO] [1793861565.027988320] [move_group]: Loaded adapter 'default_planning_response_adapters/AddTimeOptimalParameterization'
+[move_group-3] [INFO] [1793861565.028044800] [move_group]: Try loading adapter 'default_planning_response_adapters/ValidateSolution'
+[move_group-3] [INFO] [1793861565.032813419] [move_group]: Loaded adapter 'default_planning_response_adapters/ValidateSolution'
+[move_group-3] [INFO] [1793861565.032885963] [move_group]: Try loading adapter 'default_planning_response_adapters/DisplayMotionPath'
+[move_group-3] [INFO] [1793861565.034249591] [move_group]: Loaded adapter 'default_planning_response_adapters/DisplayMotionPath'
+[move_group-3] [INFO] [1793861565.073935671] [move_group.moveit.moveit.plugins.simple_controller_manager]: Added FollowJointTrajectory controller for arm1_controller
+[move_group-3] [INFO] [1793861565.074394043] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 1 controllers in list
+[move_group-3] [INFO] [1793861565.074483132] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 1 controllers in list
+[move_group-3] [INFO] [1793861565.075301027] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Trajectory execution is not managing controllers
+[move_group-3] [INFO] [1793861565.075362916] [move_group]: MoveGroup debug mode is ON
+[move_group-3] [INFO] [1793861565.116774770] [move_group.moveit.moveit.ros.move_group.executable]: 
+[move_group-3] 
+[move_group-3] ********************************************************
+[move_group-3] * MoveGroup using: 
+[move_group-3] *     - apply_planning_scene_service
+[move_group-3] *     - clear_octomap_service
+[move_group-3] *     - get_group_urdf
+[move_group-3] *     - load_geometry_from_file
+[move_group-3] *     - CartesianPathService
+[move_group-3] *     - execute_trajectory_action
+[move_group-3] *     - get_planning_scene_service
+[move_group-3] *     - kinematics_service
+[move_group-3] *     - move_action
+[move_group-3] *     - motion_plan_service
+[move_group-3] *     - query_planners_service
+[move_group-3] *     - state_validation_service
+[move_group-3] *     - save_geometry_to_file
+[move_group-3] ********************************************************
+[move_group-3] 
+[move_group-3] [INFO] [1793861565.116942868] [move_group.moveit.moveit.ros.move_group.context]: MoveGroup context using pipeline ompl
+[move_group-3] [INFO] [1793861565.116988500] [move_group.moveit.moveit.ros.move_group.context]: MoveGroup context initialization complete
+[move_group-3] [96mLoading 'move_group/ApplyPlanningSceneService'...[0m
+[move_group-3] [96mLoading 'move_group/ClearOctomapService'...[0m
+[move_group-3] [96mLoading 'move_group/GetUrdfService'...[0m
+[move_group-3] [96mLoading 'move_group/LoadGeometryFromFileService'...[0m
+[move_group-3] [96mLoading 'move_group/MoveGroupCartesianPathService'...[0m
+[move_group-3] [96mLoading 'move_group/MoveGroupExecuteTrajectoryAction'...[0m
+[move_group-3] [96mLoading 'move_group/MoveGroupGetPlanningSceneService'...[0m
+[move_group-3] [96mLoading 'move_group/MoveGroupKinematicsService'...[0m
+[move_group-3] [96mLoading 'move_group/MoveGroupMoveAction'...[0m
+[move_group-3] [96mLoading 'move_group/MoveGroupPlanService'...[0m
+[move_group-3] [96mLoading 'move_group/MoveGroupQueryPlannersService'...[0m
+[move_group-3] [96mLoading 'move_group/MoveGroupStateValidationService'...[0m
+[move_group-3] [96mLoading 'move_group/SaveGeometryToFileService'...[0m
+[move_group-3] 
+[move_group-3] [92mYou can start planning now![0m
+[move_group-3] 
+[cm530_bridge-2] [INFO] [1793861566.566477944] [cm530_bridge]: CM530 mock actuator ready
+[manual_xy_server-4] [INFO] [1793861566.623254670] [manual_xy_server]: Manual XY ready; default plan-only; no automatic task or torque enable
+[move_group-3] [INFO] [1793861570.152541841] [move_group.moveit.moveit.ros.move_group.move_action]: MoveGroupMoveAction: Received request
+[move_group-3] [INFO] [1793861570.154972262] [move_group.moveit.moveit.ros.move_group.move_action]: executing..
+[move_group-3] [INFO] [1793861570.230597473] [move_group.moveit.moveit.ros.move_group.move_action]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[move_group-3] [INFO] [1793861570.230701122] [move_group.moveit.moveit.ros.move_group.capability]: Using planning pipeline 'ompl'
+[move_group-3] [INFO] [1793861570.231426600] [move_group]: Calling PlanningRequestAdapter 'ResolveConstraintFrames'
+[move_group-3] [INFO] [1793861570.231528713] [move_group]: Calling PlanningRequestAdapter 'ValidateWorkspaceBounds'
+[move_group-3] [WARN] [1793861570.231554249] [move_group.moveit.moveit.ros.validate_workspace_bounds]: It looks like the planning volume was not specified. Using default values.
+[move_group-3] [INFO] [1793861570.231612682] [move_group]: Calling PlanningRequestAdapter 'CheckStartStateBounds'
+[move_group-3] [INFO] [1793861570.231733643] [move_group]: Calling PlanningRequestAdapter 'CheckStartStateCollision'
+[move_group-3] [INFO] [1793861570.233485082] [move_group.moveit.moveit.planners.ompl.model_based_planning_context]: Planner configuration 'arm1[RRTConnectkConfigDefault]' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-3] [INFO] [1793861570.234007039] [move_group]: Calling Planner 'OMPL'
+[move_group-3] [INFO] [1793861570.272293552] [move_group]: Calling PlanningResponseAdapter 'AddTimeOptimalParameterization'
+[move_group-3] [INFO] [1793861570.314290850] [move_group]: Calling PlanningResponseAdapter 'ValidateSolution'
+[move_group-3] [INFO] [1793861570.320150678] [move_group]: Calling PlanningResponseAdapter 'DisplayMotionPath'
+[move_group-3] [INFO] [1793861570.320890172] [move_group.moveit.moveit.ros.move_group.move_action]: Motion plan was computed successfully.
+[manual_xy_server-4] [INFO] [1793861570.345524693] [manual_xy_server]: {"simulation": true, "frame": "arm1_base", "target_xyz": [0.15, 0.04, 0.04], "prepare": true, "executed": false, "start_xyz": [0.09938892057961242, -3.315891009237182e-18, 0.04494913008634634], "start_joint_radians": [0.0, 0.0, 1.5713081535550122, 1.5713081535550122], "target_joint_radians": [0.26058231333754694, 0.60354652665094, 0.8382735373632443, 1.6977572867061188], "target_raw": [563, 630, 676, 844], "duration_s": 14.523528807, "trajectory_points": 147}
+[manual_xy_server-4] [WARN] [1793861570.399597106] [manual_xy_server]: TCP must be downward and within 1 mm of travel plane; preview --prepare first
+[manual_xy_server-4] [WARN] [1793861570.405425253] [manual_xy_server]: XY target outside configured workspace
+[manual_xy_server-4] [WARN] [1793861571.448993837] [manual_xy_server]: No collision-free IK for [0.2, 0.12, 0.04]: code=-31
+[move_group-3] [INFO] [1793861571.495998571] [move_group.moveit.moveit.ros.move_group.move_action]: MoveGroupMoveAction: Received request
+[move_group-3] [INFO] [1793861571.496672945] [move_group.moveit.moveit.ros.move_group.move_action]: executing..
+[move_group-3] [INFO] [1793861571.530115575] [move_group.moveit.moveit.ros.move_group.move_action]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[move_group-3] [INFO] [1793861571.530242136] [move_group.moveit.moveit.ros.move_group.capability]: Using planning pipeline 'ompl'
+[move_group-3] [INFO] [1793861571.530654460] [move_group]: Calling PlanningRequestAdapter 'ResolveConstraintFrames'
+[move_group-3] [INFO] [1793861571.530724061] [move_group]: Calling PlanningRequestAdapter 'ValidateWorkspaceBounds'
+[move_group-3] [WARN] [1793861571.530748733] [move_group.moveit.moveit.ros.validate_workspace_bounds]: It looks like the planning volume was not specified. Using default values.
+[move_group-3] [INFO] [1793861571.530799229] [move_group]: Calling PlanningRequestAdapter 'CheckStartStateBounds'
+[move_group-3] [INFO] [1793861571.530910046] [move_group]: Calling PlanningRequestAdapter 'CheckStartStateCollision'
+[move_group-3] [INFO] [1793861571.531906631] [move_group.moveit.moveit.planners.ompl.model_based_planning_context]: Planner configuration 'arm1[RRTConnectkConfigDefault]' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-3] [INFO] [1793861571.532080521] [move_group]: Calling Planner 'OMPL'
+[move_group-3] [INFO] [1793861571.575526663] [move_group]: Calling PlanningResponseAdapter 'AddTimeOptimalParameterization'
+[move_group-3] [INFO] [1793861571.607335647] [move_group]: Calling PlanningResponseAdapter 'ValidateSolution'
+[move_group-3] [INFO] [1793861571.612362187] [move_group]: Calling PlanningResponseAdapter 'DisplayMotionPath'
+[move_group-3] [INFO] [1793861571.613058769] [move_group.moveit.moveit.ros.move_group.move_action]: Motion plan was computed successfully.
+[move_group-3] [INFO] [1793861571.645360206] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution request received
+[move_group-3] [INFO] [1793861571.645564239] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 1 controllers in list
+[move_group-3] [INFO] [1793861571.645649488] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 1 controllers in list
+[move_group-3] [INFO] [1793861571.645992211] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.04
+[move_group-3] [INFO] [1793861571.730577788] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-3] [INFO] [1793861571.730809438] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 1 controllers in list
+[move_group-3] [INFO] [1793861571.730874078] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 1 controllers in list
+[move_group-3] [INFO] [1793861571.731190657] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to arm1_controller
+[move_group-3] [INFO] [1793861571.739436458] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: arm1_controller started execution
+[move_group-3] [INFO] [1793861571.739521291] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[move_group-3] [INFO] [1793861586.348200906] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'arm1_controller' successfully finished
+[move_group-3] [INFO] [1793861586.630395928] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-3] [INFO] [1793861586.630792027] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution completed: SUCCEEDED
+[manual_xy_server-4] [INFO] [1793861586.648076849] [manual_xy_server]: {"simulation": true, "frame": "arm1_base", "target_xyz": [0.15, 0.04, 0.04], "prepare": true, "executed": true, "start_xyz": [0.09938892057961242, -3.315891009237182e-18, 0.04494913008634634], "start_joint_radians": [0.0, 0.0, 1.5713081535550122, 1.5713081535550122], "target_joint_radians": [0.26104775190232055, 0.603665738862981, 0.839509495478442, 1.6972207229552967], "target_raw": [563, 630, 676, 844], "duration_s": 14.499923745, "trajectory_points": 146, "measured_joint_radians": [0.26103164765897596, 0.6039555769364542, 0.8393958865896483, 1.699264843583922], "measured_raw": [563, 630, 676, 844], "measured_fk_xyz": [0.1498345660110732, 0.04002478321369387, 0.04004454124938099], "completed_unix_s": 1793861586.6457057}
+[move_group-3] [INFO] [1793861586.674594423] [move_group.moveit.moveit.ros.move_group.cartesian_path_service_capability]: Received request to compute Cartesian path
+[move_group-3] [INFO] [1793861586.674889305] [move_group.moveit.moveit.ros.move_group.cartesian_path_service_capability]: Attempting to follow 1 waypoints for link 'arm1_suction_tcp' using a step of 0.002000 m and jump threshold 0.000000 (in global reference frame)
+[move_group-3] [INFO] [1793861586.676219045] [move_group.moveit.moveit.ros.move_group.cartesian_path_service_capability]: Computed Cartesian path with 2 points (followed 100.000000% of requested trajectory)
+[move_group-3] [INFO] [1793861586.707402131] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution request received
+[move_group-3] [INFO] [1793861586.707574196] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 1 controllers in list
+[move_group-3] [INFO] [1793861586.707657845] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 1 controllers in list
+[move_group-3] [INFO] [1793861586.707864311] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.04
+[move_group-3] [INFO] [1793861586.730818846] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-3] [INFO] [1793861586.731016991] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 1 controllers in list
+[move_group-3] [INFO] [1793861586.731097984] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 1 controllers in list
+[move_group-3] [INFO] [1793861586.731341250] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to arm1_controller
+[move_group-3] [INFO] [1793861586.734744832] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: arm1_controller started execution
+[move_group-3] [INFO] [1793861586.734797664] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[move_group-3] [INFO] [1793861587.061124107] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'arm1_controller' successfully finished
+[move_group-3] [INFO] [1793861587.330217797] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-3] [INFO] [1793861587.330542408] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution completed: SUCCEEDED
+[manual_xy_server-4] [INFO] [1793861587.344800995] [manual_xy_server]: {"simulation": true, "frame": "arm1_base", "target_xyz": [0.15, 0.04, 0.04], "prepare": false, "executed": true, "start_xyz": [0.1498345660110732, 0.04002478321369387, 0.04004454124938099], "start_joint_radians": [0.26103164765897596, 0.6039555769364542, 0.8393958865896483, 1.699264843583922], "target_joint_radians": [0.26060238180875417, 0.6044468151336688, 0.8390735507976055, 1.698072287674238], "target_raw": [563, 630, 676, 844], "duration_s": 0.21840841700000002, "trajectory_points": 4, "measured_joint_radians": [0.26103164765897596, 0.6039555769364542, 0.8393958865896483, 1.699264843583922], "measured_raw": [563, 630, 676, 844], "measured_fk_xyz": [0.1498345660110732, 0.04002478321369387, 0.04004454124938099], "completed_unix_s": 1793861587.3397515}
+[move_group-3] [INFO] [1793861587.378212484] [move_group.moveit.moveit.ros.move_group.cartesian_path_service_capability]: Received request to compute Cartesian path
+[move_group-3] [INFO] [1793861587.378534055] [move_group.moveit.moveit.ros.move_group.cartesian_path_service_capability]: Attempting to follow 1 waypoints for link 'arm1_suction_tcp' using a step of 0.002000 m and jump threshold 0.000000 (in global reference frame)
+[move_group-3] [INFO] [1793861587.386727246] [move_group.moveit.moveit.ros.move_group.cartesian_path_service_capability]: Computed Cartesian path with 4 points (followed 100.000000% of requested trajectory)
+[move_group-3] [INFO] [1793861587.547928673] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution request received
+[move_group-3] [INFO] [1793861587.548105283] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 1 controllers in list
+[move_group-3] [INFO] [1793861587.548192036] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 1 controllers in list
+[move_group-3] [INFO] [1793861587.548410310] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.04
+[move_group-3] [INFO] [1793861587.630504460] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-3] [INFO] [1793861587.630732558] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 1 controllers in list
+[move_group-3] [INFO] [1793861587.630917552] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 1 controllers in list
+[move_group-3] [INFO] [1793861587.631140114] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to arm1_controller
+[move_group-3] [INFO] [1793861587.636126333] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: arm1_controller started execution
+[move_group-3] [INFO] [1793861587.636189758] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[move_group-3] [INFO] [1793861590.358421894] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'arm1_controller' successfully finished
+[move_group-3] [INFO] [1793861590.630224655] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-3] [INFO] [1793861590.630626899] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution completed: SUCCEEDED
+[manual_xy_server-4] [INFO] [1793861590.647399940] [manual_xy_server]: {"simulation": true, "frame": "arm1_base", "target_xyz": [0.155, 0.04, 0.04], "prepare": false, "executed": true, "start_xyz": [0.1498345660110732, 0.04002478321369387, 0.04004454124938099], "start_joint_radians": [0.26103164765897596, 0.6039555769364542, 0.8393958865896483, 1.699264843583922], "target_joint_radians": [0.2525542757810867, 0.6725092203201221, 0.7300063583670908, 1.7390770749025815], "target_raw": [561, 643, 655, 852], "duration_s": 2.612785088, "trajectory_points": 28, "measured_joint_radians": [0.2507951124566632, 0.6704930557514873, 0.731912266965364, 1.7402109843931732], "measured_raw": [561, 643, 655, 852], "measured_fk_xyz": [0.15480859485223603, 0.03966026634798265, 0.040135672866447245], "completed_unix_s": 1793861590.6450908}
+[move_group-3] [INFO] [1793861590.671927415] [move_group.moveit.moveit.ros.move_group.cartesian_path_service_capability]: Received request to compute Cartesian path
+[move_group-3] [INFO] [1793861590.672206170] [move_group.moveit.moveit.ros.move_group.cartesian_path_service_capability]: Attempting to follow 1 waypoints for link 'arm1_suction_tcp' using a step of 0.002000 m and jump threshold 0.000000 (in global reference frame)
+[move_group-3] [INFO] [1793861590.678321422] [move_group.moveit.moveit.ros.move_group.cartesian_path_service_capability]: Computed Cartesian path with 4 points (followed 100.000000% of requested trajectory)
+[move_group-3] [INFO] [1793861590.812067953] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution request received
+[move_group-3] [INFO] [1793861590.812216018] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 1 controllers in list
+[move_group-3] [INFO] [1793861590.812276498] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 1 controllers in list
+[move_group-3] [INFO] [1793861590.812446228] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.04
+[move_group-3] [INFO] [1793861590.830397615] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-3] [INFO] [1793861590.830601585] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 1 controllers in list
+[move_group-3] [INFO] [1793861590.830680465] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 1 controllers in list
+[move_group-3] [INFO] [1793861590.830893011] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to arm1_controller
+[move_group-3] [INFO] [1793861590.836512708] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: arm1_controller started execution
+[move_group-3] [INFO] [1793861590.836563588] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[move_group-3] [INFO] [1793861593.515619595] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'arm1_controller' successfully finished
+[move_group-3] [INFO] [1793861593.730138880] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-3] [INFO] [1793861593.730489667] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution completed: SUCCEEDED
+[manual_xy_server-4] [INFO] [1793861593.740028757] [manual_xy_server]: {"simulation": true, "frame": "arm1_base", "target_xyz": [0.15, 0.04, 0.04], "prepare": false, "executed": true, "start_xyz": [0.15480859485223603, 0.03966026634798265, 0.040135672866447245], "start_joint_radians": [0.2507951124566632, 0.6704930557514873, 0.731912266965364, 1.7402109843931732], "target_joint_radians": [0.2606023917499854, 0.6044468769858303, 0.8390739860379866, 1.6980717905659772], "target_raw": [563, 630, 676, 844], "duration_s": 2.570237068, "trajectory_points": 27, "measured_joint_radians": [0.26103164765897596, 0.6039555769364542, 0.8393958865896483, 1.699264843583922], "measured_raw": [563, 630, 676, 844], "measured_fk_xyz": [0.1498345660110732, 0.04002478321369387, 0.04004454124938099], "completed_unix_s": 1793861593.7370052}
+[move_group-3] [INFO] [1793861593.769473938] [move_group.moveit.moveit.ros.move_group.cartesian_path_service_capability]: Received request to compute Cartesian path
+[move_group-3] [INFO] [1793861593.769763605] [move_group.moveit.moveit.ros.move_group.cartesian_path_service_capability]: Attempting to follow 1 waypoints for link 'arm1_suction_tcp' using a step of 0.002000 m and jump threshold 0.000000 (in global reference frame)
+[move_group-3] [INFO] [1793861593.778259806] [move_group.moveit.moveit.ros.move_group.cartesian_path_service_capability]: Computed Cartesian path with 6 points (followed 100.000000% of requested trajectory)
+[move_group-3] [INFO] [1793861593.865799631] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution request received
+[move_group-3] [INFO] [1793861593.865963504] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 1 controllers in list
+[move_group-3] [INFO] [1793861593.866046161] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 1 controllers in list
+[move_group-3] [INFO] [1793861593.866243187] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.04
+[move_group-3] [INFO] [1793861593.930539388] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-3] [INFO] [1793861593.930668317] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 1 controllers in list
+[move_group-3] [INFO] [1793861593.930830462] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 1 controllers in list
+[move_group-3] [INFO] [1793861593.931034048] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to arm1_controller
+[move_group-3] [INFO] [1793861593.935901930] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: arm1_controller started execution
+[move_group-3] [INFO] [1793861593.935970091] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[move_group-3] [INFO] [1793861595.156536963] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'arm1_controller' successfully finished
+[move_group-3] [INFO] [1793861595.430477299] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-3] [INFO] [1793861595.430802742] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution completed: SUCCEEDED
+[manual_xy_server-4] [INFO] [1793861595.448206987] [manual_xy_server]: {"simulation": true, "frame": "arm1_base", "target_xyz": [0.15, 0.045, 0.04], "prepare": false, "executed": true, "start_xyz": [0.1498345660110732, 0.04002478321369387, 0.04004454124938099], "start_joint_radians": [0.26103164765897596, 0.6039555769364542, 0.8393958865896483, 1.699264843583922], "target_joint_radians": [0.2914570890273661, 0.6228887279001923, 0.8099248435773773, 1.7087790827436558], "target_raw": [569, 634, 670, 846], "duration_s": 1.111638733, "trajectory_points": 13, "measured_joint_radians": [0.2917412532659143, 0.6244286473410797, 0.8086862809827099, 1.7095013787862348], "measured_raw": [569, 634, 670, 846], "measured_fk_xyz": [0.1500004309346198, 0.045046642396421255, 0.03988019572166869], "completed_unix_s": 1793861595.4459088}
+[move_group-3] [INFO] [1793861595.478928627] [move_group.moveit.moveit.ros.move_group.cartesian_path_service_capability]: Received request to compute Cartesian path
+[move_group-3] [INFO] [1793861595.479282134] [move_group.moveit.moveit.ros.move_group.cartesian_path_service_capability]: Attempting to follow 1 waypoints for link 'arm1_suction_tcp' using a step of 0.002000 m and jump threshold 0.000000 (in global reference frame)
+[move_group-3] [INFO] [1793861595.484830822] [move_group.moveit.moveit.ros.move_group.cartesian_path_service_capability]: Computed Cartesian path with 6 points (followed 100.000000% of requested trajectory)
+[move_group-3] [INFO] [1793861595.572989371] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution request received
+[move_group-3] [INFO] [1793861595.573159484] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 1 controllers in list
+[move_group-3] [INFO] [1793861595.573287709] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 1 controllers in list
+[move_group-3] [INFO] [1793861595.573521439] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.04
+[move_group-3] [INFO] [1793861595.630529257] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-3] [INFO] [1793861595.630740138] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 1 controllers in list
+[move_group-3] [INFO] [1793861595.630836619] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 1 controllers in list
+[move_group-3] [INFO] [1793861595.631096141] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to arm1_controller
+[move_group-3] [INFO] [1793861595.634326601] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: arm1_controller started execution
+[move_group-3] [INFO] [1793861595.634386122] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[move_group-3] [INFO] [1793861596.870915098] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'arm1_controller' successfully finished
+[move_group-3] [INFO] [1793861597.129899302] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-3] [INFO] [1793861597.130255273] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution completed: SUCCEEDED
+[manual_xy_server-4] [INFO] [1793861597.143961758] [manual_xy_server]: {"simulation": true, "frame": "arm1_base", "target_xyz": [0.15, 0.04, 0.04], "prepare": false, "executed": true, "start_xyz": [0.1500004309346198, 0.045046642396421255, 0.03988019572166869], "start_joint_radians": [0.2917412532659143, 0.6244286473410797, 0.8086862809827099, 1.7095013787862348], "target_joint_radians": [0.260602638214616, 0.6043977005508203, 0.8391574490578584, 1.698037504643101], "target_raw": [563, 630, 676, 844], "duration_s": 1.1287268990000001, "trajectory_points": 13, "measured_joint_radians": [0.26103164765897596, 0.6039555769364542, 0.8393958865896483, 1.699264843583922], "measured_raw": [563, 630, 676, 844], "measured_fk_xyz": [0.1498345660110732, 0.04002478321369387, 0.04004454124938099], "completed_unix_s": 1793861597.1416445}
+[move_group-3] [INFO] [1793861597.190609454] [move_group.moveit.moveit.ros.move_group.cartesian_path_service_capability]: Received request to compute Cartesian path
+[move_group-3] [INFO] [1793861597.190889424] [move_group.moveit.moveit.ros.move_group.cartesian_path_service_capability]: Attempting to follow 1 waypoints for link 'arm1_suction_tcp' using a step of 0.002000 m and jump threshold 0.000000 (in global reference frame)
+[move_group-3] [INFO] [1793861597.394180606] [move_group.moveit.moveit.ros.move_group.cartesian_path_service_capability]: Computed Cartesian path with 1 points (followed 0.000000% of requested trajectory)
+[manual_xy_server-4] [WARN] [1793861597.404935770] [manual_xy_server]: Incomplete Cartesian path: fraction=0.0, code=1
+[move_group-3] [INFO] [1793861597.434177748] [move_group.moveit.moveit.ros.move_group.cartesian_path_service_capability]: Received request to compute Cartesian path
+[move_group-3] [INFO] [1793861597.434445399] [move_group.moveit.moveit.ros.move_group.cartesian_path_service_capability]: Attempting to follow 1 waypoints for link 'arm1_suction_tcp' using a step of 0.002000 m and jump threshold 0.000000 (in global reference frame)
+[move_group-3] [INFO] [1793861597.442660829] [move_group.moveit.moveit.ros.move_group.cartesian_path_service_capability]: Computed Cartesian path with 4 points (followed 100.000000% of requested trajectory)
+[move_group-3] [INFO] [1793861597.612156841] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution request received
+[move_group-3] [INFO] [1793861597.612306026] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 1 controllers in list
+[move_group-3] [INFO] [1793861597.612449036] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 1 controllers in list
+[move_group-3] [INFO] [1793861597.612631245] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.04
+[move_group-3] [INFO] [1793861597.630382181] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-3] [INFO] [1793861597.630609159] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 1 controllers in list
+[move_group-3] [INFO] [1793861597.630715304] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 1 controllers in list
+[move_group-3] [INFO] [1793861597.631098443] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to arm1_controller
+[move_group-3] [INFO] [1793861597.634752907] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: arm1_controller started execution
+[move_group-3] [INFO] [1793861597.634813259] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[move_group-3] [INFO] [1793861600.354898479] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'arm1_controller' successfully finished
+[move_group-3] [INFO] [1793861600.630369920] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-3] [INFO] [1793861600.630699843] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution completed: SUCCEEDED
+[manual_xy_server-4] [INFO] [1793861600.645306368] [manual_xy_server]: {"simulation": true, "frame": "arm1_base", "target_xyz": [0.155, 0.04, 0.04], "prepare": false, "executed": true, "start_xyz": [0.1498345660110732, 0.04002478321369387, 0.04004454124938099], "start_joint_radians": [0.26103164765897596, 0.6039555769364542, 0.8393958865896483, 1.699264843583922], "target_joint_radians": [0.2525542757810867, 0.6725092203201221, 0.7300063583670908, 1.7390770749025815], "target_raw": [561, 643, 655, 852], "duration_s": 2.612785088, "trajectory_points": 28, "measured_joint_radians": [0.2507951124566632, 0.6704930557514873, 0.731912266965364, 1.7402109843931732], "measured_raw": [561, 643, 655, 852], "measured_fk_xyz": [0.15480859485223603, 0.03966026634798265, 0.040135672866447245], "completed_unix_s": 1793861600.6429982}
+[move_group-3] [INFO] [1793861600.669606159] [move_group.moveit.moveit.ros.move_group.cartesian_path_service_capability]: Received request to compute Cartesian path
+[move_group-3] [INFO] [1793861600.669888530] [move_group.moveit.moveit.ros.move_group.cartesian_path_service_capability]: Attempting to follow 1 waypoints for link 'arm1_suction_tcp' using a step of 0.002000 m and jump threshold 0.000000 (in global reference frame)
+[move_group-3] [INFO] [1793861600.678038583] [move_group.moveit.moveit.ros.move_group.cartesian_path_service_capability]: Computed Cartesian path with 4 points (followed 100.000000% of requested trajectory)
+[move_group-3] [INFO] [1793861600.855730309] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution request received
+[move_group-3] [INFO] [1793861600.855916743] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 1 controllers in list
+[move_group-3] [INFO] [1793861600.855977127] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 1 controllers in list
+[move_group-3] [INFO] [1793861600.856145993] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.04
+[move_group-3] [INFO] [1793861600.930703461] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-3] [INFO] [1793861600.930918695] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 1 controllers in list
+[move_group-3] [INFO] [1793861600.930994440] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 1 controllers in list
+[move_group-3] [INFO] [1793861600.931233450] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to arm1_controller
+[move_group-3] [INFO] [1793861600.936379254] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: arm1_controller started execution
+[move_group-3] [INFO] [1793861600.936462999] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[move_group-3] [INFO] [1793861603.616250292] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'arm1_controller' successfully finished
+[move_group-3] [INFO] [1793861603.830735318] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[move_group-3] [INFO] [1793861603.831060153] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution completed: SUCCEEDED
+[manual_xy_server-4] [INFO] [1793861603.844151432] [manual_xy_server]: {"simulation": true, "frame": "arm1_base", "target_xyz": [0.15, 0.04, 0.04], "prepare": false, "executed": true, "start_xyz": [0.15480859485223603, 0.03966026634798265, 0.040135672866447245], "start_joint_radians": [0.2507951124566632, 0.6704930557514873, 0.731912266965364, 1.7402109843931732], "target_joint_radians": [0.2606023917499854, 0.6044468769858303, 0.8390739860379866, 1.6980717905659772], "target_raw": [563, 630, 676, 844], "duration_s": 2.570237068, "trajectory_points": 27, "measured_joint_radians": [0.26103164765897596, 0.6039555769364542, 0.8393958865896483, 1.699264843583922], "measured_raw": [563, 630, 676, 844], "measured_fk_xyz": [0.1498345660110732, 0.04002478321369387, 0.04004454124938099], "completed_unix_s": 1793861603.8418536}
+[move_group-3] [INFO] [1793861603.865307677] [move_group.moveit.moveit.ros.move_group.cartesian_path_service_capability]: Received request to compute Cartesian path
+[move_group-3] [INFO] [1793861603.865556607] [move_group.moveit.moveit.ros.move_group.cartesian_path_service_capability]: Attempting to follow 1 waypoints for link 'arm1_suction_tcp' using a step of 0.002000 m and jump threshold 0.000000 (in global reference frame)
+[move_group-3] [INFO] [1793861603.873805669] [move_group.moveit.moveit.ros.move_group.cartesian_path_service_capability]: Computed Cartesian path with 4 points (followed 100.000000% of requested trajectory)
+[move_group-3] [INFO] [1793861604.050931081] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution request received
+[move_group-3] [INFO] [1793861604.051118218] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 1 controllers in list
+[move_group-3] [INFO] [1793861604.051200331] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 1 controllers in list
+[move_group-3] [INFO] [1793861604.051429549] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.04
+[move_group-3] [INFO] [1793861604.131193619] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group-3] [INFO] [1793861604.131379893] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 1 controllers in list
+[move_group-3] [INFO] [1793861604.131545270] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 1 controllers in list
+[move_group-3] [INFO] [1793861604.131752472] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to arm1_controller
+[move_group-3] [INFO] [1793861604.139755772] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: arm1_controller started execution
+[move_group-3] [INFO] [1793861604.139807837] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[manual_xy_server-4] [WARN] [1793861604.377500322] [manual_xy_server]: Task canceled
+[cm530_bridge-2] [ERROR] [1793861604.380585533] [cm530_bridge]: Controller fault latched: Operator stop requested for arm1
+[move_group-3] [WARN] [1793861604.383521270] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'arm1_controller' failed with error PATH_TOLERANCE_VIOLATED: Controller fault latched: Operator stop requested for arm1
+[move_group-3] [WARN] [1793861604.383664087] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Controller handle arm1_controller reports status ABORTED
+[move_group-3] [INFO] [1793861604.383761656] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Completed trajectory execution with status ABORTED ...
+[move_group-3] [INFO] [1793861604.383974650] [move_group.moveit.moveit.ros.move_group.clear_octomap_service]: Execution completed: ABORTED
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[INFO] [manual_xy_server-4]: sending signal 'SIGINT' to process[manual_xy_server-4]
+[INFO] [move_group-3]: sending signal 'SIGINT' to process[move_group-3]
+[INFO] [cm530_bridge-2]: sending signal 'SIGINT' to process[cm530_bridge-2]
+[INFO] [robot_state_publisher-1]: sending signal 'SIGINT' to process[robot_state_publisher-1]
+[robot_state_publisher-1] [INFO] [1793861604.952388476] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[move_group-3] [INFO] [1793861604.952446557] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[manual_xy_server-4] Traceback (most recent call last):
+[manual_xy_server-4]   File "/tmp/dual-arm-ros2/install/dual_arm_control/lib/dual_arm_control/manual_xy_server", line 33, in <module>
+[manual_xy_server-4]     sys.exit(load_entry_point('dual-arm-control', 'console_scripts', 'manual_xy_server')())
+[manual_xy_server-4]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[manual_xy_server-4]   File "/tmp/dual-arm-ros2/build/dual_arm_control/dual_arm_control/manual_xy.py", line 172, in server_main
+[manual_xy_server-4]     node.destroy_node()
+[manual_xy_server-4]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/node.py", line 1960, in destroy_node
+[manual_xy_server-4]     self.destroy_client(self._clients[0])
+[move_group-3] [INFO] [1793861604.964576036] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[manual_xy_server-4]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/node.py", line 1870, in destroy_client
+[manual_xy_server-4]     client.destroy()
+[manual_xy_server-4]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/client.py", line 232, in destroy
+[cm530_bridge-2] Traceback (most recent call last):
+[cm530_bridge-2]   File "/tmp/dual-arm-ros2/install/dual_arm_control/lib/dual_arm_control/cm530_bridge", line 33, in <module>
+[cm530_bridge-2]     sys.exit(load_entry_point('dual-arm-control', 'console_scripts', 'cm530_bridge')())
+[cm530_bridge-2]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[cm530_bridge-2]   File "/tmp/dual-arm-ros2/build/dual_arm_control/dual_arm_control/bridge_node.py", line 388, in main
+[robot_state_publisher-1] [INFO] [1793861604.967078041] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[manual_xy_server-4]     self.__client.destroy_when_not_in_use()
+[manual_xy_server-4] KeyboardInterrupt
+[cm530_bridge-2]     node.destroy_node()
+[cm530_bridge-2]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/node.py", line 1962, in destroy_node
+[cm530_bridge-2]     self.destroy_service(self._services[0])
+[cm530_bridge-2]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/node.py", line 1886, in destroy_service
+[cm530_bridge-2]     service.destroy()
+[cm530_bridge-2]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/service.py", line 123, in destroy
+[cm530_bridge-2]     self.__service.destroy_when_not_in_use()
+[cm530_bridge-2] KeyboardInterrupt
+[move_group-3] [INFO] [1793861605.017470470] [move_group.moveit.moveit.ros.moveit_cpp]: Deleting MoveItCpp
+[move_group-3] Stack trace (most recent call last):
+[move_group-3] #15   Object "/usr/lib/aarch64-linux-gnu/ld-linux-aarch64.so.1", at 0xffffffffffffffff, in 
+[move_group-3] #14   Object "/opt/ros/jazzy/lib/moveit_ros_move_group/move_group", at 0xaaaab8751d6f, in _start
+[INFO] [robot_state_publisher-1]: process has finished cleanly [pid 19379]
+[move_group-3] #13   Source "../csu/libc-start.c", line 360, in __libc_start_main_impl [0xffffb1578597]
+[move_group-3] #12   Source "../sysdeps/nptl/libc_start_call_main.h", line 58, in __aarch64_ldadd4_relax [0xffffb15784c3]
+[move_group-3] #11   Object "/opt/ros/jazzy/lib/moveit_ros_move_group/move_group", at 0xaaaab8750a67, in main
+[move_group-3] #10   Object "/opt/ros/jazzy/lib/moveit_ros_move_group/move_group", at 0xaaaab87536f7, in 
+[move_group-3] #9    Object "/opt/ros/jazzy/lib/libmoveit_cpp.so.2.12.4", at 0xffffb1ff9e5f, in moveit_cpp::MoveItCpp::~MoveItCpp()
+[move_group-3] #8    Object "/opt/ros/jazzy/lib/libmoveit_cpp.so.2.12.4", at 0xffffb1ff9c57, in 
+[move_group-3] #7    Object "/opt/ros/jazzy/lib/libmoveit_trajectory_execution_manager.so.2.12.4", at 0xffffb11658ff, in trajectory_execution_manager::TrajectoryExecutionManager::~TrajectoryExecutionManager()
+[move_group-3] #6    Object "/opt/ros/jazzy/lib/libmoveit_trajectory_execution_manager.so.2.12.4", at 0xffffb1176c4f, in 
+[move_group-3] #5    Object "/opt/ros/jazzy/lib/librclcpp.so", at 0xffffb1bb32d3, in rclcpp::Node::~Node()
+[move_group-3] #4    Object "/opt/ros/jazzy/lib/librclcpp.so", at 0xffffb1b4b60f, in 
+[move_group-3] #3    Object "/opt/ros/jazzy/lib/librclcpp.so", at 0xffffb1bb1927, in 
+[move_group-3] #2    Object "/opt/ros/jazzy/lib/librclcpp.so", at 0xffffb1bb1867, in rclcpp::node_interfaces::NodeBase::~NodeBase()
+[move_group-3] #1    Object "/opt/ros/jazzy/lib/librclcpp.so", at 0xffffb1b4b6eb, in 
+[move_group-3] #0    Object "/opt/ros/jazzy/lib/librclcpp.so", at 0xffffb1b500f8, in rclcpp::CallbackGroup::~CallbackGroup()
+[move_group-3] Segmentation fault (Address not mapped to object [0xffff9267ddc0])
+[ERROR] [cm530_bridge-2]: process has died [pid 19380, exit code -2, cmd '/tmp/dual-arm-ros2/install/dual_arm_control/lib/dual_arm_control/cm530_bridge --ros-args --params-file /tmp/launch_params_oq0q3_6f'].
+[ERROR] [manual_xy_server-4]: process has died [pid 19382, exit code -2, cmd '/tmp/dual-arm-ros2/install/dual_arm_control/lib/dual_arm_control/manual_xy_server --ros-args --params-file /tmp/launch_params_qhtq_qfn'].
+[ERROR] [move_group-3]: process has died [pid 19381, exit code -11, cmd '/opt/ros/jazzy/lib/moveit_ros_move_group/move_group --ros-args --params-file /tmp/launch_params_7nz_hopq'].

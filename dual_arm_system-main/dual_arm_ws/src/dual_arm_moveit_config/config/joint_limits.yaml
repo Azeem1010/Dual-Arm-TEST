@@ -1,0 +1,26 @@
+joint_limits:
+  arm1_arm_shoulder_pan_joint:
+    has_acceleration_limits: true
+    max_acceleration: 1.0
+  arm1_arm_shoulder_lift_joint:
+    has_acceleration_limits: true
+    max_acceleration: 1.0
+  arm1_arm_elbow_flex_joint:
+    has_acceleration_limits: true
+    max_acceleration: 1.0
+  arm1_arm_wrist_flex_joint:
+    has_acceleration_limits: true
+    max_acceleration: 1.0
+  arm2_arm_shoulder_pan_joint:
+    has_acceleration_limits: true
+    max_acceleration: 1.0
+  arm2_arm_shoulder_lift_joint:
+    has_acceleration_limits: true
+    max_acceleration: 1.0
+  arm2_arm_elbow_flex_joint:
+    has_acceleration_limits: true
+    max_acceleration: 1.0
+  arm2_arm_wrist_flex_joint:
+    has_acceleration_limits: true
+    max_acceleration: 1.0
+

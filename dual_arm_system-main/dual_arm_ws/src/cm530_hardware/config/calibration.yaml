@@ -1,0 +1,27 @@
+# Physical CM-530 calibration template.
+#
+# The driver refuses to start while any joint field below is null. Fill them
+# only from measurements on the real arms; never copy the simulation values in
+# dual_arm_coordinator/config/sim/runtime.json into this file.
+#
+# Motion additionally requires status: PASS, evidence_kind: physical,
+# hardware_use_allowed: true, moving_speed_verified: true and a measured
+# max_step_raw. The firmware never writes Moving Speed (register 32), so confirm
+# its value on the motors before setting moving_speed_verified.
+status: NOT_RUN
+evidence_kind: none
+hardware_use_allowed: false
+moving_speed_verified: false
+max_step_raw: null
+expected_home:
+  arm1: [90, 567, 712, 825]
+  arm2: [590, 567, 712, 825]
+joints:
+  arm1_arm_shoulder_pan_joint: {motor_id: 17, zero_raw: null, direction: null, min_raw: null, max_raw: null}
+  arm1_arm_shoulder_lift_joint: {motor_id: 3, zero_raw: null, direction: null, min_raw: null, max_raw: null}
+  arm1_arm_elbow_flex_joint: {motor_id: 2, zero_raw: null, direction: null, min_raw: null, max_raw: null}
+  arm1_arm_wrist_flex_joint: {motor_id: 15, zero_raw: null, direction: null, min_raw: null, max_raw: null}
+  arm2_arm_shoulder_pan_joint: {motor_id: 12, zero_raw: null, direction: null, min_raw: null, max_raw: null}
+  arm2_arm_shoulder_lift_joint: {motor_id: 1, zero_raw: null, direction: null, min_raw: null, max_raw: null}
+  arm2_arm_elbow_flex_joint: {motor_id: 8, zero_raw: null, direction: null, min_raw: null, max_raw: null}
+  arm2_arm_wrist_flex_joint: {motor_id: 16, zero_raw: null, direction: null, min_raw: null, max_raw: null}

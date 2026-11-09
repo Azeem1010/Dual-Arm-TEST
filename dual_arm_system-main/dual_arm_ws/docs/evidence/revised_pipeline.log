@@ -1,0 +1,111 @@
+pipeline_start {"objects": ["cap_5", "cap_6"], "destinations": [[-0.1675, 0.02, 0.019], [-0.1325, 0.02, 0.019]]}
+home_A_home_C_ready_start {"targets": {"arm1": null, "arm2": null}, "simultaneous": true}
+home_A_home_C_ready_done {"feedback": {"arm1": {"tcp": [0.1602481888861187, 0.01713258588207686, 0.06249832365069545], "error_m": 0.0}, "arm2": {"tcp": [-0.16025004208196542, 0.017132271508274635, 0.062499054919638586], "error_m": 0.0}}}
+first_A_approach_start {"targets": {"arm1": [0.14, 0.03, 0.054]}, "simultaneous": false}
+first_A_approach_done {"feedback": {"arm1": {"tcp": [0.14003067953916318, 0.029985949594759864, 0.054012563721196255], "error_m": 3.6006875745798545e-05}}}
+first_A_contact_start {"targets": {"arm1": [0.14, 0.03, 0.024300000000000002]}, "simultaneous": false}
+first_A_contact_done {"feedback": {"arm1": {"tcp": [0.14000240236129208, 0.03000318462118725, 0.02432778115467729], "error_m": 2.8066095330262312e-05}}}
+attached {"arm": "arm1", "object": "cap_5"}
+first_A_lift_start {"targets": {"arm1": [0.14, 0.03, 0.054]}, "simultaneous": false}
+first_A_lift_done {"feedback": {"arm1": {"tcp": [0.14000125341918002, 0.030002754544901818, 0.05397139645678774], "error_m": 2.8763192826121907e-05}}}
+physical_lift_verified {"arm": "arm1", "object": "cap_5", "position": [0.1399992159845684, 0.030000627524453306, 0.04864242849116884]}
+B_deposit_approach_start {"targets": {"arm1": [0.0, 0.02, 0.054]}, "simultaneous": false}
+B_deposit_approach_done {"feedback": {"arm1": {"tcp": [3.691815459356748e-05, 0.020028342124211486, 0.05400201293020222], "error_m": 4.658624294158999e-05}}}
+B_deposit_contact_start {"targets": {"arm1": [0.0, 0.02, 0.024300000000000002]}, "simultaneous": false}
+B_deposit_contact_done {"feedback": {"arm1": {"tcp": [-3.877250921158204e-07, 0.020002564793678623, 0.024330463749346568], "error_m": 3.0573984392148206e-05}}}
+released {"arm": "arm1", "object": "cap_5"}
+B_arm1_retreat_start {"targets": {"arm1": [0.0, 0.02, 0.054]}, "simultaneous": false}
+B_arm1_retreat_done {"feedback": {"arm1": {"tcp": [-2.408777533224188e-06, 0.02000374292629472, 0.053965784528780245], "error_m": 3.450377047863226e-05}}}
+B_arm1_clear_start {"targets": {"arm1": null}, "simultaneous": false}
+B_arm1_clear_done {"feedback": {"arm1": {"tcp": [0.16022054343429207, 0.017116968987473006, 0.062488662869370326], "error_m": 0.0}}}
+B_placement_verified {"object": "cap_5", "position": [1.3282182346301651e-06, 0.019998902484347537, 0.01900000003685348]}
+parallel_A_B_approach_start {"targets": {"arm2": [1.3282182346301651e-06, 0.019998902484347537, 0.054], "arm1": [0.2, 0.03, 0.054]}, "simultaneous": true}
+parallel_A_B_approach_done {"feedback": {"arm2": {"tcp": [-2.8754691719401135e-05, 0.020021797400733943, 0.05400346978235901], "error_m": 3.7963114430481166e-05}, "arm1": {"tcp": [0.19999208477364716, 0.02999951231859544, 0.05400310461984614], "error_m": 8.516296481351296e-06}}}
+parallel_A_B_contact_start {"targets": {"arm2": [1.3282182346301651e-06, 0.019998902484347537, 0.024300000000000002], "arm1": [0.2, 0.03, 0.024300000000000002]}, "simultaneous": true}
+parallel_A_B_contact_done {"feedback": {"arm2": {"tcp": [3.2043073130878785e-06, 0.020001977198764165, 0.02433136142642893], "error_m": 3.1567588546342336e-05}, "arm1": {"tcp": [0.2000031513208826, 0.030001942875965484, 0.024333290189697404], "error_m": 3.349540745253348e-05}}}
+attached {"arm": "arm2", "object": "cap_5"}
+attached {"arm": "arm1", "object": "cap_6"}
+parallel_A_B_lift_start {"targets": {"arm2": [1.3282182346301651e-06, 0.019998902484347537, 0.054], "arm1": [0.2, 0.03, 0.054]}, "simultaneous": true}
+parallel_A_B_lift_done {"feedback": {"arm2": {"tcp": [4.129855790541148e-06, 0.020001208310992002, 0.05397004219968807], "error_m": 3.0176742850059318e-05}, "arm1": {"tcp": [0.20000335466210672, 0.030002620713859993, 0.053971278740635814], "error_m": 2.9035024340457952e-05}}}
+physical_lift_verified {"arm": "arm2", "object": "cap_5", "position": [2.982300293224646e-06, 0.019998909641419038, 0.04863531354492624]}
+physical_lift_verified {"arm": "arm1", "object": "cap_6", "position": [0.20000104928109225, 0.030001670702352663, 0.04863692443725527]}
+C_carry_start {"targets": {"arm2": [-0.1675, 0.02, 0.054]}, "simultaneous": false}
+C_carry_done {"feedback": {"arm2": {"tcp": [-0.16747485215708285, 0.020022367408852354, 0.0539996952357201], "error_m": 3.365721116522576e-05}}}
+B_clear_verified {"object": "cap_5"}
+parallel_C_release_B_approach_start {"targets": {"arm2": [-0.1675, 0.02, 0.0253], "arm1": [0.0, 0.02, 0.054]}, "simultaneous": true}
+parallel_C_release_B_approach_done {"feedback": {"arm2": {"tcp": [-0.1674997545707126, 0.019999832036568264, 0.025304046614272394], "error_m": 4.057528104532008e-06}, "arm1": {"tcp": [2.5656822303888813e-05, 0.02002610840702845, 0.05400012339327705], "error_m": 3.6605145460677235e-05}}}
+released {"arm": "arm2", "object": "cap_5"}
+C_retreat_start {"targets": {"arm2": [-0.1675, 0.02, 0.054]}, "simultaneous": false}
+C_retreat_done {"feedback": {"arm2": {"tcp": [-0.16750262070531005, 0.02000282531690039, 0.05396724417853213], "error_m": 3.2981727546394036e-05}}}
+C_placement_verified {"object": "cap_5", "position": [-0.1674973176528193, 0.01999732791184682, 0.018999999761375508]}
+arm2_clear_start {"targets": {"arm2": null}, "simultaneous": false}
+arm2_clear_done {"feedback": {"arm2": {"tcp": [-0.16026125843250272, 0.01710301435732045, 0.062470591312241114], "error_m": 0.0}}}
+B_deposit_approach_start {"targets": {"arm1": [0.0, 0.02, 0.054]}, "simultaneous": false}
+B_deposit_approach_done {"feedback": {"arm1": {"tcp": [7.978068474589345e-07, 0.020001177544253585, 0.05400010019609999], "error_m": 1.4258841094059988e-06}}}
+B_deposit_contact_start {"targets": {"arm1": [0.0, 0.02, 0.024300000000000002]}, "simultaneous": false}
+B_deposit_contact_done {"feedback": {"arm1": {"tcp": [-1.645173583964682e-06, 0.02000189832344701, 0.02433197121031974], "error_m": 3.2069744578650066e-05}}}
+released {"arm": "arm1", "object": "cap_6"}
+B_arm1_retreat_start {"targets": {"arm1": [0.0, 0.02, 0.054]}, "simultaneous": false}
+stopped {"reason": "failed to create timer: the given context is not valid, either rcl_init() was not called or rcl_shutdown() was called., at ./src/rcl/guard_condition.c:67"}
+Traceback (most recent call last):
+  File "/mnt/e/dual_arm_system/dual_arm_ws/scripts/demo_transfer_pipeline.py", line 80, in move_pair
+    self.wait(result.done,240,'Motion timeout')
+  File "/mnt/e/dual_arm_system/dual_arm_ws/scripts/demo_transfer_one.py", line 74, in wait
+    rclpy.spin_once(self, timeout_sec=.1)
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/__init__.py", line 226, in spin_once
+    executor.spin_once(timeout_sec=timeout_sec)
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 926, in spin_once
+    self._spin_once_impl(timeout_sec)
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 907, in _spin_once_impl
+    handler, entity, node = self.wait_for_ready_callbacks(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 877, in wait_for_ready_callbacks
+    return next(self._cb_iter)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 781, in _wait_for_ready_callbacks
+    wait_set.wait(timeout_nsec)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/e/dual_arm_system/dual_arm_ws/scripts/demo_transfer_pipeline.py", line 225, in <module>
+    demo.run()
+  File "/mnt/e/dual_arm_system/dual_arm_ws/scripts/demo_transfer_pipeline.py", line 212, in run
+    self.deposit_b(following)
+  File "/mnt/e/dual_arm_system/dual_arm_ws/scripts/demo_transfer_pipeline.py", line 135, in deposit_b
+    self.move_pair({'arm1':[0.,.02,.054]},'B_arm1_retreat')
+  File "/mnt/e/dual_arm_system/dual_arm_ws/scripts/demo_transfer_pipeline.py", line 83, in move_pair
+    self.wait(cancel.done,10,'Motion cancellation timeout')
+  File "/mnt/e/dual_arm_system/dual_arm_ws/scripts/demo_transfer_one.py", line 74, in wait
+    rclpy.spin_once(self, timeout_sec=.1)
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/__init__.py", line 226, in spin_once
+    executor.spin_once(timeout_sec=timeout_sec)
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 926, in spin_once
+    self._spin_once_impl(timeout_sec)
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 907, in _spin_once_impl
+    handler, entity, node = self.wait_for_ready_callbacks(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 877, in wait_for_ready_callbacks
+    return next(self._cb_iter)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 645, in _wait_for_ready_callbacks
+    timeout_timer = Timer(None, None, timeout_nsec, self._clock, context=self._context)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/timer.py", line 60, in __init__
+    self.__timer = _rclpy.Timer(
+                   ^^^^^^^^^^^^^
+rclpy._rclpy_pybind11.RCLError: failed to create timer: the given context is not valid, either rcl_init() was not called or rcl_shutdown() was called., at ./src/rcl/guard_condition.c:67
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/e/dual_arm_system/dual_arm_ws/scripts/demo_transfer_pipeline.py", line 233, in <module>
+    rclpy.shutdown()
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/__init__.py", line 134, in shutdown
+    _shutdown(context=context)
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/utilities.py", line 82, in shutdown
+    context.shutdown()
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/context.py", line 129, in shutdown
+    self.__context.shutdown()
+rclpy._rclpy_pybind11.RCLError: failed to shutdown: rcl_shutdown already called on the given context, at ./src/rcl/init.c:333

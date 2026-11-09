@@ -1,0 +1,3 @@
+# Store files byte-for-byte: Linux shell scripts must keep LF, and CAD and
+# firmware binaries must not be touched by Windows line-ending conversion.
+* -text

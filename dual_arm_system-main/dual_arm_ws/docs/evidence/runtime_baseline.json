@@ -1,0 +1,147 @@
+{
+  "mode": "sim",
+  "joint_feedback": "PASS",
+  "joints": {
+    "arm1_arm_elbow_flex_joint": 3.4763564327067903e-06,
+    "arm1_arm_shoulder_lift_joint": 2.0354741846962727e-05,
+    "arm1_arm_shoulder_pan_joint": -1.031016201233355e-14,
+    "arm1_arm_wrist_flex_joint": 4.8478233649618145e-12,
+    "arm2_arm_elbow_flex_joint": 3.373681552663537e-08,
+    "arm2_arm_shoulder_lift_joint": 1.9740749809337527e-07,
+    "arm2_arm_shoulder_pan_joint": -5.5736188234179e-15,
+    "arm2_arm_wrist_flex_joint": 2.4128646303189783e-12
+  },
+  "images": {
+    "env": {
+      "frame": "env_camera_optical_frame",
+      "size": [
+        640,
+        480
+      ]
+    },
+    "arm1": {
+      "frame": "arm1_camera_optical_frame",
+      "size": [
+        640,
+        480
+      ]
+    },
+    "arm2": {
+      "frame": "arm2_camera_optical_frame",
+      "size": [
+        640,
+        480
+      ]
+    },
+    "view_isometric": {
+      "frame": "view_isometric/link/camera",
+      "size": [
+        960,
+        720
+      ]
+    },
+    "view_top": {
+      "frame": "view_top/link/camera",
+      "size": [
+        960,
+        720
+      ]
+    },
+    "view_front": {
+      "frame": "view_front/link/camera",
+      "size": [
+        960,
+        720
+      ]
+    },
+    "view_side": {
+      "frame": "view_side/link/camera",
+      "size": [
+        960,
+        720
+      ]
+    }
+  },
+  "camera_info": {
+    "env": {
+      "k": [
+        662.4503326416016,
+        0.0,
+        320.0,
+        0.0,
+        662.4502944946289,
+        240.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "d": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "width": 640,
+      "height": 480,
+      "frame_id": "env_camera_optical_frame",
+      "distortion_model": "plumb_bob"
+    },
+    "arm1": {
+      "k": [
+        876.6439056396484,
+        0.0,
+        320.0,
+        0.0,
+        876.6438674926758,
+        240.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "d": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "width": 640,
+      "height": 480,
+      "frame_id": "arm1_camera_optical_frame",
+      "distortion_model": "plumb_bob"
+    },
+    "arm2": {
+      "k": [
+        876.6439056396484,
+        0.0,
+        320.0,
+        0.0,
+        876.6438674926758,
+        240.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "d": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "width": 640,
+      "height": 480,
+      "frame_id": "arm2_camera_optical_frame",
+      "distortion_model": "plumb_bob"
+    }
+  },
+  "three_camera_streams": "PASS",
+  "workspace_views": "PASS",
+  "controllers": "PASS",
+  "moveit_plan": "PASS",
+  "moveit_error_code": 1,
+  "status": "FAIL",
+  "shutdown": "FAIL",
+  "mesh_resources": "PASS"
+}

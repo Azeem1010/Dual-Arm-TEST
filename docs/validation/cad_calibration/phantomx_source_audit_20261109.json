@@ -1,0 +1,71 @@
+{
+  "source": "third_party/phantomx_pincher/phantomx_pincher_description/urdf/phantomx_pincher.urdf",
+  "zero_pose_joints": [
+    {
+      "name": "phantomx_pincher_arm_shoulder_pan_joint",
+      "origin_at_q0_mm": [
+        -45.5,
+        -0.0,
+        110.0
+      ],
+      "axis_in_root_at_q0": [
+        -0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "name": "phantomx_pincher_arm_shoulder_lift_joint",
+      "origin_at_q0_mm": [
+        -45.5,
+        0.0,
+        145.0
+      ],
+      "axis_in_root_at_q0": [
+        0.0,
+        1.0,
+        -0.0
+      ]
+    },
+    {
+      "name": "phantomx_pincher_arm_elbow_flex_joint",
+      "origin_at_q0_mm": [
+        -45.5,
+        0.0,
+        244.5
+      ],
+      "axis_in_root_at_q0": [
+        0.0,
+        1.0,
+        -0.0
+      ]
+    },
+    {
+      "name": "phantomx_pincher_arm_wrist_flex_joint",
+      "origin_at_q0_mm": [
+        -45.5,
+        0.0,
+        344.0
+      ],
+      "axis_in_root_at_q0": [
+        0.0,
+        1.0,
+        -0.0
+      ]
+    }
+  ],
+  "shoulder_elbow_and_elbow_wrist_mm": [
+    99.5,
+    99.5
+  ],
+  "real_driver_implemented": false,
+  "user_confirmed": "實體手臂除夾爪改成吸盤外與 PhantomX 相同；肩關節正 raw 增量吸盤往上，沒有看反",
+  "observed_directions_authoritative": true,
+  "hardware_calibration_validated": false,
+  "findings": [
+    "來源沒有 CM530 raw 到關節角度的實機對應；real plugin 明確 unimplemented",
+    "原版 URDF 兩段軸距皆為99.5mm，前述 CAD 抽取皆為93.5mm，需處理模型尺寸差異",
+    "原版 URDF q=0 的肩肘腕中心垂直排列",
+    "不能直接以模型 axis 向量當作馬達 raw direction，也不能僅翻轉肩方向就宣稱 Home 與 XYZ 已一致"
+  ]
+}

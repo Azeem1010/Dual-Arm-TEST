@@ -1,0 +1,13 @@
+Starting >>> dual_arm_description
+Finished <<< dual_arm_description [2.48s]
+Starting >>> dual_arm_interfaces
+Finished <<< dual_arm_interfaces [15.5s]
+Starting >>> vision_interfaces
+Finished <<< vision_interfaces [36.1s]
+Starting >>> vision_pkg
+Finished <<< vision_pkg [4.12s]
+Starting >>> dual_arm_control
+Finished <<< dual_arm_control [4.19s]
+
+Summary: 5 packages finished [1min 3s]
+Built. Source: /tmp/dual-arm-ros2/install/setup.bash

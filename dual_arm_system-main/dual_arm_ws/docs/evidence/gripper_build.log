@@ -1,0 +1,11 @@
+Starting >>> dual_arm_gripper
+--- stderr: dual_arm_gripper
+gmake[2]: Warning: File 'CMakeFiles/gripper_policy_test.dir/compiler_depend.make' has modification time 1.2 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Warning: File 'CMakeFiles/dual_arm_suction.dir/compiler_depend.make' has modification time 1.1 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+---
+Finished <<< dual_arm_gripper [11.0s]
+
+Summary: 1 package finished [11.5s]
+  1 package had stderr output: dual_arm_gripper

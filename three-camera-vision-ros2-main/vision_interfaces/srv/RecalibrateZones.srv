@@ -1,0 +1,7 @@
+# /vision/env/recalibrate_zones
+# 重新找出粉紅色場地並均分成 C|B|A 三區（需在場地淨空時呼叫），成功後存入 zones.yaml。
+# 無輸入參數。
+---
+# 三區皆成功重新定位才為 true；部分失敗時失敗的區沿用舊值，message 會逐區說明
+bool success
+string message

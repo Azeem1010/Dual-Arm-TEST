@@ -1,0 +1,451 @@
+{
+  "passed": true,
+  "transport": "ROS action/service → pyserial PTY → unchanged firmware bridge.c",
+  "limitations": "AX12 transport is simulated; no physical motor or STM32 UART validation",
+  "wire": [
+    {
+      "tx": "VERSION",
+      "rx": "VERSION,5"
+    },
+    {
+      "tx": "PING",
+      "rx": "PONG"
+    },
+    {
+      "tx": "GET_HOME,arm1",
+      "rx": "HOME,arm1,90,567,712,825"
+    },
+    {
+      "tx": "GET_HOME,arm2",
+      "rx": "HOME,arm2,590,567,712,825"
+    },
+    {
+      "tx": "GET_HOME,arm1",
+      "rx": "HOME,arm1,90,567,712,825"
+    },
+    {
+      "tx": "HOLD,arm1",
+      "rx": "OK,HOLD,arm1"
+    },
+    {
+      "tx": "TORQUE,arm1,1",
+      "rx": "OK,TORQUE,arm1,1"
+    },
+    {
+      "tx": "READ,arm1",
+      "rx": "POS,arm1,512,512,512,512"
+    },
+    {
+      "tx": "HOLD,arm2",
+      "rx": "OK,HOLD,arm2"
+    },
+    {
+      "tx": "TORQUE,arm2,1",
+      "rx": "OK,TORQUE,arm2,1"
+    },
+    {
+      "tx": "READ,arm2",
+      "rx": "POS,arm2,512,512,512,512"
+    },
+    {
+      "tx": "READ,arm1",
+      "rx": "POS,arm1,512,512,512,512"
+    },
+    {
+      "tx": "LED,arm1,MOVING",
+      "rx": "OK,LED,arm1,MOVING"
+    },
+    {
+      "tx": "AX,arm1,512,512,512,512",
+      "rx": "OK,AX,arm1"
+    },
+    {
+      "tx": "READ,arm1",
+      "rx": "POS,arm1,512,512,512,512"
+    },
+    {
+      "tx": "READ,arm2",
+      "rx": "POS,arm2,512,512,512,512"
+    },
+    {
+      "tx": "AX,arm1,513,511,513,511",
+      "rx": "OK,AX,arm1"
+    },
+    {
+      "tx": "READ,arm1",
+      "rx": "POS,arm1,513,511,513,511"
+    },
+    {
+      "tx": "READ,arm2",
+      "rx": "POS,arm2,512,512,512,512"
+    },
+    {
+      "tx": "AX,arm1,513,511,513,511",
+      "rx": "OK,AX,arm1"
+    },
+    {
+      "tx": "READ,arm1",
+      "rx": "POS,arm1,513,511,513,511"
+    },
+    {
+      "tx": "READ,arm2",
+      "rx": "POS,arm2,512,512,512,512"
+    },
+    {
+      "tx": "AX,arm1,514,510,514,510",
+      "rx": "OK,AX,arm1"
+    },
+    {
+      "tx": "READ,arm1",
+      "rx": "POS,arm1,514,510,514,510"
+    },
+    {
+      "tx": "READ,arm2",
+      "rx": "POS,arm2,512,512,512,512"
+    },
+    {
+      "tx": "AX,arm1,514,510,514,510",
+      "rx": "OK,AX,arm1"
+    },
+    {
+      "tx": "READ,arm1",
+      "rx": "POS,arm1,514,510,514,510"
+    },
+    {
+      "tx": "READ,arm2",
+      "rx": "POS,arm2,512,512,512,512"
+    },
+    {
+      "tx": "AX,arm1,515,509,515,509",
+      "rx": "OK,AX,arm1"
+    },
+    {
+      "tx": "READ,arm1",
+      "rx": "POS,arm1,515,509,515,509"
+    },
+    {
+      "tx": "READ,arm2",
+      "rx": "POS,arm2,512,512,512,512"
+    },
+    {
+      "tx": "AX,arm1,516,508,516,508",
+      "rx": "OK,AX,arm1"
+    },
+    {
+      "tx": "READ,arm1",
+      "rx": "POS,arm1,516,508,516,508"
+    },
+    {
+      "tx": "READ,arm2",
+      "rx": "POS,arm2,512,512,512,512"
+    },
+    {
+      "tx": "AX,arm1,516,508,516,508",
+      "rx": "OK,AX,arm1"
+    },
+    {
+      "tx": "READ,arm1",
+      "rx": "POS,arm1,516,508,516,508"
+    },
+    {
+      "tx": "READ,arm2",
+      "rx": "POS,arm2,512,512,512,512"
+    },
+    {
+      "tx": "AX,arm1,517,507,517,507",
+      "rx": "OK,AX,arm1"
+    },
+    {
+      "tx": "READ,arm1",
+      "rx": "POS,arm1,517,507,517,507"
+    },
+    {
+      "tx": "READ,arm2",
+      "rx": "POS,arm2,512,512,512,512"
+    },
+    {
+      "tx": "AX,arm1,517,507,517,507",
+      "rx": "OK,AX,arm1"
+    },
+    {
+      "tx": "READ,arm1",
+      "rx": "POS,arm1,517,507,517,507"
+    },
+    {
+      "tx": "READ,arm2",
+      "rx": "POS,arm2,512,512,512,512"
+    },
+    {
+      "tx": "AX,arm1,518,506,518,506",
+      "rx": "OK,AX,arm1"
+    },
+    {
+      "tx": "READ,arm1",
+      "rx": "POS,arm1,518,506,518,506"
+    },
+    {
+      "tx": "READ,arm2",
+      "rx": "POS,arm2,512,512,512,512"
+    },
+    {
+      "tx": "AX,arm1,518,506,518,506",
+      "rx": "OK,AX,arm1"
+    },
+    {
+      "tx": "READ,arm1",
+      "rx": "POS,arm1,518,506,518,506"
+    },
+    {
+      "tx": "READ,arm2",
+      "rx": "POS,arm2,512,512,512,512"
+    },
+    {
+      "tx": "READ,arm1",
+      "rx": "POS,arm1,518,506,518,506"
+    },
+    {
+      "tx": "READ,arm2",
+      "rx": "POS,arm2,512,512,512,512"
+    },
+    {
+      "tx": "READ,arm1",
+      "rx": "POS,arm1,518,506,518,506"
+    },
+    {
+      "tx": "READ,arm2",
+      "rx": "POS,arm2,512,512,512,512"
+    },
+    {
+      "tx": "READ,arm1",
+      "rx": "POS,arm1,518,506,518,506"
+    },
+    {
+      "tx": "READ,arm2",
+      "rx": "POS,arm2,512,512,512,512"
+    },
+    {
+      "tx": "LED,arm1,STOPPED",
+      "rx": "OK,LED,arm1,STOPPED"
+    },
+    {
+      "tx": "READ,arm2",
+      "rx": "POS,arm2,512,512,512,512"
+    },
+    {
+      "tx": "LED,arm2,MOVING",
+      "rx": "OK,LED,arm2,MOVING"
+    },
+    {
+      "tx": "AX,arm2,512,512,512,512",
+      "rx": "OK,AX,arm2"
+    },
+    {
+      "tx": "READ,arm2",
+      "rx": "POS,arm2,512,512,512,512"
+    },
+    {
+      "tx": "READ,arm1",
+      "rx": "POS,arm1,518,506,518,506"
+    },
+    {
+      "tx": "AX,arm2,513,511,513,511",
+      "rx": "OK,AX,arm2"
+    },
+    {
+      "tx": "READ,arm2",
+      "rx": "POS,arm2,513,511,513,511"
+    },
+    {
+      "tx": "READ,arm1",
+      "rx": "POS,arm1,518,506,518,506"
+    },
+    {
+      "tx": "AX,arm2,513,511,513,511",
+      "rx": "OK,AX,arm2"
+    },
+    {
+      "tx": "READ,arm2",
+      "rx": "POS,arm2,513,511,513,511"
+    },
+    {
+      "tx": "READ,arm1",
+      "rx": "POS,arm1,518,506,518,506"
+    },
+    {
+      "tx": "AX,arm2,514,510,514,510",
+      "rx": "OK,AX,arm2"
+    },
+    {
+      "tx": "READ,arm2",
+      "rx": "POS,arm2,514,510,514,510"
+    },
+    {
+      "tx": "READ,arm1",
+      "rx": "POS,arm1,518,506,518,506"
+    },
+    {
+      "tx": "AX,arm2,514,510,514,510",
+      "rx": "OK,AX,arm2"
+    },
+    {
+      "tx": "READ,arm2",
+      "rx": "POS,arm2,514,510,514,510"
+    },
+    {
+      "tx": "READ,arm1",
+      "rx": "POS,arm1,518,506,518,506"
+    },
+    {
+      "tx": "AX,arm2,515,509,515,509",
+      "rx": "OK,AX,arm2"
+    },
+    {
+      "tx": "READ,arm2",
+      "rx": "POS,arm2,515,509,515,509"
+    },
+    {
+      "tx": "READ,arm1",
+      "rx": "POS,arm1,518,506,518,506"
+    },
+    {
+      "tx": "AX,arm2,516,508,516,508",
+      "rx": "OK,AX,arm2"
+    },
+    {
+      "tx": "READ,arm2",
+      "rx": "POS,arm2,516,508,516,508"
+    },
+    {
+      "tx": "READ,arm1",
+      "rx": "POS,arm1,518,506,518,506"
+    },
+    {
+      "tx": "AX,arm2,516,508,516,508",
+      "rx": "OK,AX,arm2"
+    },
+    {
+      "tx": "READ,arm2",
+      "rx": "POS,arm2,516,508,516,508"
+    },
+    {
+      "tx": "READ,arm1",
+      "rx": "POS,arm1,518,506,518,506"
+    },
+    {
+      "tx": "AX,arm2,517,507,517,507",
+      "rx": "OK,AX,arm2"
+    },
+    {
+      "tx": "READ,arm2",
+      "rx": "POS,arm2,517,507,517,507"
+    },
+    {
+      "tx": "READ,arm1",
+      "rx": "POS,arm1,518,506,518,506"
+    },
+    {
+      "tx": "AX,arm2,517,507,517,507",
+      "rx": "OK,AX,arm2"
+    },
+    {
+      "tx": "READ,arm2",
+      "rx": "POS,arm2,517,507,517,507"
+    },
+    {
+      "tx": "READ,arm1",
+      "rx": "POS,arm1,518,506,518,506"
+    },
+    {
+      "tx": "AX,arm2,518,506,518,506",
+      "rx": "OK,AX,arm2"
+    },
+    {
+      "tx": "READ,arm2",
+      "rx": "POS,arm2,518,506,518,506"
+    },
+    {
+      "tx": "READ,arm1",
+      "rx": "POS,arm1,518,506,518,506"
+    },
+    {
+      "tx": "AX,arm2,518,506,518,506",
+      "rx": "OK,AX,arm2"
+    },
+    {
+      "tx": "READ,arm2",
+      "rx": "POS,arm2,518,506,518,506"
+    },
+    {
+      "tx": "READ,arm1",
+      "rx": "POS,arm1,518,506,518,506"
+    },
+    {
+      "tx": "READ,arm2",
+      "rx": "POS,arm2,518,506,518,506"
+    },
+    {
+      "tx": "READ,arm1",
+      "rx": "POS,arm1,518,506,518,506"
+    },
+    {
+      "tx": "READ,arm2",
+      "rx": "POS,arm2,518,506,518,506"
+    },
+    {
+      "tx": "READ,arm1",
+      "rx": "POS,arm1,518,506,518,506"
+    },
+    {
+      "tx": "READ,arm2",
+      "rx": "POS,arm2,518,506,518,506"
+    },
+    {
+      "tx": "READ,arm1",
+      "rx": "POS,arm1,518,506,518,506"
+    },
+    {
+      "tx": "LED,arm2,STOPPED",
+      "rx": "OK,LED,arm2,STOPPED"
+    },
+    {
+      "tx": "READ,arm1",
+      "rx": "POS,arm1,518,506,518,506"
+    },
+    {
+      "tx": "READ,arm2",
+      "rx": "POS,arm2,518,506,518,506"
+    },
+    {
+      "tx": "READ,arm1",
+      "rx": "ERR,OVERFLOW"
+    }
+  ],
+  "health": [
+    "executing",
+    "executing",
+    "executing",
+    "executing",
+    "executing",
+    "executing",
+    "executing",
+    "executing",
+    "executing",
+    "executing",
+    "executing",
+    "executing",
+    "executing",
+    "executing",
+    "executing",
+    "executing",
+    "executing",
+    "executing",
+    "executing",
+    "executing",
+    "executing",
+    "executing",
+    "executing",
+    "executing",
+    "executing",
+    "ERR,OVERFLOW"
+  ]
+}

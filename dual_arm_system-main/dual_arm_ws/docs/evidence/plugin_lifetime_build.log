@@ -1,0 +1,13 @@
+Starting >>> dual_arm_bringup
+--- stderr: dual_arm_bringup
+gmake[1]: Warning: File 'CMakeFiles/Makefile2' has modification time 0.91 s in the future
+gmake[2]: Warning: File 'CMakeFiles/move_group_lifetime.dir/progress.make' has modification time 0.86 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Warning: File 'CMakeFiles/move_group_lifetime.dir/compiler_depend.make' has modification time 0.78 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+---
+Finished <<< dual_arm_bringup [27.4s]
+
+Summary: 1 package finished [27.9s]
+  1 package had stderr output: dual_arm_bringup

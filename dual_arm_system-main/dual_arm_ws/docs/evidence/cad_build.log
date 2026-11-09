@@ -1,0 +1,967 @@
+Starting >>> vision_interfaces
+Starting >>> dual_arm_controllers
+-- Install configuration: ""
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_controllers/share/dual_arm_controllers/config
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_controllers/share/dual_arm_controllers/config/controllers.yaml
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_controllers/share/ament_index/resource_index/package_run_dependencies/dual_arm_controllers
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_controllers/share/ament_index/resource_index/parent_prefix_path/dual_arm_controllers
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_controllers/share/dual_arm_controllers/environment/ament_prefix_path.sh
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_controllers/share/dual_arm_controllers/environment/ament_prefix_path.dsv
+[  0%] Built target vision_interfaces__rs
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_controllers/share/dual_arm_controllers/environment/path.sh
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_controllers/share/dual_arm_controllers/environment/path.dsv
+[  1%] Built target vision_interfaces__rosidl_generator_type_description
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_controllers/share/dual_arm_controllers/local_setup.bash
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_controllers/share/dual_arm_controllers/local_setup.sh
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_controllers/share/dual_arm_controllers/local_setup.zsh
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_controllers/share/dual_arm_controllers/local_setup.dsv
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_controllers/share/dual_arm_controllers/package.dsv
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_controllers/share/ament_index/resource_index/packages/dual_arm_controllers
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_controllers/share/dual_arm_controllers/cmake/dual_arm_controllersConfig.cmake
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_controllers/share/dual_arm_controllers/cmake/dual_arm_controllersConfig-version.cmake
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_controllers/share/dual_arm_controllers/package.xml
+Finished <<< dual_arm_controllers [1.49s]
+Starting >>> dual_arm_description
+[  1%] Built target vision_interfaces__cpp
+-- Install configuration: ""
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/urdf
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/urdf/arm.xacro
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/urdf/dual_arm.urdf.xacro
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/urdf/dual_arm_cad.urdf.xacro
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/urdf/phantomx_pincher_hardware.xacro
+[  1%] Built target ament_cmake_python_copy_vision_interfaces
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/urdf/phantomx_pincher_inertial.xacro
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/urdf/phantomx_pincher_utils.xacro
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_000.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_001.stl
+running egg_info
+writing vision_interfaces.egg-info/PKG-INFO
+writing dependency_links to vision_interfaces.egg-info/dependency_links.txt
+writing top-level names to vision_interfaces.egg-info/top_level.txt
+gmake[2]: Warning: File 'CMakeFiles/vision_interfaces__rosidl_generator_c.dir/compiler_depend.make' has modification time 0.4 s in the future
+reading manifest file 'vision_interfaces.egg-info/SOURCES.txt'
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_002.stl
+writing manifest file 'vision_interfaces.egg-info/SOURCES.txt'
+[  1%] Built target ament_cmake_python_build_vision_interfaces_egg
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 27%] Built target vision_interfaces__rosidl_generator_c
+gmake[2]: Warning: File 'CMakeFiles/vision_interfaces__rosidl_typesupport_c.dir/compiler_depend.make' has modification time 0.53 s in the future
+gmake[2]: Warning: File 'CMakeFiles/vision_interfaces__rosidl_typesupport_introspection_c.dir/compiler_depend.make' has modification time 0.52 s in the future
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_003.stl
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 36%] Built target vision_interfaces__rosidl_typesupport_c
+gmake[2]: Warning: File 'CMakeFiles/vision_interfaces__rosidl_typesupport_cpp.dir/compiler_depend.make' has modification time 0.11 s in the future
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_004.stl
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 46%] Built target vision_interfaces__rosidl_typesupport_introspection_c
+gmake[2]: Warning: File 'CMakeFiles/vision_interfaces__rosidl_typesupport_introspection_cpp.dir/compiler_depend.make' has modification time 0.11 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 56%] Built target vision_interfaces__rosidl_typesupport_cpp
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 66%] Built target vision_interfaces__rosidl_typesupport_introspection_cpp
+[ 76%] Built target vision_interfaces__rosidl_typesupport_fastrtps_c
+[ 85%] Built target vision_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 85%] Built target vision_interfaces
+[ 86%] Built target vision_interfaces__py
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_005.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_006.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_007.stl
+gmake[2]: Warning: File 'CMakeFiles/vision_interfaces__rosidl_generator_py.dir/compiler_depend.make' has modification time 0.16 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 95%] Built target vision_interfaces__rosidl_generator_py
+gmake[2]: Warning: File 'CMakeFiles/vision_interfaces_s__rosidl_typesupport_c.dir/compiler_depend.make' has modification time 0.59 s in the future
+gmake[2]: Warning: File 'CMakeFiles/vision_interfaces_s__rosidl_typesupport_fastrtps_c.dir/compiler_depend.make' has modification time 0.59 s in the future
+gmake[2]: Warning: File 'CMakeFiles/vision_interfaces_s__rosidl_typesupport_introspection_c.dir/compiler_depend.make' has modification time 0.59 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 98%] Built target vision_interfaces_s__rosidl_typesupport_fastrtps_c
+[ 99%] Built target vision_interfaces_s__rosidl_typesupport_c
+[100%] Built target vision_interfaces_s__rosidl_typesupport_introspection_c
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_008.stl
+-- Install configuration: ""
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/ament_index/resource_index/rosidl_interfaces/vision_interfaces
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/msg/ZoneState.json
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/msg/PickTarget.json
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/msg/RankingSnapshot.json
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/msg/PickDetections.json
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/msg/GridState.json
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/srv/RecalibrateZones.json
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/srv/GetZoneState.json
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/srv/CaptureRanking.json
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_009.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/srv/GetRank.json
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/srv/GetPickTarget.json
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/srv/GetGridState.json
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/srv/VerifyPlace.json
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_010.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/grid_state__description.c
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/grid_state__functions.c
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/grid_state__functions.h
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/grid_state__struct.h
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/grid_state__type_support.c
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/grid_state__type_support.h
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/pick_detections__description.c
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/pick_detections__functions.c
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/pick_detections__functions.h
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/pick_detections__struct.h
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_011.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/pick_detections__type_support.c
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/pick_detections__type_support.h
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_012.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/pick_target__description.c
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/pick_target__functions.c
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/pick_target__functions.h
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/pick_target__struct.h
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/pick_target__type_support.c
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/pick_target__type_support.h
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/ranking_snapshot__description.c
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/ranking_snapshot__functions.c
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/ranking_snapshot__functions.h
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/ranking_snapshot__struct.h
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/ranking_snapshot__type_support.c
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/ranking_snapshot__type_support.h
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/zone_state__description.c
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/zone_state__functions.c
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/zone_state__functions.h
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/zone_state__struct.h
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/zone_state__type_support.c
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/zone_state__type_support.h
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/grid_state.h
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/pick_detections.h
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/pick_target.h
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/ranking_snapshot.h
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/rosidl_generator_c__visibility_control.h
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/zone_state.h
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/capture_ranking.h
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_013.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/capture_ranking__description.c
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/capture_ranking__functions.c
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_014.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/capture_ranking__functions.h
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/capture_ranking__struct.h
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/capture_ranking__type_support.c
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_015.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/capture_ranking__type_support.h
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_016.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/get_grid_state__description.c
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/get_grid_state__functions.c
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/get_grid_state__functions.h
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_017.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/get_grid_state__struct.h
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/get_grid_state__type_support.c
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_018.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/get_grid_state__type_support.h
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/get_pick_target__description.c
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/get_pick_target__functions.c
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_019.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/get_pick_target__functions.h
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/get_pick_target__struct.h
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/get_pick_target__type_support.c
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_020.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/get_pick_target__type_support.h
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/get_rank__description.c
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_021.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/get_rank__functions.c
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/get_rank__functions.h
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/get_rank__struct.h
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_022.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/get_rank__type_support.c
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_023.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/get_rank__type_support.h
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/get_zone_state__description.c
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/get_zone_state__functions.c
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_024.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/get_zone_state__functions.h
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/get_zone_state__struct.h
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/get_zone_state__type_support.c
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_025.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/get_zone_state__type_support.h
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_026.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/recalibrate_zones__description.c
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/recalibrate_zones__functions.c
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/recalibrate_zones__functions.h
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_027.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/recalibrate_zones__struct.h
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/recalibrate_zones__type_support.c
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_028.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/recalibrate_zones__type_support.h
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/verify_place__description.c
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_029.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/verify_place__functions.c
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/verify_place__functions.h
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/verify_place__struct.h
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/verify_place__type_support.c
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_030.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_031.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/verify_place__type_support.h
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/get_grid_state.h
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/get_pick_target.h
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/get_rank.h
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_032.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/get_zone_state.h
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/recalibrate_zones.h
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/verify_place.h
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/environment/library_path.sh
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_033.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/environment/library_path.dsv
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/lib/libvision_interfaces__rosidl_generator_c.so
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_034.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/grid_state__rosidl_typesupport_fastrtps_c.h
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_035.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/pick_detections__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/pick_target__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/ranking_snapshot__rosidl_typesupport_fastrtps_c.h
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_036.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/zone_state__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_037.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/capture_ranking__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/get_grid_state__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/get_pick_target__rosidl_typesupport_fastrtps_c.h
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_038.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/get_rank__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/get_zone_state__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/recalibrate_zones__rosidl_typesupport_fastrtps_c.h
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_039.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/verify_place__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/lib/libvision_interfaces__rosidl_typesupport_fastrtps_c.so
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_040.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_041.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/grid_state__rosidl_typesupport_introspection_c.h
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/grid_state__type_support.c
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_042.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/pick_detections__rosidl_typesupport_introspection_c.h
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/pick_detections__type_support.c
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_043.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/pick_target__rosidl_typesupport_introspection_c.h
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_044.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/pick_target__type_support.c
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_045.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/ranking_snapshot__rosidl_typesupport_introspection_c.h
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/ranking_snapshot__type_support.c
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_046.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/zone_state__rosidl_typesupport_introspection_c.h
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/zone_state__type_support.c
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_047.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_048.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/capture_ranking__rosidl_typesupport_introspection_c.h
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_049.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/capture_ranking__type_support.c
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_050.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/get_grid_state__rosidl_typesupport_introspection_c.h
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/get_grid_state__type_support.c
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_051.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/get_pick_target__rosidl_typesupport_introspection_c.h
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/get_pick_target__type_support.c
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_052.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/get_rank__rosidl_typesupport_introspection_c.h
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_053.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/get_rank__type_support.c
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_054.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/get_zone_state__rosidl_typesupport_introspection_c.h
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/get_zone_state__type_support.c
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_055.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/recalibrate_zones__rosidl_typesupport_introspection_c.h
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/recalibrate_zones__type_support.c
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_056.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_057.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/verify_place__rosidl_typesupport_introspection_c.h
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/verify_place__type_support.c
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_058.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/lib/libvision_interfaces__rosidl_typesupport_introspection_c.so
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_059.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/lib/libvision_interfaces__rosidl_typesupport_c.so
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_060.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/grid_state__builder.hpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/grid_state__struct.hpp
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_061.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/grid_state__traits.hpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/grid_state__type_support.hpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/pick_detections__builder.hpp
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_062.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/pick_detections__struct.hpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/pick_detections__traits.hpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/pick_detections__type_support.hpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/pick_target__builder.hpp
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_063.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/pick_target__struct.hpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/pick_target__traits.hpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/pick_target__type_support.hpp
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_064.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/ranking_snapshot__builder.hpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/ranking_snapshot__struct.hpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/ranking_snapshot__traits.hpp
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_065.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/ranking_snapshot__type_support.hpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/zone_state__builder.hpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/zone_state__struct.hpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/zone_state__traits.hpp
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_066.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/zone_state__type_support.hpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/grid_state.hpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/pick_detections.hpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/pick_target.hpp
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_067.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/ranking_snapshot.hpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/zone_state.hpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_068.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/capture_ranking.hpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/capture_ranking__builder.hpp
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_069.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/capture_ranking__struct.hpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/capture_ranking__traits.hpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/capture_ranking__type_support.hpp
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_070.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/get_grid_state__builder.hpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/get_grid_state__struct.hpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/get_grid_state__traits.hpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/get_grid_state__type_support.hpp
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_071.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/get_pick_target__builder.hpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/get_pick_target__struct.hpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/get_pick_target__traits.hpp
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_072.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/get_pick_target__type_support.hpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/get_rank__builder.hpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/get_rank__struct.hpp
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_073.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/get_rank__traits.hpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/get_rank__type_support.hpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/get_zone_state__builder.hpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/get_zone_state__struct.hpp
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_074.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/get_zone_state__traits.hpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/get_zone_state__type_support.hpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/recalibrate_zones__builder.hpp
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_075.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/recalibrate_zones__struct.hpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/recalibrate_zones__traits.hpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/recalibrate_zones__type_support.hpp
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_076.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/verify_place__builder.hpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/verify_place__struct.hpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/verify_place__traits.hpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/verify_place__type_support.hpp
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_077.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/get_grid_state.hpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/get_pick_target.hpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/get_rank.hpp
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_078.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/get_zone_state.hpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/recalibrate_zones.hpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/verify_place.hpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_079.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/dds_fastrtps
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_080.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/grid_state__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/pick_detections__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/pick_target__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_081.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/ranking_snapshot__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/zone_state__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_082.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/capture_ranking__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/dds_fastrtps
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_083.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/get_grid_state__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/get_pick_target__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/get_rank__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_084.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/get_zone_state__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/recalibrate_zones__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/verify_place__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_085.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/lib/libvision_interfaces__rosidl_typesupport_fastrtps_cpp.so
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_086.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/grid_state__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_087.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/grid_state__type_support.cpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/pick_detections__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/pick_detections__type_support.cpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/pick_target__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_088.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/pick_target__type_support.cpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/ranking_snapshot__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/ranking_snapshot__type_support.cpp
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_089.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/zone_state__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/zone_state__type_support.cpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_090.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/capture_ranking__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/capture_ranking__type_support.cpp
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_091.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/get_grid_state__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/get_grid_state__type_support.cpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/get_pick_target__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/get_pick_target__type_support.cpp
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_092.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/get_rank__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/get_rank__type_support.cpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/get_zone_state__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_093.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/get_zone_state__type_support.cpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/recalibrate_zones__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/recalibrate_zones__type_support.cpp
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_094.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/verify_place__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/srv/detail/verify_place__type_support.cpp
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/lib/libvision_interfaces__rosidl_typesupport_introspection_cpp.so
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_095.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/lib/libvision_interfaces__rosidl_typesupport_cpp.so
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_096.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/environment/pythonpath.sh
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/environment/pythonpath.dsv
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/lib/python3.12/site-packages/vision_interfaces-0.1.0-py3.12.egg-info
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/lib/python3.12/site-packages/vision_interfaces-0.1.0-py3.12.egg-info/dependency_links.txt
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_097.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/lib/python3.12/site-packages/vision_interfaces-0.1.0-py3.12.egg-info/PKG-INFO
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_098.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/lib/python3.12/site-packages/vision_interfaces-0.1.0-py3.12.egg-info/SOURCES.txt
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_099.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/lib/python3.12/site-packages/vision_interfaces-0.1.0-py3.12.egg-info/top_level.txt
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_100.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/lib/python3.12/site-packages/vision_interfaces
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/lib/python3.12/site-packages/vision_interfaces/msg
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_101.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/lib/python3.12/site-packages/vision_interfaces/msg/_grid_state.py
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/lib/python3.12/site-packages/vision_interfaces/msg/_grid_state_s.c
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/lib/python3.12/site-packages/vision_interfaces/msg/_pick_detections.py
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/lib/python3.12/site-packages/vision_interfaces/msg/_pick_detections_s.c
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_102.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/lib/python3.12/site-packages/vision_interfaces/msg/_pick_target.py
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/lib/python3.12/site-packages/vision_interfaces/msg/_pick_target_s.c
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/lib/python3.12/site-packages/vision_interfaces/msg/_ranking_snapshot.py
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_103.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/lib/python3.12/site-packages/vision_interfaces/msg/_ranking_snapshot_s.c
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/lib/python3.12/site-packages/vision_interfaces/msg/_zone_state.py
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/lib/python3.12/site-packages/vision_interfaces/msg/_zone_state_s.c
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/lib/python3.12/site-packages/vision_interfaces/msg/__init__.py
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_104.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/lib/python3.12/site-packages/vision_interfaces/srv
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/lib/python3.12/site-packages/vision_interfaces/srv/_capture_ranking.py
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/lib/python3.12/site-packages/vision_interfaces/srv/_capture_ranking_s.c
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_105.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/lib/python3.12/site-packages/vision_interfaces/srv/_get_grid_state.py
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/lib/python3.12/site-packages/vision_interfaces/srv/_get_grid_state_s.c
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/lib/python3.12/site-packages/vision_interfaces/srv/_get_pick_target.py
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/lib/python3.12/site-packages/vision_interfaces/srv/_get_pick_target_s.c
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_106.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/lib/python3.12/site-packages/vision_interfaces/srv/_get_rank.py
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/lib/python3.12/site-packages/vision_interfaces/srv/_get_rank_s.c
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/lib/python3.12/site-packages/vision_interfaces/srv/_get_zone_state.py
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_107.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/lib/python3.12/site-packages/vision_interfaces/srv/_get_zone_state_s.c
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/lib/python3.12/site-packages/vision_interfaces/srv/_recalibrate_zones.py
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/lib/python3.12/site-packages/vision_interfaces/srv/_recalibrate_zones_s.c
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/lib/python3.12/site-packages/vision_interfaces/srv/_verify_place.py
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_108.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/lib/python3.12/site-packages/vision_interfaces/srv/_verify_place_s.c
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/lib/python3.12/site-packages/vision_interfaces/srv/__init__.py
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/lib/python3.12/site-packages/vision_interfaces/vision_interfaces_s__rosidl_typesupport_c.so
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/lib/python3.12/site-packages/vision_interfaces/vision_interfaces_s__rosidl_typesupport_fastrtps_c.so
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_109.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/lib/python3.12/site-packages/vision_interfaces/vision_interfaces_s__rosidl_typesupport_introspection_c.so
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/lib/python3.12/site-packages/vision_interfaces/_vision_interfaces_s.ep.rosidl_typesupport_c.c
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/lib/python3.12/site-packages/vision_interfaces/_vision_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/lib/python3.12/site-packages/vision_interfaces/_vision_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_110.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/lib/python3.12/site-packages/vision_interfaces/__init__.py
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_111.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_112.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_113.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_114.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_115.stl
+Listing '/mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/lib/python3.12/site-packages/vision_interfaces'...
+Listing '/mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/lib/python3.12/site-packages/vision_interfaces/msg'...
+Listing '/mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/lib/python3.12/site-packages/vision_interfaces/srv'...
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/lib/python3.12/site-packages/vision_interfaces/vision_interfaces_s__rosidl_typesupport_fastrtps_c.so
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_116.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/lib/python3.12/site-packages/vision_interfaces/vision_interfaces_s__rosidl_typesupport_introspection_c.so
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_117.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/lib/python3.12/site-packages/vision_interfaces/vision_interfaces_s__rosidl_typesupport_c.so
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_118.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/lib/libvision_interfaces__rosidl_generator_py.so
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_119.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/rust
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/rust/build.rs
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/rust/Cargo.toml
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/rust/src
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_120.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/rust/src/lib.rs
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/rust/src/msg
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/rust/src/msg/rmw.rs
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_121.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/rust/src/msg.rs
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/rust/src/srv
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/rust/src/srv/rmw.rs
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_122.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/rust/src/srv.rs
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/msg/ZoneState.idl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/msg/PickTarget.idl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/msg/RankingSnapshot.idl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_123.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/msg/PickDetections.idl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/msg/GridState.idl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/srv/RecalibrateZones.idl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_124.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/srv/GetZoneState.idl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/srv/CaptureRanking.idl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/srv/GetRank.idl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/srv/GetPickTarget.idl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_125.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/srv/GetGridState.idl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/srv/VerifyPlace.idl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/msg/ZoneState.msg
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_126.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/msg/PickTarget.msg
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/msg/RankingSnapshot.msg
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/msg/PickDetections.msg
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/msg/GridState.msg
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_127.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/srv/RecalibrateZones.srv
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/srv/GetZoneState.srv
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/srv/CaptureRanking.srv
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_128.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/srv/GetRank.srv
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/srv/GetPickTarget.srv
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/srv/GetGridState.srv
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/srv/VerifyPlace.srv
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_129.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/ament_index/resource_index/package_run_dependencies/vision_interfaces
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/ament_index/resource_index/parent_prefix_path/vision_interfaces
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/environment/ament_prefix_path.sh
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_130.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/environment/ament_prefix_path.dsv
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/environment/path.sh
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/environment/path.dsv
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/local_setup.bash
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/local_setup.sh
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_131.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/local_setup.zsh
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/local_setup.dsv
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/package.dsv
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_132.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/ament_index/resource_index/packages/vision_interfaces
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/cmake/export_vision_interfaces__rosidl_generator_cExport.cmake
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/cmake/export_vision_interfaces__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_133.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/cmake/export_vision_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/cmake/export_vision_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_134.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/cmake/vision_interfaces__rosidl_typesupport_introspection_cExport.cmake
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/cmake/vision_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/cmake/vision_interfaces__rosidl_typesupport_cExport.cmake
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_135.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/cmake/vision_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/cmake/export_vision_interfaces__rosidl_generator_cppExport.cmake
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/cmake/export_vision_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_136.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/cmake/export_vision_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/cmake/vision_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/cmake/vision_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_137.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/cmake/vision_interfaces__rosidl_typesupport_cppExport.cmake
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/cmake/vision_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_138.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/cmake/export_vision_interfaces__rosidl_generator_pyExport.cmake
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/cmake/export_vision_interfaces__rosidl_generator_pyExport-noconfig.cmake
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/cmake/rosidl_cmake-extras.cmake
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_139.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_140.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/cmake/vision_interfacesConfig.cmake
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/cmake/vision_interfacesConfig-version.cmake
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/vision_interfaces/share/vision_interfaces/package.xml
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_141.stl
+--- stderr: vision_interfaces
+gmake[2]: Warning: File 'CMakeFiles/vision_interfaces__rosidl_generator_c.dir/compiler_depend.make' has modification time 0.4 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Warning: File 'CMakeFiles/vision_interfaces__rosidl_typesupport_c.dir/compiler_depend.make' has modification time 0.53 s in the future
+gmake[2]: Warning: File 'CMakeFiles/vision_interfaces__rosidl_typesupport_introspection_c.dir/compiler_depend.make' has modification time 0.52 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Warning: File 'CMakeFiles/vision_interfaces__rosidl_typesupport_cpp.dir/compiler_depend.make' has modification time 0.11 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Warning: File 'CMakeFiles/vision_interfaces__rosidl_typesupport_introspection_cpp.dir/compiler_depend.make' has modification time 0.11 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Warning: File 'CMakeFiles/vision_interfaces__rosidl_generator_py.dir/compiler_depend.make' has modification time 0.16 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Warning: File 'CMakeFiles/vision_interfaces_s__rosidl_typesupport_c.dir/compiler_depend.make' has modification time 0.59 s in the future
+gmake[2]: Warning: File 'CMakeFiles/vision_interfaces_s__rosidl_typesupport_fastrtps_c.dir/compiler_depend.make' has modification time 0.59 s in the future
+gmake[2]: Warning: File 'CMakeFiles/vision_interfaces_s__rosidl_typesupport_introspection_c.dir/compiler_depend.make' has modification time 0.59 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+---
+Finished <<< vision_interfaces [23.3s]
+Starting >>> vision_pkg
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_142.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_143.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_144.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_145.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_146.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_147.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_148.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_149.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_150.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_151.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_152.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_153.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_154.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_155.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_156.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_157.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_158.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_159.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_160.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_161.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_162.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_163.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_164.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_165.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_166.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_167.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_168.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_169.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_170.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_171.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_172.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_173.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_174.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_175.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_176.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_177.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_178.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_179.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_180.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_181.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_182.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_183.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_184.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_185.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_186.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_187.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_188.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_189.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_190.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_191.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_192.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_193.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_194.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_195.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_196.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_197.stl
+running egg_info
+writing ../../build/vision_pkg/vision_pkg.egg-info/PKG-INFO
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_198.stl
+writing dependency_links to ../../build/vision_pkg/vision_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/vision_pkg/vision_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/vision_pkg/vision_pkg.egg-info/requires.txt
+writing top-level names to ../../build/vision_pkg/vision_pkg.egg-info/top_level.txt
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_199.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_200.stl
+reading manifest file '../../build/vision_pkg/vision_pkg.egg-info/SOURCES.txt'
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_201.stl
+writing manifest file '../../build/vision_pkg/vision_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_202.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_203.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_204.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_205.stl
+running install
+running install_lib
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_206.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_207.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_208.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_209.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_210.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_211.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_212.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_213.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_214.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_215.stl
+running install_data
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_216.stl
+running install_egg_info
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_217.stl
+removing '/mnt/e/dual_arm_system/dual_arm_ws/install/vision_pkg/lib/python3.12/site-packages/vision_pkg-0.1.0-py3.12.egg-info' (and everything under it)
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_218.stl
+Copying ../../build/vision_pkg/vision_pkg.egg-info to /mnt/e/dual_arm_system/dual_arm_ws/install/vision_pkg/lib/python3.12/site-packages/vision_pkg-0.1.0-py3.12.egg-info
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_219.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_220.stl
+running install_scripts
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_221.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_222.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_223.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_224.stl
+Installing arm1_vision_node script to /mnt/e/dual_arm_system/dual_arm_ws/install/vision_pkg/lib/vision_pkg
+Installing arm2_vision_node script to /mnt/e/dual_arm_system/dual_arm_ws/install/vision_pkg/lib/vision_pkg
+Installing calibrate_caps script to /mnt/e/dual_arm_system/dual_arm_ws/install/vision_pkg/lib/vision_pkg
+Installing calibrate_homography script to /mnt/e/dual_arm_system/dual_arm_ws/install/vision_pkg/lib/vision_pkg
+Installing calibrate_intrinsics script to /mnt/e/dual_arm_system/dual_arm_ws/install/vision_pkg/lib/vision_pkg
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_225.stl
+Installing env_vision_node script to /mnt/e/dual_arm_system/dual_arm_ws/install/vision_pkg/lib/vision_pkg
+Installing hsv_tuner script to /mnt/e/dual_arm_system/dual_arm_ws/install/vision_pkg/lib/vision_pkg
+Installing image_rotate_node script to /mnt/e/dual_arm_system/dual_arm_ws/install/vision_pkg/lib/vision_pkg
+writing list of installed files to '/mnt/e/dual_arm_system/dual_arm_ws/build/vision_pkg/install.log'
+Finished <<< vision_pkg [7.23s]
+Starting >>> dual_arm_gazebo
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_226.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_227.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_228.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_229.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_230.stl
+-- Install configuration: ""
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/worlds
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/worlds/dual_arm_workspace.sdf
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/config
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_231.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/config/bridge.yaml
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_gazebo/share/ament_index/resource_index/package_run_dependencies/dual_arm_gazebo
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_gazebo/share/ament_index/resource_index/parent_prefix_path/dual_arm_gazebo
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/environment/ament_prefix_path.sh
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/environment/ament_prefix_path.dsv
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/environment/path.sh
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/environment/path.dsv
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/local_setup.bash
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/local_setup.sh
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/local_setup.zsh
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/local_setup.dsv
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/package.dsv
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_gazebo/share/ament_index/resource_index/packages/dual_arm_gazebo
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/cmake/dual_arm_gazeboConfig.cmake
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/cmake/dual_arm_gazeboConfig-version.cmake
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/package.xml
+Finished <<< dual_arm_gazebo [1.24s]
+Starting >>> dual_arm_moveit_config
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_232.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_233.stl
+-- Install configuration: ""
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/config
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/config/dual_arm.srdf
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/config/joint_limits.yaml
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/config/kinematics.yaml
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/config/moveit_controllers.yaml
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/config/ompl_planning.yaml
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_moveit_config/share/ament_index/resource_index/package_run_dependencies/dual_arm_moveit_config
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_moveit_config/share/ament_index/resource_index/parent_prefix_path/dual_arm_moveit_config
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/environment/ament_prefix_path.sh
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/environment/ament_prefix_path.dsv
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/environment/path.sh
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/environment/path.dsv
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/local_setup.bash
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/local_setup.sh
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/local_setup.zsh
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/local_setup.dsv
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/package.dsv
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_234.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_moveit_config/share/ament_index/resource_index/packages/dual_arm_moveit_config
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/cmake/dual_arm_moveit_configConfig.cmake
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_235.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/cmake/dual_arm_moveit_configConfig-version.cmake
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/package.xml
+Finished <<< dual_arm_moveit_config [1.32s]
+Starting >>> dual_arm_coordinator
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_236.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_237.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_238.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_239.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_240.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_241.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_242.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_243.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_244.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_245.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_246.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_247.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_248.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_249.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_250.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_251.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_252.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_253.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_254.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_255.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_256.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_257.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_258.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_259.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_260.stl
+running egg_info
+writing ../../build/dual_arm_coordinator/dual_arm_coordinator.egg-info/PKG-INFO
+writing dependency_links to ../../build/dual_arm_coordinator/dual_arm_coordinator.egg-info/dependency_links.txt
+writing requirements to ../../build/dual_arm_coordinator/dual_arm_coordinator.egg-info/requires.txt
+writing top-level names to ../../build/dual_arm_coordinator/dual_arm_coordinator.egg-info/top_level.txt
+reading manifest file '../../build/dual_arm_coordinator/dual_arm_coordinator.egg-info/SOURCES.txt'
+writing manifest file '../../build/dual_arm_coordinator/dual_arm_coordinator.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_coordinator/lib/python3.12/site-packages/dual_arm_coordinator-0.1.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/dual_arm_coordinator/dual_arm_coordinator.egg-info to /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_coordinator/lib/python3.12/site-packages/dual_arm_coordinator-0.1.0-py3.12.egg-info
+running install_scripts
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_261.stl
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_262.stl
+writing list of installed files to '/mnt/e/dual_arm_system/dual_arm_ws/build/dual_arm_coordinator/install.log'
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/cad/component_263.stl
+Finished <<< dual_arm_coordinator [5.16s]
+Starting >>> dual_arm_vision_adapter
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/collision
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/collision/finger.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/collision/task_board.stl
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/visual
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/visual/ax12.dae
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/visual/f10.dae
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/visual/f2.dae
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/visual/f3.dae
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/visual/f4.dae
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/visual/finger.dae
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/visual/gripper_base.dae
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/visual/phantomx_pincher_mount.dae
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/visual/task_board.dae
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/meshes/visual/task_board_module_phantomx_pincher_mount.dae
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/ament_index/resource_index/package_run_dependencies/dual_arm_description
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/ament_index/resource_index/parent_prefix_path/dual_arm_description
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/environment/ament_prefix_path.sh
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/environment/ament_prefix_path.dsv
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/environment/path.sh
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/environment/path.dsv
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/local_setup.bash
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/local_setup.sh
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/local_setup.zsh
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/local_setup.dsv
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/package.dsv
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/ament_index/resource_index/packages/dual_arm_description
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/cmake/dual_arm_descriptionConfig.cmake
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/cmake/dual_arm_descriptionConfig-version.cmake
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_description/share/dual_arm_description/package.xml
+Finished <<< dual_arm_description [38.9s]
+Starting >>> dual_arm_bringup
+-- Install configuration: ""
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_bringup/share/dual_arm_bringup/launch
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_bringup/share/dual_arm_bringup/launch/calibration.launch.py
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_bringup/share/dual_arm_bringup/launch/mock.launch.py
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_bringup/share/dual_arm_bringup/launch/sim.launch.py
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_bringup/share/dual_arm_bringup/launch/vision_sim.launch.py
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_bringup/share/dual_arm_bringup/config
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_bringup/share/ament_index/resource_index/package_run_dependencies/dual_arm_bringup
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_bringup/share/ament_index/resource_index/parent_prefix_path/dual_arm_bringup
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_bringup/share/dual_arm_bringup/environment/ament_prefix_path.sh
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_bringup/share/dual_arm_bringup/environment/ament_prefix_path.dsv
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_bringup/share/dual_arm_bringup/environment/path.sh
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_bringup/share/dual_arm_bringup/environment/path.dsv
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_bringup/share/dual_arm_bringup/local_setup.bash
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_bringup/share/dual_arm_bringup/local_setup.sh
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_bringup/share/dual_arm_bringup/local_setup.zsh
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_bringup/share/dual_arm_bringup/local_setup.dsv
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_bringup/share/dual_arm_bringup/package.dsv
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_bringup/share/ament_index/resource_index/packages/dual_arm_bringup
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_bringup/share/dual_arm_bringup/cmake/dual_arm_bringupConfig.cmake
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_bringup/share/dual_arm_bringup/cmake/dual_arm_bringupConfig-version.cmake
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_bringup/share/dual_arm_bringup/package.xml
+Finished <<< dual_arm_bringup [2.98s]
+running egg_info
+writing ../../build/dual_arm_vision_adapter/dual_arm_vision_adapter.egg-info/PKG-INFO
+writing dependency_links to ../../build/dual_arm_vision_adapter/dual_arm_vision_adapter.egg-info/dependency_links.txt
+writing entry points to ../../build/dual_arm_vision_adapter/dual_arm_vision_adapter.egg-info/entry_points.txt
+writing requirements to ../../build/dual_arm_vision_adapter/dual_arm_vision_adapter.egg-info/requires.txt
+writing top-level names to ../../build/dual_arm_vision_adapter/dual_arm_vision_adapter.egg-info/top_level.txt
+reading manifest file '../../build/dual_arm_vision_adapter/dual_arm_vision_adapter.egg-info/SOURCES.txt'
+writing manifest file '../../build/dual_arm_vision_adapter/dual_arm_vision_adapter.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_vision_adapter/lib/python3.12/site-packages/dual_arm_vision_adapter-0.1.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/dual_arm_vision_adapter/dual_arm_vision_adapter.egg-info to /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_vision_adapter/lib/python3.12/site-packages/dual_arm_vision_adapter-0.1.0-py3.12.egg-info
+running install_scripts
+Installing calibration_status script to /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_vision_adapter/lib/dual_arm_vision_adapter
+writing list of installed files to '/mnt/e/dual_arm_system/dual_arm_ws/build/dual_arm_vision_adapter/install.log'
+Finished <<< dual_arm_vision_adapter [8.54s]
+
+Summary: 9 packages finished [47.3s]
+  1 package had stderr output: vision_interfaces
+PASS: connected world-root model, 13 links, eight revolute joints, meshes present, disjoint controllers
+[1.822s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'dual_arm_moveit_config' is in: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_moveit_config
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding dual_arm_moveit_config
+
+This may be promoted to an error in a future release of colcon-override-check.
+Starting >>> dual_arm_moveit_config
+-- Install configuration: ""
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/config
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/config/dual_arm.srdf
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/config/joint_limits.yaml
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/config/kinematics.yaml
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/config/moveit_controllers.yaml
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/config/ompl_planning.yaml
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_moveit_config/share/ament_index/resource_index/package_run_dependencies/dual_arm_moveit_config
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_moveit_config/share/ament_index/resource_index/parent_prefix_path/dual_arm_moveit_config
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/environment/ament_prefix_path.sh
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/environment/ament_prefix_path.dsv
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/environment/path.sh
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/environment/path.dsv
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/local_setup.bash
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/local_setup.sh
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/local_setup.zsh
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/local_setup.dsv
+-- Installing: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/package.dsv
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_moveit_config/share/ament_index/resource_index/packages/dual_arm_moveit_config
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/cmake/dual_arm_moveit_configConfig.cmake
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/cmake/dual_arm_moveit_configConfig-version.cmake
+-- Up-to-date: /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_moveit_config/share/dual_arm_moveit_config/package.xml
+Finished <<< dual_arm_moveit_config [2.40s]
+
+Summary: 1 package finished [3.40s]

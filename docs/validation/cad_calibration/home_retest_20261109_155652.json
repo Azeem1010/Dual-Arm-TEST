@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-11-09T15:56:46.075440+08:00",
+  "commands": [],
+  "samples": [],
+  "succeeded": false,
+  "home": [
+    90,
+    567,
+    712,
+    825
+  ],
+  "before": [
+    121,
+    604,
+    517,
+    860
+  ],
+  "error": "Arm unexpectedly far from last known Home_A vicinity",
+  "run_stamp": "20261109_155652"
+}

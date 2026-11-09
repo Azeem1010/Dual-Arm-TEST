@@ -1,0 +1,9 @@
+test_b_zone_stays_locked_after_fault (test_resources.ResourceTests.test_b_zone_stays_locked_after_fault) ... ok
+test_only_owner_with_withdrawal_can_release (test_resources.ResourceTests.test_only_owner_with_withdrawal_can_release) ... ok
+test_order_error_or_stale_observation_cannot_reserve (test_resources.ResourceTests.test_order_error_or_stale_observation_cannot_reserve) ... ok
+test_slots_commit_only_verified_sequential_result (test_resources.ResourceTests.test_slots_commit_only_verified_sequential_result) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.001s
+
+OK

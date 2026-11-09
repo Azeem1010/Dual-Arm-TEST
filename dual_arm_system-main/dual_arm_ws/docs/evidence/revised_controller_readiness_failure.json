@@ -1,0 +1,47 @@
+{
+  "status": "FAIL",
+  "mode": "Gazebo ground truth, three-object pipeline",
+  "transport_speed_scale": 0.5,
+  "contact_speed_scale": 0.25,
+  "full_scene_acceptance": "NOT_RUN",
+  "events": [
+    {
+      "stage": "pipeline_start",
+      "wall_time": 1794157785.6472094,
+      "sim_time": 0.334,
+      "objects": [
+        "cap_5",
+        "cap_6"
+      ],
+      "destinations": [
+        [
+          -0.1675,
+          0.02,
+          0.019
+        ],
+        [
+          -0.1325,
+          0.02,
+          0.019
+        ]
+      ]
+    },
+    {
+      "stage": "home_A_home_C_ready_start",
+      "wall_time": 1794157785.7410238,
+      "sim_time": 0.334,
+      "targets": {
+        "arm1": null,
+        "arm2": null
+      },
+      "simultaneous": true
+    },
+    {
+      "stage": "stopped",
+      "wall_time": 1794157785.9262037,
+      "sim_time": 0.381,
+      "reason": "home_A_home_C_ready: MoveIt failure -4"
+    }
+  ],
+  "error": "home_A_home_C_ready: MoveIt failure -4"
+}

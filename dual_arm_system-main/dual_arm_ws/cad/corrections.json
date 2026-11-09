@@ -1,0 +1,49 @@
+{
+  "native_solidworks_status": "BLOCKED_FUTURE_VERSION_8192",
+  "rotations": [
+    {
+      "component_indices": [
+        10,
+        11,
+        17,
+        18,
+        19
+      ],
+      "angle_deg": 180,
+      "pivot_cad_mm": [
+        100,
+        172.09071614102064,
+        -29.87939679882281
+      ],
+      "axis_cad": [
+        0,
+        0,
+        1
+      ],
+      "arm": 1
+    },
+    {
+      "component_indices": [
+        231,
+        232,
+        238,
+        239,
+        240
+      ],
+      "angle_deg": 180,
+      "pivot_cad_mm": [
+        -100,
+        172.09071614102064,
+        -29.87939679882281
+      ],
+      "axis_cad": [
+        0,
+        0,
+        1
+      ],
+      "arm": 2
+    }
+  ],
+  "reason": "User photo: camera support must extend forward, away from arm base",
+  "revision": "camera_mount_forward_20261109"
+}

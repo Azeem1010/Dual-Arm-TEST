@@ -1,0 +1,18 @@
+# Test fixture only. evidence_kind mock_serial_test is rejected on any real port.
+status: PASS
+evidence_kind: mock_serial_test
+hardware_use_allowed: true
+moving_speed_verified: true
+max_step_raw: 200
+expected_home:
+  arm1: [90, 567, 712, 825]
+  arm2: [590, 567, 712, 825]
+joints:
+  arm1_arm_shoulder_pan_joint: {motor_id: 17, zero_raw: 512, direction: 1, min_raw: 0, max_raw: 1023}
+  arm1_arm_shoulder_lift_joint: {motor_id: 3, zero_raw: 512, direction: 1, min_raw: 0, max_raw: 1023}
+  arm1_arm_elbow_flex_joint: {motor_id: 2, zero_raw: 512, direction: 1, min_raw: 0, max_raw: 1023}
+  arm1_arm_wrist_flex_joint: {motor_id: 15, zero_raw: 512, direction: 1, min_raw: 0, max_raw: 1023}
+  arm2_arm_shoulder_pan_joint: {motor_id: 12, zero_raw: 512, direction: 1, min_raw: 0, max_raw: 1023}
+  arm2_arm_shoulder_lift_joint: {motor_id: 1, zero_raw: 512, direction: 1, min_raw: 0, max_raw: 1023}
+  arm2_arm_elbow_flex_joint: {motor_id: 8, zero_raw: 512, direction: 1, min_raw: 0, max_raw: 1023}
+  arm2_arm_wrist_flex_joint: {motor_id: 16, zero_raw: 512, direction: 1, min_raw: 0, max_raw: 1023}

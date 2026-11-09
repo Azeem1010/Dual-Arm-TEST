@@ -1,0 +1,3 @@
+[INFO] [launch]: All log files can be found below /home/user/.ros/log/2026-11-09-02-43-47-028260-DESKTOP-HBTEAAO-3050
+[INFO] [launch]: Default logging verbosity is set to INFO
+[ERROR] [launch]: Caught exception in launch (see debug for traceback): enable_motion:=true requires controllers_file with measured goal tolerances

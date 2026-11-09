@@ -1,0 +1,122 @@
+{
+  "success": true,
+  "simulation": true,
+  "results": [
+    {
+      "x": 0.15,
+      "y": 0.04,
+      "execute": false,
+      "prepare": true,
+      "success": true,
+      "message": "{\"simulation\": true, \"frame\": \"arm1_base\", \"target_xyz\": [0.15, 0.04, 0.04], \"prepare\": true, \"executed\": false, \"start_xyz\": [0.09938892057961242, -3.315891009237182e-18, 0.04494913008634634], \"start_joint_radians\": [0.0, 0.0, 1.5713081535550122, 1.5713081535550122], \"target_joint_radians\": [0.26058231333754694, 0.60354652665094, 0.8382735373632443, 1.6977572867061188], \"target_raw\": [563, 630, 676, 844], \"duration_s\": 14.523528807, \"trajectory_points\": 147}"
+    },
+    {
+      "x": 0.15,
+      "y": 0.04,
+      "execute": false,
+      "prepare": false,
+      "success": false,
+      "message": "TCP must be downward and within 1 mm of travel plane; preview --prepare first"
+    },
+    {
+      "x": 10.0,
+      "y": 0.04,
+      "execute": false,
+      "prepare": false,
+      "success": false,
+      "message": "XY target outside configured workspace"
+    },
+    {
+      "x": 0.2,
+      "y": 0.12,
+      "execute": false,
+      "prepare": true,
+      "success": false,
+      "message": "No collision-free IK for [0.2, 0.12, 0.04]: code=-31"
+    },
+    {
+      "x": 0.15,
+      "y": 0.04,
+      "execute": true,
+      "prepare": true,
+      "success": true,
+      "message": "{\"simulation\": true, \"frame\": \"arm1_base\", \"target_xyz\": [0.15, 0.04, 0.04], \"prepare\": true, \"executed\": true, \"start_xyz\": [0.09938892057961242, -3.315891009237182e-18, 0.04494913008634634], \"start_joint_radians\": [0.0, 0.0, 1.5713081535550122, 1.5713081535550122], \"target_joint_radians\": [0.26104775190232055, 0.603665738862981, 0.839509495478442, 1.6972207229552967], \"target_raw\": [563, 630, 676, 844], \"duration_s\": 14.499923745, \"trajectory_points\": 146, \"measured_joint_radians\": [0.26103164765897596, 0.6039555769364542, 0.8393958865896483, 1.699264843583922], \"measured_raw\": [563, 630, 676, 844], \"measured_fk_xyz\": [0.1498345660110732, 0.04002478321369387, 0.04004454124938099], \"completed_unix_s\": 1793861586.6457057}"
+    },
+    {
+      "x": 0.15,
+      "y": 0.04,
+      "execute": true,
+      "prepare": false,
+      "success": true,
+      "message": "{\"simulation\": true, \"frame\": \"arm1_base\", \"target_xyz\": [0.15, 0.04, 0.04], \"prepare\": false, \"executed\": true, \"start_xyz\": [0.1498345660110732, 0.04002478321369387, 0.04004454124938099], \"start_joint_radians\": [0.26103164765897596, 0.6039555769364542, 0.8393958865896483, 1.699264843583922], \"target_joint_radians\": [0.26060238180875417, 0.6044468151336688, 0.8390735507976055, 1.698072287674238], \"target_raw\": [563, 630, 676, 844], \"duration_s\": 0.21840841700000002, \"trajectory_points\": 4, \"measured_joint_radians\": [0.26103164765897596, 0.6039555769364542, 0.8393958865896483, 1.699264843583922], \"measured_raw\": [563, 630, 676, 844], \"measured_fk_xyz\": [0.1498345660110732, 0.04002478321369387, 0.04004454124938099], \"completed_unix_s\": 1793861587.3397515}"
+    },
+    {
+      "x": 0.155,
+      "y": 0.04,
+      "execute": true,
+      "prepare": false,
+      "success": true,
+      "message": "{\"simulation\": true, \"frame\": \"arm1_base\", \"target_xyz\": [0.155, 0.04, 0.04], \"prepare\": false, \"executed\": true, \"start_xyz\": [0.1498345660110732, 0.04002478321369387, 0.04004454124938099], \"start_joint_radians\": [0.26103164765897596, 0.6039555769364542, 0.8393958865896483, 1.699264843583922], \"target_joint_radians\": [0.2525542757810867, 0.6725092203201221, 0.7300063583670908, 1.7390770749025815], \"target_raw\": [561, 643, 655, 852], \"duration_s\": 2.612785088, \"trajectory_points\": 28, \"measured_joint_radians\": [0.2507951124566632, 0.6704930557514873, 0.731912266965364, 1.7402109843931732], \"measured_raw\": [561, 643, 655, 852], \"measured_fk_xyz\": [0.15480859485223603, 0.03966026634798265, 0.040135672866447245], \"completed_unix_s\": 1793861590.6450908}"
+    },
+    {
+      "x": 0.15,
+      "y": 0.04,
+      "execute": true,
+      "prepare": false,
+      "success": true,
+      "message": "{\"simulation\": true, \"frame\": \"arm1_base\", \"target_xyz\": [0.15, 0.04, 0.04], \"prepare\": false, \"executed\": true, \"start_xyz\": [0.15480859485223603, 0.03966026634798265, 0.040135672866447245], \"start_joint_radians\": [0.2507951124566632, 0.6704930557514873, 0.731912266965364, 1.7402109843931732], \"target_joint_radians\": [0.2606023917499854, 0.6044468769858303, 0.8390739860379866, 1.6980717905659772], \"target_raw\": [563, 630, 676, 844], \"duration_s\": 2.570237068, \"trajectory_points\": 27, \"measured_joint_radians\": [0.26103164765897596, 0.6039555769364542, 0.8393958865896483, 1.699264843583922], \"measured_raw\": [563, 630, 676, 844], \"measured_fk_xyz\": [0.1498345660110732, 0.04002478321369387, 0.04004454124938099], \"completed_unix_s\": 1793861593.7370052}"
+    },
+    {
+      "x": 0.15,
+      "y": 0.045,
+      "execute": true,
+      "prepare": false,
+      "success": true,
+      "message": "{\"simulation\": true, \"frame\": \"arm1_base\", \"target_xyz\": [0.15, 0.045, 0.04], \"prepare\": false, \"executed\": true, \"start_xyz\": [0.1498345660110732, 0.04002478321369387, 0.04004454124938099], \"start_joint_radians\": [0.26103164765897596, 0.6039555769364542, 0.8393958865896483, 1.699264843583922], \"target_joint_radians\": [0.2914570890273661, 0.6228887279001923, 0.8099248435773773, 1.7087790827436558], \"target_raw\": [569, 634, 670, 846], \"duration_s\": 1.111638733, \"trajectory_points\": 13, \"measured_joint_radians\": [0.2917412532659143, 0.6244286473410797, 0.8086862809827099, 1.7095013787862348], \"measured_raw\": [569, 634, 670, 846], \"measured_fk_xyz\": [0.1500004309346198, 0.045046642396421255, 0.03988019572166869], \"completed_unix_s\": 1793861595.4459088}"
+    },
+    {
+      "x": 0.15,
+      "y": 0.04,
+      "execute": true,
+      "prepare": false,
+      "success": true,
+      "message": "{\"simulation\": true, \"frame\": \"arm1_base\", \"target_xyz\": [0.15, 0.04, 0.04], \"prepare\": false, \"executed\": true, \"start_xyz\": [0.1500004309346198, 0.045046642396421255, 0.03988019572166869], \"start_joint_radians\": [0.2917412532659143, 0.6244286473410797, 0.8086862809827099, 1.7095013787862348], \"target_joint_radians\": [0.260602638214616, 0.6043977005508203, 0.8391574490578584, 1.698037504643101], \"target_raw\": [563, 630, 676, 844], \"duration_s\": 1.1287268990000001, \"trajectory_points\": 13, \"measured_joint_radians\": [0.26103164765897596, 0.6039555769364542, 0.8393958865896483, 1.699264843583922], \"measured_raw\": [563, 630, 676, 844], \"measured_fk_xyz\": [0.1498345660110732, 0.04002478321369387, 0.04004454124938099], \"completed_unix_s\": 1793861597.1416445}"
+    },
+    {
+      "x": 0.19,
+      "y": 0.04,
+      "execute": false,
+      "prepare": false,
+      "success": false,
+      "message": "Incomplete Cartesian path: fraction=0.0, code=1"
+    },
+    {
+      "x": 0.155,
+      "y": 0.04,
+      "execute": true,
+      "prepare": false,
+      "success": true,
+      "message": "{\"simulation\": true, \"frame\": \"arm1_base\", \"target_xyz\": [0.155, 0.04, 0.04], \"prepare\": false, \"executed\": true, \"start_xyz\": [0.1498345660110732, 0.04002478321369387, 0.04004454124938099], \"start_joint_radians\": [0.26103164765897596, 0.6039555769364542, 0.8393958865896483, 1.699264843583922], \"target_joint_radians\": [0.2525542757810867, 0.6725092203201221, 0.7300063583670908, 1.7390770749025815], \"target_raw\": [561, 643, 655, 852], \"duration_s\": 2.612785088, \"trajectory_points\": 28, \"measured_joint_radians\": [0.2507951124566632, 0.6704930557514873, 0.731912266965364, 1.7402109843931732], \"measured_raw\": [561, 643, 655, 852], \"measured_fk_xyz\": [0.15480859485223603, 0.03966026634798265, 0.040135672866447245], \"completed_unix_s\": 1793861600.6429982}"
+    },
+    {
+      "x": 0.15,
+      "y": 0.04,
+      "execute": true,
+      "prepare": false,
+      "success": true,
+      "message": "{\"simulation\": true, \"frame\": \"arm1_base\", \"target_xyz\": [0.15, 0.04, 0.04], \"prepare\": false, \"executed\": true, \"start_xyz\": [0.15480859485223603, 0.03966026634798265, 0.040135672866447245], \"start_joint_radians\": [0.2507951124566632, 0.6704930557514873, 0.731912266965364, 1.7402109843931732], \"target_joint_radians\": [0.2606023917499854, 0.6044468769858303, 0.8390739860379866, 1.6980717905659772], \"target_raw\": [563, 630, 676, 844], \"duration_s\": 2.570237068, \"trajectory_points\": 27, \"measured_joint_radians\": [0.26103164765897596, 0.6039555769364542, 0.8393958865896483, 1.699264843583922], \"measured_raw\": [563, 630, 676, 844], \"measured_fk_xyz\": [0.1498345660110732, 0.04002478321369387, 0.04004454124938099], \"completed_unix_s\": 1793861603.8418536}"
+    },
+    {
+      "x": 0.15,
+      "y": 0.04,
+      "execute": false,
+      "prepare": false,
+      "success": false,
+      "message": "Manual operation already in progress"
+    },
+    {
+      "cancellation_verified": true,
+      "message": "Task canceled"
+    }
+  ]
+}

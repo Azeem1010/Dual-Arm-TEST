@@ -1,0 +1,31 @@
+=== install list covers package dependencies
+1871
+non-ros key to check: ament_python
+non-ros key to check: python3-numpy
+non-ros key to check: python3-opencv
+non-ros key to check: python3-pytest
+non-ros key to check: python3-yaml
+non-ros key to check: yaml-cpp
+=== copy
+copy_seconds=434
+578M
+=== build
+build_exit=0 build_seconds=300
+Summary: 11 packages finished [4min 51s]
+Summary: 1 package finished [0.41s]
+=== quick checks
+}
+cad_pose_exit=0
+OK
+report_exit=0
+Summary: 33 tests, 0 errors, 0 failures, 0 skipped
+=== mock serial read-only launch from README
+hw_controllers_ok poll=2
+joint_state_broadcaster joint_state_broadcaster/JointStateBroadcaster  active
+1
+=== start_sim mock
+mock_controllers_active poll=2
+=== leftovers
+end
+
+[exited with code 0]

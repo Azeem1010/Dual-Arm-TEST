@@ -1,0 +1,24 @@
+# HSV 色彩範圍（OpenCV 格式：H 0-179、S 0-255、V 0-255）
+#
+# 這是「預設值」，實際以 hsv_tuner.py 調整後的結果為準：
+#   ros2 run vision_pkg hsv_tuner --topic /env_cam/image_raw --color pink
+# hsv_tuner 按 's' 存檔時寫入 <calib_dir>/hsv.yaml（預設 ~/.ros/vision_calib/hsv.yaml），
+# 它會逐色「覆寫」本檔的同名項目；節點每 hsv_reload_period_s 秒自動重新載入，不必重啟。
+#
+# H 下限 > H 上限 代表色相環繞（例如粉紅/紅色：lower H=150, upper H=8）。
+
+# 場地：粉紅色泡棉板（待實測）。灰色桌面飽和度很低，靠 S 下限排除；
+# 方孔底部的白紙同樣是低飽和度，不會被當成場地。
+pink:
+  lower: [150, 35, 110]
+  upper: [8, 200, 255]
+
+# 物件：藍色圓形瓶蓋，直徑 20 mm（待實測）
+blue:
+  lower: [95, 100, 50]
+  upper: [130, 255, 255]
+
+# 黑色（手臂）（待實測）
+black:
+  lower: [0, 0, 0]
+  upper: [179, 255, 60]

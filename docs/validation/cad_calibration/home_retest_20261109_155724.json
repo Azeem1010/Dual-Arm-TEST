@@ -1,0 +1,24 @@
+{
+  "timestamp": "2026-11-09T15:57:17.972326+08:00",
+  "commands": [
+    "HOME,arm1: OK",
+    "TORQUE,arm1,1: OK",
+    "HOLD,arm1: OK"
+  ],
+  "samples": [],
+  "succeeded": false,
+  "home": [
+    90,
+    567,
+    712,
+    825
+  ],
+  "before": [
+    121,
+    604,
+    517,
+    860
+  ],
+  "error": "ERR,DXL_TIMEOUT,arm1,15",
+  "run_stamp": "20261109_155724"
+}

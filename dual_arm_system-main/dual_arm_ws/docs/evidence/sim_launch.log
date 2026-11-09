@@ -1,0 +1,348 @@
+[INFO] [launch]: All log files can be found below /home/user/.ros/log/2026-11-09-00-52-43-686055-DESKTOP-HBTEAAO-3675
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [gazebo-1]: process started with pid [3691]
+[INFO] [robot_state_publisher-2]: process started with pid [3692]
+[INFO] [create-3]: process started with pid [3693]
+[INFO] [parameter_bridge-4]: process started with pid [3694]
+[INFO] [move_group_lifetime-5]: process started with pid [3695]
+[INFO] [spawner-6]: process started with pid [3696]
+[INFO] [spawner-7]: process started with pid [3697]
+[INFO] [spawner-8]: process started with pid [3698]
+[INFO] [static_transform_publisher-9]: process started with pid [3699]
+[INFO] [static_transform_publisher-10]: process started with pid [3701]
+[INFO] [static_transform_publisher-11]: process started with pid [3702]
+[INFO] [env_vision_node-12]: process started with pid [3703]
+[INFO] [arm1_vision_node-13]: process started with pid [3704]
+[INFO] [arm2_vision_node-14]: process started with pid [3705]
+[create-3] [INFO] [1794156799.289061418] [ros_gz_sim]: Requesting list of world names.
+[static_transform_publisher-9] [INFO] [1794156799.343720282] [static_transform_publisher_DNajzY2h3qt4ALUw]: Spinning until stopped - publishing transform
+[static_transform_publisher-9] translation: ('0.000000', '0.000000', '0.800000')
+[static_transform_publisher-9] rotation: ('1.000000', '0.000000', '-0.000000', '-0.000000')
+[static_transform_publisher-9] from 'world' to 'env_camera_optical_frame'
+[static_transform_publisher-10] [INFO] [1794156799.456126228] [static_transform_publisher_YmvIrpBthD8G9D1q]: Spinning until stopped - publishing transform
+[static_transform_publisher-10] translation: ('0.200000', '0.000000', '0.500000')
+[static_transform_publisher-10] rotation: ('1.000000', '0.000000', '-0.000000', '-0.000000')
+[static_transform_publisher-10] from 'world' to 'arm1_camera_optical_frame'
+[static_transform_publisher-11] [INFO] [1794156799.456442083] [static_transform_publisher_Y1BWUoH0sl1PBO9t]: Spinning until stopped - publishing transform
+[static_transform_publisher-11] translation: ('-0.200000', '0.000000', '0.500000')
+[static_transform_publisher-11] rotation: ('1.000000', '0.000000', '-0.000000', '-0.000000')
+[static_transform_publisher-11] from 'world' to 'arm2_camera_optical_frame'
+[parameter_bridge-4] [INFO] [1794156800.520592338] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/env_cam/image_raw (gz.msgs.Image) -> /env_cam/image_raw (sensor_msgs/msg/Image)] (Lazy 0)
+[robot_state_publisher-2] [INFO] [1794156800.524172757] [robot_state_publisher]: Robot initialized
+[parameter_bridge-4] [INFO] [1794156800.564856524] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/env_cam/camera_info (gz.msgs.CameraInfo) -> /env_cam/camera_info (sensor_msgs/msg/CameraInfo)] (Lazy 0)
+[parameter_bridge-4] [INFO] [1794156800.572299329] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/arm1_cam/image_raw (gz.msgs.Image) -> /arm1_cam/image_raw (sensor_msgs/msg/Image)] (Lazy 0)
+[parameter_bridge-4] [INFO] [1794156800.573524359] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/arm1_cam/camera_info (gz.msgs.CameraInfo) -> /arm1_cam/camera_info (sensor_msgs/msg/CameraInfo)] (Lazy 0)
+[parameter_bridge-4] [INFO] [1794156800.574094708] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/arm2_cam/image_raw (gz.msgs.Image) -> /arm2_cam/image_raw (sensor_msgs/msg/Image)] (Lazy 0)
+[parameter_bridge-4] [INFO] [1794156800.574445243] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/arm2_cam/camera_info (gz.msgs.CameraInfo) -> /arm2_cam/camera_info (sensor_msgs/msg/CameraInfo)] (Lazy 0)
+[parameter_bridge-4] [INFO] [1794156800.574787079] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/clock (gz.msgs.Clock) -> /clock (rosgraph_msgs/msg/Clock)] (Lazy 0)
+[parameter_bridge-4] [INFO] [1794156800.589461311] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/world/dual_arm_workspace/pose/info (gz.msgs.Pose_V) -> /gazebo/ground_truth (tf2_msgs/msg/TFMessage)] (Lazy 0)
+[parameter_bridge-4] [INFO] [1794156800.607161769] [ros_gz_bridge]: Creating ROS->GZ Bridge: [/gripper/arm1/command (std_msgs/msg/String) -> /gripper/arm1/command (gz.msgs.StringMsg)] (Lazy 0)
+[parameter_bridge-4] [INFO] [1794156800.608637073] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/gripper/arm1/state (gz.msgs.StringMsg) -> /gripper/arm1/state (std_msgs/msg/String)] (Lazy 0)
+[parameter_bridge-4] [INFO] [1794156800.611006371] [ros_gz_bridge]: Creating ROS->GZ Bridge: [/gripper/arm2/command (std_msgs/msg/String) -> /gripper/arm2/command (gz.msgs.StringMsg)] (Lazy 0)
+[parameter_bridge-4] [INFO] [1794156800.611613371] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/gripper/arm2/state (gz.msgs.StringMsg) -> /gripper/arm2/state (std_msgs/msg/String)] (Lazy 0)
+[parameter_bridge-4] [INFO] [1794156800.612035558] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/view_isometric/image_raw (gz.msgs.Image) -> /view_isometric/image_raw (sensor_msgs/msg/Image)] (Lazy 0)
+[parameter_bridge-4] [INFO] [1794156800.612483810] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/view_top/image_raw (gz.msgs.Image) -> /view_top/image_raw (sensor_msgs/msg/Image)] (Lazy 0)
+[parameter_bridge-4] [INFO] [1794156800.621341418] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/view_front/image_raw (gz.msgs.Image) -> /view_front/image_raw (sensor_msgs/msg/Image)] (Lazy 0)
+[parameter_bridge-4] [INFO] [1794156800.622986279] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/view_side/image_raw (gz.msgs.Image) -> /view_side/image_raw (sensor_msgs/msg/Image)] (Lazy 0)
+[parameter_bridge-4] [INFO] [1794156800.624266470] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/model/cap_1/pose (gz.msgs.Pose_V) -> /ground_truth/cap_1 (tf2_msgs/msg/TFMessage)] (Lazy 0)
+[parameter_bridge-4] [INFO] [1794156800.624915701] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/model/cap_2/pose (gz.msgs.Pose_V) -> /ground_truth/cap_2 (tf2_msgs/msg/TFMessage)] (Lazy 0)
+[parameter_bridge-4] [INFO] [1794156800.625728024] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/model/cap_3/pose (gz.msgs.Pose_V) -> /ground_truth/cap_3 (tf2_msgs/msg/TFMessage)] (Lazy 0)
+[parameter_bridge-4] [INFO] [1794156800.626587548] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/model/cap_4/pose (gz.msgs.Pose_V) -> /ground_truth/cap_4 (tf2_msgs/msg/TFMessage)] (Lazy 0)
+[parameter_bridge-4] [INFO] [1794156800.627644795] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/model/cap_5/pose (gz.msgs.Pose_V) -> /ground_truth/cap_5 (tf2_msgs/msg/TFMessage)] (Lazy 0)
+[parameter_bridge-4] [INFO] [1794156800.628866975] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/model/cap_6/pose (gz.msgs.Pose_V) -> /ground_truth/cap_6 (tf2_msgs/msg/TFMessage)] (Lazy 0)
+[parameter_bridge-4] [INFO] [1794156800.629918172] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/model/cap_7/pose (gz.msgs.Pose_V) -> /ground_truth/cap_7 (tf2_msgs/msg/TFMessage)] (Lazy 0)
+[parameter_bridge-4] [INFO] [1794156800.632684106] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/model/cap_8/pose (gz.msgs.Pose_V) -> /ground_truth/cap_8 (tf2_msgs/msg/TFMessage)] (Lazy 0)
+[move_group_lifetime-5] [INFO] [1794156800.915321058] [move_group.moveit.moveit.ros.rdf_loader]: Loaded robot model in 0 seconds
+[move_group_lifetime-5] [INFO] [1794156800.915534151] [move_group.moveit.moveit.core.robot_model]: Loading robot model 'dual_arm'...
+[move_group_lifetime-5] [INFO] [1794156800.915658593] [move_group.moveit.moveit.core.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[gazebo-1] [1;33mWarning [Utils.cc:132][0m [/sdf/world[@name="dual_arm_workspace"]/model[@name="env_camera"]/link[@name="link"]/sensor[@name="camera"]/gz_frame_id:/mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/worlds/dual_arm_workspace.sdf:L68]: XML Element[gz_frame_id], child of element[sensor], not defined in SDF. Copying[gz_frame_id] as children of [sensor].
+[gazebo-1] [1;33mWarning [Utils.cc:132][0m [/sdf/world[@name="dual_arm_workspace"]/model[@name="arm1_camera"]/link[@name="link"]/sensor[@name="camera"]/gz_frame_id:/mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/worlds/dual_arm_workspace.sdf:L69]: XML Element[gz_frame_id], child of element[sensor], not defined in SDF. Copying[gz_frame_id] as children of [sensor].
+[gazebo-1] [1;33mWarning [Utils.cc:132][0m [/sdf/world[@name="dual_arm_workspace"]/model[@name="arm2_camera"]/link[@name="link"]/sensor[@name="camera"]/gz_frame_id:/mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/worlds/dual_arm_workspace.sdf:L70]: XML Element[gz_frame_id], child of element[sensor], not defined in SDF. Copying[gz_frame_id] as children of [sensor].
+[create-3] [INFO] [1794156802.060435349] [ros_gz_sim]: Waiting messages on topic [/robot_description].
+[create-3] [INFO] [1794156802.089327839] [ros_gz_sim]: Entity creation successful.
+[INFO] [create-3]: process has finished cleanly [pid 3693]
+[move_group_lifetime-5] [INFO] [1794156802.304232908] [move_group.moveit.moveit.kinematics.kdl_kinematics_plugin]: Joint weights for group 'arm1': 1 1 1 1
+[move_group_lifetime-5] [INFO] [1794156802.305773768] [move_group.moveit.moveit.kinematics.kdl_kinematics_plugin]: Joint weights for group 'arm2': 1 1 1 1
+[gazebo-1] [INFO] [1794156803.143871722] [gz_ros_control]: [gz_ros2_control] Fixed joint ['arm1_mount'] (Entity='554') is skipped.
+[gazebo-1] [INFO] [1794156803.144000054] [gz_ros_control]: [gz_ros2_control] Fixed joint ['arm2_mount'] (Entity='559') is skipped.
+[move_group_lifetime-5] [INFO] [1794156803.628264171] [move_group.moveit.moveit.ros.moveit_cpp]: Listening to 'joint_states' for joint states
+[move_group_lifetime-5] [INFO] [1794156803.636445563] [move_group.moveit.moveit.ros.current_state_monitor]: Listening to joint states on topic 'joint_states'
+[move_group_lifetime-5] [INFO] [1794156803.683777847] [move_group.moveit.moveit.ros.planning_scene_monitor]: Listening to '/attached_collision_object' for attached collision objects
+[move_group_lifetime-5] [INFO] [1794156803.686904018] [move_group.moveit.moveit.ros.planning_scene_monitor]: Publishing maintained planning scene on 'monitored_planning_scene'
+[move_group_lifetime-5] [INFO] [1794156803.687309464] [move_group.moveit.moveit.ros.planning_scene_monitor]: Starting planning scene monitor
+[move_group_lifetime-5] [INFO] [1794156803.688258810] [move_group.moveit.moveit.ros.planning_scene_monitor]: Listening to '/planning_scene'
+[move_group_lifetime-5] [INFO] [1794156803.688274210] [move_group.moveit.moveit.ros.planning_scene_monitor]: Starting world geometry update monitor for collision objects, attached objects, octomap updates.
+[move_group_lifetime-5] [INFO] [1794156803.692811868] [move_group.moveit.moveit.ros.planning_scene_monitor]: Listening to 'collision_object'
+[move_group_lifetime-5] [INFO] [1794156803.694249046] [move_group.moveit.moveit.ros.planning_scene_monitor]: Listening to 'planning_scene_world' for planning scene world geometry
+[move_group_lifetime-5] [WARN] [1794156803.888438173] [move_group.moveit.moveit.ros.occupancy_map_monitor]: Resolution not specified for Octomap. Assuming resolution = 0.1 instead
+[move_group_lifetime-5] [ERROR] [1794156803.888642371] [move_group.moveit.moveit.ros.occupancy_map_monitor]: No 3D sensor plugin(s) defined for octomap updates
+[spawner-8] [INFO] [1794156804.643898632] [spawner_arm2_controller]: waiting for service /controller_manager/list_controllers to become available...
+[gazebo-1] [INFO] [1794156804.809848425] [gz_ros_control]: Loading controller_manager
+[move_group_lifetime-5] [INFO] [1794156805.347303822] [move_group.moveit.moveit.ros.planning_pipeline]: Successfully loaded planner 'OMPL'
+[move_group_lifetime-5] [INFO] [1794156806.306716982] [move_group]: Try loading adapter 'default_planning_request_adapters/ResolveConstraintFrames'
+[move_group_lifetime-5] [INFO] [1794156806.437035572] [move_group]: Loaded adapter 'default_planning_request_adapters/ResolveConstraintFrames'
+[move_group_lifetime-5] [INFO] [1794156806.437095443] [move_group]: Try loading adapter 'default_planning_request_adapters/ValidateWorkspaceBounds'
+[move_group_lifetime-5] [INFO] [1794156806.437506910] [move_group]: Loaded adapter 'default_planning_request_adapters/ValidateWorkspaceBounds'
+[move_group_lifetime-5] [INFO] [1794156806.437523010] [move_group]: Try loading adapter 'default_planning_request_adapters/CheckStartStateBounds'
+[move_group_lifetime-5] [INFO] [1794156806.437564661] [move_group]: Loaded adapter 'default_planning_request_adapters/CheckStartStateBounds'
+[move_group_lifetime-5] [INFO] [1794156806.437573651] [move_group]: Try loading adapter 'default_planning_request_adapters/CheckStartStateCollision'
+[move_group_lifetime-5] [INFO] [1794156806.437585291] [move_group]: Loaded adapter 'default_planning_request_adapters/CheckStartStateCollision'
+[move_group_lifetime-5] [INFO] [1794156807.430447785] [move_group]: Try loading adapter 'default_planning_response_adapters/AddTimeOptimalParameterization'
+[arm1_vision_node-13] [INFO] [1794156807.533452781] [arm1_vision_node]: 校正檔目錄: /home/user/.ros/dual_arm_calib/sim
+[move_group_lifetime-5] [INFO] [1794156807.550925083] [move_group]: Loaded adapter 'default_planning_response_adapters/AddTimeOptimalParameterization'
+[move_group_lifetime-5] [INFO] [1794156807.550962693] [move_group]: Try loading adapter 'default_planning_response_adapters/ValidateSolution'
+[move_group_lifetime-5] [INFO] [1794156807.573637235] [move_group]: Loaded adapter 'default_planning_response_adapters/ValidateSolution'
+[move_group_lifetime-5] [INFO] [1794156807.573686575] [move_group]: Try loading adapter 'default_planning_response_adapters/DisplayMotionPath'
+[move_group_lifetime-5] [INFO] [1794156807.575260772] [move_group]: Loaded adapter 'default_planning_response_adapters/DisplayMotionPath'
+[arm2_vision_node-14] [INFO] [1794156807.782174624] [arm2_vision_node]: 校正檔目錄: /home/user/.ros/dual_arm_calib/sim
+[arm1_vision_node-13] [INFO] [1794156808.241007960] [arm1_vision_node]: arm1_vision_node 就緒，訂閱 /arm1_cam/image_raw
+[arm2_vision_node-14] [INFO] [1794156808.292980404] [arm2_vision_node]: arm2_vision_node 就緒，訂閱 /arm2_cam/image_raw
+[move_group_lifetime-5] [INFO] [1794156808.407366196] [move_group.moveit.moveit.plugins.simple_controller_manager]: Added FollowJointTrajectory controller for arm1_controller
+[move_group_lifetime-5] [INFO] [1794156808.413509733] [move_group.moveit.moveit.plugins.simple_controller_manager]: Added FollowJointTrajectory controller for arm2_controller
+[move_group_lifetime-5] [INFO] [1794156808.413749197] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group_lifetime-5] [INFO] [1794156808.413773917] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group_lifetime-5] [INFO] [1794156808.414853374] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Trajectory execution is not managing controllers
+[move_group_lifetime-5] [INFO] [1794156808.414895125] [move_group]: MoveGroup debug mode is ON
+[move_group_lifetime-5] [INFO] [1794156808.761370317] [move_group.moveit.moveit.ros.move_group.executable]: 
+[move_group_lifetime-5] 
+[move_group_lifetime-5] ********************************************************
+[move_group_lifetime-5] * MoveGroup using: 
+[move_group_lifetime-5] *     - apply_planning_scene_service
+[move_group_lifetime-5] *     - clear_octomap_service
+[move_group_lifetime-5] *     - get_group_urdf
+[move_group_lifetime-5] *     - load_geometry_from_file
+[move_group_lifetime-5] *     - CartesianPathService
+[move_group_lifetime-5] *     - execute_trajectory_action
+[move_group_lifetime-5] *     - get_planning_scene_service
+[move_group_lifetime-5] *     - kinematics_service
+[move_group_lifetime-5] *     - move_action
+[move_group_lifetime-5] *     - motion_plan_service
+[move_group_lifetime-5] *     - query_planners_service
+[move_group_lifetime-5] *     - state_validation_service
+[move_group_lifetime-5] *     - save_geometry_to_file
+[move_group_lifetime-5] ********************************************************
+[move_group_lifetime-5] 
+[move_group_lifetime-5] [INFO] [1794156808.761506479] [move_group.moveit.moveit.ros.move_group.context]: MoveGroup context using pipeline ompl
+[move_group_lifetime-5] [INFO] [1794156808.761518139] [move_group.moveit.moveit.ros.move_group.context]: MoveGroup context initialization complete
+[move_group_lifetime-5] [96mLoading 'move_group/ApplyPlanningSceneService'...[0m
+[move_group_lifetime-5] [96mLoading 'move_group/ClearOctomapService'...[0m
+[move_group_lifetime-5] [96mLoading 'move_group/GetUrdfService'...[0m
+[move_group_lifetime-5] [96mLoading 'move_group/LoadGeometryFromFileService'...[0m
+[move_group_lifetime-5] [96mLoading 'move_group/MoveGroupCartesianPathService'...[0m
+[move_group_lifetime-5] [96mLoading 'move_group/MoveGroupExecuteTrajectoryAction'...[0m
+[move_group_lifetime-5] [96mLoading 'move_group/MoveGroupGetPlanningSceneService'...[0m
+[move_group_lifetime-5] [96mLoading 'move_group/MoveGroupKinematicsService'...[0m
+[move_group_lifetime-5] [96mLoading 'move_group/MoveGroupMoveAction'...[0m
+[move_group_lifetime-5] [96mLoading 'move_group/MoveGroupPlanService'...[0m
+[move_group_lifetime-5] [96mLoading 'move_group/MoveGroupQueryPlannersService'...[0m
+[move_group_lifetime-5] [96mLoading 'move_group/MoveGroupStateValidationService'...[0m
+[move_group_lifetime-5] [96mLoading 'move_group/SaveGeometryToFileService'...[0m
+[move_group_lifetime-5] 
+[move_group_lifetime-5] [92mYou can start planning now![0m
+[move_group_lifetime-5] 
+[env_vision_node-12] [INFO] [1794156809.212721482] [env_vision_node]: 校正檔目錄: /home/user/.ros/dual_arm_calib/sim
+[env_vision_node-12] [INFO] [1794156809.556620505] [env_vision_node]: env_vision_node 就緒，訂閱 /env_cam/image_raw，等待影像與場地定位…
+[gazebo-1] [INFO] [1794156809.708881175] [controller_manager]: Using ROS clock for triggering controller manager cycles.
+[gazebo-1] [WARN] [1794156809.708951406] [controller_manager]: The resource manager is not yet initialized, will wait for the robot description to initialize it..
+[gazebo-1] [INFO] [1794156809.734796608] [controller_manager]: Subscribing to '/robot_description' topic for robot description.
+[gazebo-1] [WARN] [1794156809.734943491] [gz_ros_control]: Waiting RM to load and initialize hardware...
+[gazebo-1] [INFO] [1794156809.743630727] [controller_manager]: Received robot description from topic.
+[gazebo-1] [INFO] [1794156809.743989933] [controller_manager]: Enforcing command limits is disabled. Command limits from URDF will be ignored.
+[gazebo-1] [INFO] [1794156810.289295672] [gz_ros_control]: The position_proportional_gain has been set to: 0.1
+[gazebo-1] [INFO] [1794156810.289464045] [gz_ros_control]: Loading joint: arm1_arm_shoulder_pan_joint
+[gazebo-1] [INFO] [1794156810.289479615] [gz_ros_control]: 	State:
+[gazebo-1] [INFO] [1794156810.289486525] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1794156810.289498826] [gz_ros_control]: 			 found initial value: 0.000000
+[gazebo-1] [INFO] [1794156810.289509726] [gz_ros_control]: 		 velocity
+[gazebo-1] [INFO] [1794156810.289530296] [gz_ros_control]: 	Command:
+[gazebo-1] [INFO] [1794156810.289536726] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1794156810.289561157] [gz_ros_control]: Loading joint: arm1_arm_shoulder_lift_joint
+[gazebo-1] [INFO] [1794156810.289565717] [gz_ros_control]: 	State:
+[gazebo-1] [INFO] [1794156810.289569757] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1794156810.289574097] [gz_ros_control]: 			 found initial value: 0.000000
+[gazebo-1] [INFO] [1794156810.289578847] [gz_ros_control]: 		 velocity
+[gazebo-1] [INFO] [1794156810.289582617] [gz_ros_control]: 	Command:
+[gazebo-1] [INFO] [1794156810.289586267] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1794156810.289607237] [gz_ros_control]: Loading joint: arm1_arm_elbow_flex_joint
+[gazebo-1] [INFO] [1794156810.289611257] [gz_ros_control]: 	State:
+[gazebo-1] [INFO] [1794156810.289615007] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1794156810.289619518] [gz_ros_control]: 			 found initial value: 0.000000
+[gazebo-1] [INFO] [1794156810.289623908] [gz_ros_control]: 		 velocity
+[gazebo-1] [INFO] [1794156810.289627588] [gz_ros_control]: 	Command:
+[gazebo-1] [INFO] [1794156810.289631098] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1794156810.289645678] [gz_ros_control]: Loading joint: arm1_arm_wrist_flex_joint
+[gazebo-1] [INFO] [1794156810.289649748] [gz_ros_control]: 	State:
+[gazebo-1] [INFO] [1794156810.289653338] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1794156810.289656908] [gz_ros_control]: 			 found initial value: 0.000000
+[gazebo-1] [INFO] [1794156810.289661008] [gz_ros_control]: 		 velocity
+[gazebo-1] [INFO] [1794156810.289664678] [gz_ros_control]: 	Command:
+[gazebo-1] [INFO] [1794156810.289668288] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1794156810.289709314] [gz_ros_control]: Loading joint: arm2_arm_shoulder_pan_joint
+[gazebo-1] [INFO] [1794156810.289726694] [gz_ros_control]: 	State:
+[gazebo-1] [INFO] [1794156810.289774385] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1794156810.289788715] [gz_ros_control]: 			 found initial value: 0.000000
+[gazebo-1] [INFO] [1794156810.289795476] [gz_ros_control]: 		 velocity
+[gazebo-1] [INFO] [1794156810.289800026] [gz_ros_control]: 	Command:
+[gazebo-1] [INFO] [1794156810.289803866] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1794156810.289893267] [gz_ros_control]: Loading joint: arm2_arm_shoulder_lift_joint
+[gazebo-1] [INFO] [1794156810.289906917] [gz_ros_control]: 	State:
+[gazebo-1] [INFO] [1794156810.289912388] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1794156810.289917288] [gz_ros_control]: 			 found initial value: 0.000000
+[gazebo-1] [INFO] [1794156810.290044405] [gz_ros_control]: 		 velocity
+[gazebo-1] [INFO] [1794156810.291316322] [gz_ros_control]: 	Command:
+[gazebo-1] [INFO] [1794156810.291329312] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1794156810.291359372] [gz_ros_control]: Loading joint: arm2_arm_elbow_flex_joint
+[gazebo-1] [INFO] [1794156810.291363942] [gz_ros_control]: 	State:
+[gazebo-1] [INFO] [1794156810.291367803] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1794156810.291372083] [gz_ros_control]: 			 found initial value: 0.000000
+[gazebo-1] [INFO] [1794156810.291377333] [gz_ros_control]: 		 velocity
+[gazebo-1] [INFO] [1794156810.291381023] [gz_ros_control]: 	Command:
+[gazebo-1] [INFO] [1794156810.291390383] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1794156810.291405253] [gz_ros_control]: Loading joint: arm2_arm_wrist_flex_joint
+[gazebo-1] [INFO] [1794156810.291436934] [gz_ros_control]: 	State:
+[gazebo-1] [INFO] [1794156810.291440754] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1794156810.291444224] [gz_ros_control]: 			 found initial value: 0.000000
+[gazebo-1] [INFO] [1794156810.291448304] [gz_ros_control]: 		 velocity
+[gazebo-1] [INFO] [1794156810.291451954] [gz_ros_control]: 	Command:
+[gazebo-1] [INFO] [1794156810.291455364] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [1794156810.291824600] [controller_manager]: Initialize hardware 'DualArmSystem' 
+[gazebo-1] [WARN] [1794156810.291869471] [controller_manager.hardware_component.system.DualArmSystem]: Executor is not available during hardware component initialization for 'DualArmSystem'. Skipping node creation!
+[gazebo-1] [INFO] [1794156810.291956652] [controller_manager]: Successful initialization of hardware 'DualArmSystem'
+[gazebo-1] [INFO] [1794156810.292168486] [controller_manager]: Activating component 'DualArmSystem'.
+[gazebo-1] [INFO] [1794156810.292187506] [resource_manager]: 'configure' hardware 'DualArmSystem' 
+[gazebo-1] [INFO] [1794156810.292193426] [gz_ros_control]: System Successfully configured!
+[gazebo-1] [INFO] [1794156810.292198866] [resource_manager]: Successful 'configure' of hardware 'DualArmSystem'
+[gazebo-1] [INFO] [1794156810.292207906] [resource_manager]: 'activate' hardware 'DualArmSystem' 
+[gazebo-1] [INFO] [1794156810.292239437] [resource_manager]: Successful 'activate' of hardware 'DualArmSystem'
+[gazebo-1] [WARN] [1794156810.292320778] [controller_manager]: Component 'DualArmSystem' does not have read or write statistics initialized, skipping registration.
+[gazebo-1] [INFO] [1794156810.292330138] [controller_manager]: Resource Manager has been successfully initialized. Starting Controller Manager services...
+[spawner-8] [INFO] [1794156810.444690630] [spawner_arm2_controller]: Setting controller param "params_file" to "['/tmp/launch_params_8ru0mc3d']" for arm2_controller
+[gazebo-1] [INFO] [1794156810.449555752] [controller_manager]: Loading controller : 'arm2_controller' of type 'joint_trajectory_controller/JointTrajectoryController'
+[gazebo-1] [INFO] [1794156810.449598163] [controller_manager]: Loading controller 'arm2_controller'
+[gazebo-1] [INFO] [1794156810.578233903] [controller_manager]: Controller 'arm2_controller' node arguments: --ros-args --params-file /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_controllers/share/dual_arm_controllers/config/controllers.yaml -p use_sim_time:=true --params-file /tmp/launch_params_8ru0mc3d --param use_sim_time:=true 
+[spawner-8] [INFO] [1794156811.036215620] [spawner_arm2_controller]: Loaded arm2_controller
+[gazebo-1] [INFO] [1794156811.037960554] [controller_manager]: Configuring controller: 'arm2_controller'
+[gazebo-1] [INFO] [1794156811.038296780] [arm2_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[gazebo-1] [INFO] [1794156811.038352590] [arm2_controller]: Command interfaces are [position] and state interfaces are [position velocity].
+[gazebo-1] [INFO] [1794156811.038384381] [arm2_controller]: Using 'splines' interpolation method.
+[gazebo-1] [INFO] [1794156811.061663839] [arm2_controller]: Action status changes will be monitored at 20.00 Hz.
+[gazebo-1] [INFO] [1794156811.086365249] [arm2_controller]: Setting initial scaling factor to 1.000000
+[gazebo-1] [INFO] [1794156811.086409990] [arm2_controller]: No scaling interface set. This controller will not read speed scaling from the hardware.
+[gazebo-1] [INFO] [1794156811.090141448] [controller_manager]: Activating controllers: [ arm2_controller ]
+[gazebo-1] [WARN] [1794156811.771178662] [gz_ros_control]:  Desired controller update period (0.01 s) is slower than the gazebo simulation period (0.001 s).
+[spawner-8] [WARN] [1794156821.090018351] [spawner_arm2_controller]: Failed getting a result from calling /controller_manager/switch_controller in 10.0. (Attempt 1 of 3.)
+[spawner-6] [WARN] [1794156823.844805485] [ros2_control_controller_spawner_joint_state_broadcaster]: Failed to acquire lock in 20 seconds. Attempt 1 of 5 failed. Retrying in 3 seconds...
+[spawner-7] [WARN] [1794156823.847890905] [ros2_control_controller_spawner_arm1_controller]: Failed to acquire lock in 20 seconds. Attempt 1 of 5 failed. Retrying in 3 seconds...
+[spawner-8] [WARN] [1794156831.091731408] [spawner_arm2_controller]: Failed getting a result from calling /controller_manager/switch_controller in 10.0. (Attempt 2 of 3.)
+[gazebo-1] [INFO] [1794156837.502864604] [controller_manager]: Successfully switched controllers!
+[gazebo-1] [INFO] [1794156837.621216566] [controller_manager]: Activating controllers: [ arm2_controller ]
+[gazebo-1] [WARN] [1794156837.621268987] [controller_manager]: Controller with name 'arm2_controller' is already active.
+[gazebo-1] [WARN] [1794156837.621274787] [controller_manager]: Controller with name 'arm2_controller' is already active.
+[gazebo-1] [WARN] [1794156837.621279917] [controller_manager]: Could not activate controller with name 'arm2_controller'. Check above warnings for more details. Check the state of the controllers and their required interfaces using `ros2 control list_controllers -v` CLI to get more information.
+[gazebo-1] [ERROR] [1794156837.621287978] [controller_manager]: Aborting, no controller is switched! (::STRICT switch)
+[gazebo-1] [INFO] [1794156837.626184719] [controller_manager]: Activating controllers: [ arm2_controller ]
+[gazebo-1] [WARN] [1794156837.626219310] [controller_manager]: Controller with name 'arm2_controller' is already active.
+[gazebo-1] [WARN] [1794156837.626223960] [controller_manager]: Controller with name 'arm2_controller' is already active.
+[gazebo-1] [WARN] [1794156837.626227610] [controller_manager]: Could not activate controller with name 'arm2_controller'. Check above warnings for more details. Check the state of the controllers and their required interfaces using `ros2 control list_controllers -v` CLI to get more information.
+[gazebo-1] [ERROR] [1794156837.626234520] [controller_manager]: Aborting, no controller is switched! (::STRICT switch)
+[spawner-8] [ERROR] [1794156837.631857188] [spawner_arm2_controller]: Failed to activate controller : arm2_controller
+[ERROR] [spawner-8]: process has died [pid 3698, exit code 1, cmd '/opt/ros/jazzy/lib/controller_manager/spawner arm2_controller --controller-manager-timeout 120 --switch-timeout 120 --ros-args --params-file /tmp/launch_params_8ru0mc3d'].
+[env_vision_node-12] [WARN] [1794156838.629564143] [env_vision_node]: 等不到足夠影像（10s），改用上次存檔的場地（3 區）
+[spawner-7] [INFO] [1794156838.892624482] [spawner_arm1_controller]: Spawner lock acquired!
+[spawner-7] [INFO] [1794156838.934369943] [spawner_arm1_controller]: Setting controller param "params_file" to "['/tmp/launch_params_78nbwwc9']" for arm1_controller
+[gazebo-1] [INFO] [1794156838.939611755] [controller_manager]: Loading controller : 'arm1_controller' of type 'joint_trajectory_controller/JointTrajectoryController'
+[gazebo-1] [INFO] [1794156838.939643936] [controller_manager]: Loading controller 'arm1_controller'
+[gazebo-1] [INFO] [1794156838.941276443] [controller_manager]: Controller 'arm1_controller' node arguments: --ros-args --params-file /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_controllers/share/dual_arm_controllers/config/controllers.yaml -p use_sim_time:=true --params-file /tmp/launch_params_78nbwwc9 --param use_sim_time:=true 
+[spawner-7] [INFO] [1794156840.135770424] [spawner_arm1_controller]: Loaded arm1_controller
+[gazebo-1] [INFO] [1794156840.147183403] [controller_manager]: Configuring controller: 'arm1_controller'
+[gazebo-1] [INFO] [1794156840.147368046] [arm1_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[gazebo-1] [INFO] [1794156840.147392326] [arm1_controller]: Command interfaces are [position] and state interfaces are [position velocity].
+[gazebo-1] [INFO] [1794156840.147401186] [arm1_controller]: Using 'splines' interpolation method.
+[gazebo-1] [INFO] [1794156840.162882183] [arm1_controller]: Action status changes will be monitored at 20.00 Hz.
+[gazebo-1] [INFO] [1794156840.183824184] [arm1_controller]: Setting initial scaling factor to 1.000000
+[gazebo-1] [INFO] [1794156840.183872845] [arm1_controller]: No scaling interface set. This controller will not read speed scaling from the hardware.
+[gazebo-1] [INFO] [1794156840.274128129] [controller_manager]: Activating controllers: [ arm1_controller ]
+[gazebo-1] [INFO] [1794156840.325462614] [controller_manager]: Successfully switched controllers!
+[spawner-7] [INFO] [1794156840.508701666] [spawner_arm1_controller]: Configured and activated arm1_controller
+[INFO] [spawner-7]: process has finished cleanly [pid 3697]
+[spawner-6] [INFO] [1794156841.601618165] [spawner_joint_state_broadcaster]: Spawner lock acquired!
+[spawner-6] [INFO] [1794156841.682321160] [spawner_joint_state_broadcaster]: Setting controller param "params_file" to "['/tmp/launch_params_y3qrrqor']" for joint_state_broadcaster
+[gazebo-1] [INFO] [1794156841.775831973] [controller_manager]: Loading controller : 'joint_state_broadcaster' of type 'joint_state_broadcaster/JointStateBroadcaster'
+[gazebo-1] [INFO] [1794156841.775877634] [controller_manager]: Loading controller 'joint_state_broadcaster'
+[gazebo-1] [INFO] [1794156842.723573618] [controller_manager]: Controller 'joint_state_broadcaster' node arguments: --ros-args --params-file /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_controllers/share/dual_arm_controllers/config/controllers.yaml -p use_sim_time:=true --params-file /tmp/launch_params_y3qrrqor --param use_sim_time:=true 
+[spawner-6] [INFO] [1794156843.046418512] [spawner_joint_state_broadcaster]: Loaded joint_state_broadcaster
+[gazebo-1] [INFO] [1794156843.059025757] [controller_manager]: Configuring controller: 'joint_state_broadcaster'
+[gazebo-1] [INFO] [1794156843.059135069] [joint_state_broadcaster]: 'joints' or 'interfaces' parameter is empty. All available state interfaces will be published
+[gazebo-1] [INFO] [1794156843.870977639] [controller_manager]: Activating controllers: [ joint_state_broadcaster ]
+[gazebo-1] [INFO] [1794156843.951032119] [controller_manager]: Successfully switched controllers!
+[spawner-6] [INFO] [1794156844.804398346] [spawner_joint_state_broadcaster]: Configured and activated joint_state_broadcaster
+[INFO] [spawner-6]: process has finished cleanly [pid 3696]
+[env_vision_node-12] [INFO] [1794156851.096834394] [env_vision_node]: B 區手臂已離開（連續確認 clear）
+[move_group_lifetime-5] [INFO] [1794156862.417176239] [move_group.moveit.moveit.ros.move_group.move_action]: MoveGroupMoveAction: Received request
+[move_group_lifetime-5] [INFO] [1794156862.421919508] [move_group.moveit.moveit.ros.move_group.move_action]: executing..
+[move_group_lifetime-5] [INFO] [1794156862.506588496] [move_group.moveit.moveit.ros.move_group.move_action]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[move_group_lifetime-5] [WARN] [1794156862.506689877] [move_group.moveit.moveit.ros.move_group.capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as difference in the planning scene diff
+[move_group_lifetime-5] [INFO] [1794156862.506745178] [move_group.moveit.moveit.ros.plan_execution]: Planning attempt 1 of at most 1
+[move_group_lifetime-5] [INFO] [1794156862.507158595] [move_group]: Calling PlanningRequestAdapter 'ResolveConstraintFrames'
+[move_group_lifetime-5] [INFO] [1794156862.507225896] [move_group]: Calling PlanningRequestAdapter 'ValidateWorkspaceBounds'
+[move_group_lifetime-5] [WARN] [1794156862.507234436] [move_group.moveit.moveit.ros.validate_workspace_bounds]: It looks like the planning volume was not specified. Using default values.
+[move_group_lifetime-5] [INFO] [1794156862.507248036] [move_group]: Calling PlanningRequestAdapter 'CheckStartStateBounds'
+[move_group_lifetime-5] [INFO] [1794156862.507292447] [move_group]: Calling PlanningRequestAdapter 'CheckStartStateCollision'
+[move_group_lifetime-5] [INFO] [1794156862.518087549] [move_group.moveit.moveit.planners.ompl.model_based_planning_context]: Planner configuration 'both_arms' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group_lifetime-5] [INFO] [1794156862.518382494] [move_group]: Calling Planner 'OMPL'
+[move_group_lifetime-5] [INFO] [1794156862.554798272] [move_group]: Calling PlanningResponseAdapter 'AddTimeOptimalParameterization'
+[move_group_lifetime-5] [INFO] [1794156862.558697172] [move_group]: Calling PlanningResponseAdapter 'ValidateSolution'
+[move_group_lifetime-5] [INFO] [1794156862.559094298] [move_group]: Calling PlanningResponseAdapter 'DisplayMotionPath'
+[move_group_lifetime-5] [WARN] [1794156862.559147869] [move_group.moveit.moveit.ros.planning_pipeline]: The planner plugin did not fill out the 'planner_id' field of the MotionPlanResponse. Setting it to the planner ID name of the MotionPlanRequest assuming that the planner plugin does warn you if it does not use the requested planner.
+[move_group_lifetime-5] [INFO] [1794156862.559341142] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group_lifetime-5] [INFO] [1794156862.559367933] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group_lifetime-5] [INFO] [1794156862.559485335] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[move_group_lifetime-5] [INFO] [1794156862.643624288] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Starting trajectory execution ...
+[move_group_lifetime-5] [INFO] [1794156862.643746410] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group_lifetime-5] [INFO] [1794156862.643777151] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 2 controllers in list
+[move_group_lifetime-5] [INFO] [1794156862.643993284] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to arm1_controller
+[gazebo-1] [INFO] [1794156862.644544128] [arm1_controller]: Received new action goal
+[gazebo-1] [INFO] [1794156862.644626580] [arm1_controller]: Accepted new action goal
+[move_group_lifetime-5] [INFO] [1794156862.645948233] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: arm1_controller started execution
+[move_group_lifetime-5] [INFO] [1794156862.645985573] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[move_group_lifetime-5] [INFO] [1794156862.646063869] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to arm2_controller
+[gazebo-1] [INFO] [1794156862.646265127] [arm2_controller]: Received new action goal
+[gazebo-1] [INFO] [1794156862.646301677] [arm2_controller]: Accepted new action goal
+[move_group_lifetime-5] [INFO] [1794156862.662270380] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: arm2_controller started execution
+[move_group_lifetime-5] [INFO] [1794156862.662297000] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[INFO] [arm2_vision_node-14]: sending signal 'SIGINT' to process[arm2_vision_node-14]
+[INFO] [arm1_vision_node-13]: sending signal 'SIGINT' to process[arm1_vision_node-13]
+[INFO] [env_vision_node-12]: sending signal 'SIGINT' to process[env_vision_node-12]
+[INFO] [static_transform_publisher-11]: sending signal 'SIGINT' to process[static_transform_publisher-11]
+[INFO] [static_transform_publisher-10]: sending signal 'SIGINT' to process[static_transform_publisher-10]
+[INFO] [static_transform_publisher-9]: sending signal 'SIGINT' to process[static_transform_publisher-9]
+[INFO] [move_group_lifetime-5]: sending signal 'SIGINT' to process[move_group_lifetime-5]
+[INFO] [parameter_bridge-4]: sending signal 'SIGINT' to process[parameter_bridge-4]
+[INFO] [robot_state_publisher-2]: sending signal 'SIGINT' to process[robot_state_publisher-2]
+[INFO] [gazebo-1]: sending signal 'SIGINT' to process[gazebo-1]
+[static_transform_publisher-11] [INFO] [1794156879.951506993] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[static_transform_publisher-10] [INFO] [1794156879.975043910] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[static_transform_publisher-9] [INFO] [1794156879.994763419] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[move_group_lifetime-5] [INFO] [1794156880.017762354] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [static_transform_publisher-11]: process has finished cleanly [pid 3702]
+[move_group_lifetime-5] [WARN] [1794156880.043738391] [move_group.moveit.moveit.ros.plan_execution]: Stopping execution due to unknown reason.Possibly the node is about to shut down.
+[move_group_lifetime-5] [INFO] [1794156880.043765781] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Cancelling execution for arm1_controller
+[move_group_lifetime-5] [INFO] [1794156880.050608355] [move_group.moveit.moveit.ros.moveit_cpp]: Deleting MoveItCpp
+[gazebo-1] [INFO] [1794156880.044043426] [arm1_controller]: Got request to cancel goal
+[gazebo-1] [INFO] [1794156880.044095817] [arm1_controller]: Canceling active action goal because cancel callback received.
+[parameter_bridge-4] [INFO] [1794156880.055486937] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[robot_state_publisher-2] [INFO] [1794156880.071485708] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [static_transform_publisher-9]: process has finished cleanly [pid 3699]
+[INFO] [static_transform_publisher-10]: process has finished cleanly [pid 3701]
+[INFO] [parameter_bridge-4]: process has finished cleanly [pid 3694]
+[INFO] [robot_state_publisher-2]: process has finished cleanly [pid 3692]
+[INFO] [arm1_vision_node-13]: process has finished cleanly [pid 3704]
+[INFO] [arm2_vision_node-14]: process has finished cleanly [pid 3705]
+[INFO] [env_vision_node-12]: process has finished cleanly [pid 3703]
+[ERROR] [move_group_lifetime-5]: process[move_group_lifetime-5] failed to terminate '5' seconds after receiving 'SIGINT', escalating to 'SIGTERM'
+[ERROR] [gazebo-1]: process[gazebo-1] failed to terminate '5' seconds after receiving 'SIGINT', escalating to 'SIGTERM'
+[INFO] [move_group_lifetime-5]: sending signal 'SIGTERM' to process[move_group_lifetime-5]
+[INFO] [gazebo-1]: sending signal 'SIGTERM' to process[gazebo-1]
+[ERROR] [gazebo-1]: process has died [pid 3691, exit code -15, cmd 'ruby /opt/ros/jazzy/opt/gz_tools_vendor/bin/gz sim -r -s /mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_gazebo/share/dual_arm_gazebo/worlds/dual_arm_workspace.sdf --force-version 8'].
+[ERROR] [move_group_lifetime-5]: process has died [pid 3695, exit code -15, cmd '/mnt/e/dual_arm_system/dual_arm_ws/install/dual_arm_bringup/lib/dual_arm_bringup/move_group_lifetime --ros-args --params-file /tmp/launch_params_85yzs8dz'].

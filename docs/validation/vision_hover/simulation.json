@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "states": [
+    "MOVING_HOME_A",
+    "WAITING_FOR_VISION",
+    "MOVING_ABOVE_A",
+    "SUCCEEDED"
+  ],
+  "final": {
+    "state": "SUCCEEDED",
+    "message": "At selected object hover pose; staying here",
+    "target_above_a": [
+      0.15,
+      0.04,
+      0.04
+    ]
+  },
+  "measured_tcp": [
+    0.14983456601107323,
+    0.040024783213693835,
+    0.040044541249380984
+  ],
+  "stayed_at_hover": true,
+  "real_moveit": true,
+  "hardware": "mock",
+  "vision": "mock"
+}

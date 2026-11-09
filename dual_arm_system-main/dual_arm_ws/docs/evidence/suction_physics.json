@@ -1,0 +1,12 @@
+{
+  "attach_response": [
+    "1,attached:cap_1"
+  ],
+  "held_height_m": 0.2,
+  "release_response": [
+    "1,attached:cap_1",
+    "2,released"
+  ],
+  "released_height_m": -4.898158899999967,
+  "status": "PASS"
+}

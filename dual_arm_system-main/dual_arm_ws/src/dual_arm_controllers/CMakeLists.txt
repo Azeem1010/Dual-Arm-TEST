@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.16)
+project(dual_arm_controllers)
+find_package(ament_cmake REQUIRED)
+install(DIRECTORY config DESTINATION share/${PROJECT_NAME})
+ament_package()

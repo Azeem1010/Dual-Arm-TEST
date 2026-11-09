@@ -1,0 +1,76 @@
+{
+  "scope": "Saved samples rechecked with current CAD FK; no collision or hardware acceptance",
+  "source_sha256": "281b384bcbd18b0f76c8fb095af43a25eb80e1515af959936b698774deff09ad",
+  "urdf_sha256": "9c98df6f8c52575b6c3b572a990c7ea3ea20d596c85bfd41ba9ccaddd1d85681",
+  "candidates": [
+    {
+      "name": "toward_user_y",
+      "offset_m": [
+        0.0,
+        -0.007,
+        0.0
+      ],
+      "sample_count": 248,
+      "discrete_fk_status": "PASS",
+      "maximum_position_error_m": 1.7746828456028174e-10,
+      "minimum_downward_dot": 0.9999999999999994,
+      "minimum_limit_margin_rad": 0.022142804748127798,
+      "minimum_limit_margin_deg": 1.2686892586499627,
+      "maximum_adjacent_sample_joint_step_rad": 0.014337848046697688,
+      "critical_sample": {
+        "slot": 7,
+        "lift_m": 0.03,
+        "joint": "arm2_arm_wrist_flex_joint",
+        "margin_rad": 0.022142804748127798
+      },
+      "collision_status": "NOT_RUN",
+      "continuous_trajectory_status": "NOT_RUN"
+    },
+    {
+      "name": "toward_arm_base_x",
+      "offset_m": [
+        0.019,
+        0.0,
+        0.0
+      ],
+      "sample_count": 248,
+      "discrete_fk_status": "PASS",
+      "maximum_position_error_m": 9.61736060275079e-10,
+      "minimum_downward_dot": 0.9999999999999996,
+      "minimum_limit_margin_rad": 0.0031945287814865164,
+      "minimum_limit_margin_deg": 0.18303301671224698,
+      "maximum_adjacent_sample_joint_step_rad": 0.01423204467760264,
+      "critical_sample": {
+        "slot": 7,
+        "lift_m": 0.03,
+        "joint": "arm2_arm_wrist_flex_joint",
+        "margin_rad": 0.0031945287814865164
+      },
+      "collision_status": "NOT_RUN",
+      "continuous_trajectory_status": "NOT_RUN"
+    },
+    {
+      "name": "toward_user_y_10mm",
+      "offset_m": [
+        0.0,
+        -0.01,
+        0.0
+      ],
+      "sample_count": 248,
+      "discrete_fk_status": "PASS",
+      "maximum_position_error_m": 5.844281435393479e-09,
+      "minimum_downward_dot": 0.9999999999999991,
+      "minimum_limit_margin_rad": 0.08828680536759959,
+      "minimum_limit_margin_deg": 5.058461334256399,
+      "maximum_adjacent_sample_joint_step_rad": 0.014828516172126438,
+      "critical_sample": {
+        "slot": 2,
+        "lift_m": 0.012999999999999998,
+        "joint": "arm2_arm_elbow_flex_joint",
+        "margin_rad": 0.08828680536759959
+      },
+      "collision_status": "NOT_RUN",
+      "continuous_trajectory_status": "NOT_RUN"
+    }
+  ]
+}

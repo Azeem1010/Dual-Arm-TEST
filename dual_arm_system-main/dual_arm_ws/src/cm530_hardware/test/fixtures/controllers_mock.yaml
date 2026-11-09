@@ -1,0 +1,36 @@
+# Test fixture only. Goal tolerances for real arms must come from measurements.
+controller_manager:
+  ros__parameters:
+    update_rate: 100
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+    arm1_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+    arm2_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+arm1_controller:
+  ros__parameters:
+    joints: [arm1_arm_shoulder_pan_joint, arm1_arm_shoulder_lift_joint, arm1_arm_elbow_flex_joint, arm1_arm_wrist_flex_joint]
+    command_interfaces: [position]
+    state_interfaces: [position, velocity]
+    allow_partial_joints_goal: false
+    constraints:
+      goal_time: 3.0
+      stopped_velocity_tolerance: 0.5
+      arm1_arm_shoulder_pan_joint: {goal: 0.02}
+      arm1_arm_shoulder_lift_joint: {goal: 0.02}
+      arm1_arm_elbow_flex_joint: {goal: 0.02}
+      arm1_arm_wrist_flex_joint: {goal: 0.02}
+arm2_controller:
+  ros__parameters:
+    joints: [arm2_arm_shoulder_pan_joint, arm2_arm_shoulder_lift_joint, arm2_arm_elbow_flex_joint, arm2_arm_wrist_flex_joint]
+    command_interfaces: [position]
+    state_interfaces: [position, velocity]
+    allow_partial_joints_goal: false
+    constraints:
+      goal_time: 3.0
+      stopped_velocity_tolerance: 0.5
+      arm2_arm_shoulder_pan_joint: {goal: 0.02}
+      arm2_arm_shoulder_lift_joint: {goal: 0.02}
+      arm2_arm_elbow_flex_joint: {goal: 0.02}
+      arm2_arm_wrist_flex_joint: {goal: 0.02}

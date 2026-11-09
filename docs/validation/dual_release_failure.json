@@ -1,0 +1,92 @@
+{
+  "passed": true,
+  "scenario": "release_failure",
+  "state": {
+    "state": "FAULT",
+    "cycle_id": "0ed812bde8544b9c8883a315ed1200d5",
+    "active_arm": "arm2",
+    "holding": "unknown",
+    "b_locked": false,
+    "b_owner": "",
+    "occupied": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "slot": 1,
+    "completed": 0,
+    "arms": {
+      "arm1": {
+        "state": "SUCCEEDED",
+        "holding": "empty",
+        "b_locked": false
+      },
+      "arm2": {
+        "state": "FAULT",
+        "holding": "unknown",
+        "b_locked": false,
+        "occupied": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "slot": 1
+      }
+    },
+    "message": "simulated operator",
+    "confirmation_token": "85b567cf7f2f4c7dacca4ef0bffc469c",
+    "confirmation_operation": "recovery",
+    "config_fingerprint": "f8296172f21028e49627519381492e7453da0cb7029094ef7290d3682b4b4528",
+    "busy": false
+  },
+  "history": [
+    "IDLE",
+    "STARTING",
+    "INITIALIZING",
+    "ARM1:INITIALIZING",
+    "ARM1:ARM1_STATE0_WAIT_A",
+    "ARM1:ARM1_STATE0_QUERY_TARGET",
+    "ARM1:ARM1_STATE1_APPROACH_A",
+    "ARM1:ARM1_STATE1_DESCEND_A",
+    "ARM1:ARM1_STATE1_WAIT_SUCTION_ON",
+    "ARM1:ARM1_STATE1_ATTACH",
+    "ARM1:ARM1_STATE1_LIFT_A",
+    "ARM1:ARM1_STATE1_HOME_HOLDING",
+    "ARM1:ARM1_STATE1_WAIT_B",
+    "ARM1:ARM1_STATE2_B_RESERVED",
+    "ARM1:ARM1_STATE2_APPROACH_B",
+    "ARM1:ARM1_STATE2_DESCEND_B",
+    "ARM1:ARM1_STATE2_WAIT_SUCTION_OFF",
+    "ARM1:ARM1_STATE2_DETACH",
+    "ARM1:ARM1_STATE3_LIFT_B",
+    "ARM1:ARM1_STATE3_HOME",
+    "ARM1:ARM1_STATE3_VERIFY_B",
+    "ARM1:SUCCEEDED",
+    "ARM2:CHECK_B_READY",
+    "ARM2:VERIFY_LAYOUT",
+    "ARM2:PREFLIGHT",
+    "ARM2:B_RESERVED",
+    "ARM2:DESCEND_B",
+    "ARM2:GRASP_B",
+    "ARM2:ATTACH",
+    "ARM2:LIFT_B",
+    "ARM2:HOME_WITH_OBJECT",
+    "ARM2:VERIFY_B_EMPTY",
+    "ARM2:B_EMPTY",
+    "ARM2:APPROACH_C",
+    "ARM2:DESCEND_C",
+    "ARM2:RELEASE_C",
+    "ARM2:FAULT",
+    "FAULT"
+  ]
+}

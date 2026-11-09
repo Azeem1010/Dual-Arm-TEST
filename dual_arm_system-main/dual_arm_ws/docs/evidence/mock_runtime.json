@@ -1,0 +1,25 @@
+{
+  "mode": "mock",
+  "joint_feedback": "PASS",
+  "joints": {
+    "arm1_arm_elbow_flex_joint": 0.0,
+    "arm1_arm_shoulder_lift_joint": 0.0,
+    "arm1_arm_shoulder_pan_joint": 0.0,
+    "arm1_arm_wrist_flex_joint": 0.0,
+    "arm2_arm_elbow_flex_joint": 0.0,
+    "arm2_arm_shoulder_lift_joint": 0.0,
+    "arm2_arm_shoulder_pan_joint": 0.0,
+    "arm2_arm_wrist_flex_joint": 0.0
+  },
+  "images": {},
+  "camera_info": {},
+  "ground_truth": {},
+  "three_camera_streams": "NOT_RUN",
+  "workspace_views": "NOT_RUN",
+  "controllers": "PASS",
+  "moveit_plan": "PASS",
+  "moveit_error_code": 1,
+  "status": "PASS",
+  "shutdown": "PASS",
+  "mesh_resources": "PASS"
+}

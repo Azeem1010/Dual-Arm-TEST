@@ -1,0 +1,170 @@
+Starting >>> cm530_hardware
+UpdateCTestConfiguration  from :/mnt/e/dual_arm_system/dual_arm_ws/build/cm530_hardware/CTestConfiguration.ini
+Parse Config file:/mnt/e/dual_arm_system/dual_arm_ws/build/cm530_hardware/CTestConfiguration.ini
+   Site: DESKTOP-HBTEAAO
+   Build name: (empty)
+ Add coverage exclude regular expressions.
+Create new tag: 20261108-1832 - Experimental
+UpdateCTestConfiguration  from :/mnt/e/dual_arm_system/dual_arm_ws/build/cm530_hardware/CTestConfiguration.ini
+Parse Config file:/mnt/e/dual_arm_system/dual_arm_ws/build/cm530_hardware/CTestConfiguration.ini
+Test project /mnt/e/dual_arm_system/dual_arm_ws/build/cm530_hardware
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+    Start 1: cm530_protocol_test
+
+1: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/mnt/e/dual_arm_system/dual_arm_ws/build/cm530_hardware/test_results/cm530_hardware/cm530_protocol_test.gtest.xml" "--package-name" "cm530_hardware" "--output-file" "/mnt/e/dual_arm_system/dual_arm_ws/build/cm530_hardware/ament_cmake_gtest/cm530_protocol_test.txt" "--command" "/mnt/e/dual_arm_system/dual_arm_ws/build/cm530_hardware/cm530_protocol_test" "--gtest_output=xml:/mnt/e/dual_arm_system/dual_arm_ws/build/cm530_hardware/test_results/cm530_hardware/cm530_protocol_test.gtest.xml"
+1: Working Directory: /mnt/e/dual_arm_system/dual_arm_ws/build/cm530_hardware
+1: Test timeout computed to be: 60
+1: -- run_test.py: invoking following command in '/mnt/e/dual_arm_system/dual_arm_ws/build/cm530_hardware':
+1:  - /mnt/e/dual_arm_system/dual_arm_ws/build/cm530_hardware/cm530_protocol_test --gtest_output=xml:/mnt/e/dual_arm_system/dual_arm_ws/build/cm530_hardware/test_results/cm530_hardware/cm530_protocol_test.gtest.xml
+1: Running main() from /opt/ros/jazzy/src/gtest_vendor/src/gtest_main.cc
+1: [==========] Running 4 tests from 1 test suite.
+1: [----------] Global test environment set-up.
+1: [----------] 4 tests from Protocol
+1: [ RUN      ] Protocol.FormatsExactBytes
+1: [       OK ] Protocol.FormatsExactBytes (0 ms)
+1: [ RUN      ] Protocol.AcceptsExactReplies
+1: [       OK ] Protocol.AcceptsExactReplies (0 ms)
+1: [ RUN      ] Protocol.RejectsAnythingElse
+1: [       OK ] Protocol.RejectsAnythingElse (0 ms)
+1: [ RUN      ] Protocol.SeparatesErrorsAndRestarts
+1: [       OK ] Protocol.SeparatesErrorsAndRestarts (0 ms)
+1: [----------] 4 tests from Protocol (0 ms total)
+1: 
+1: [----------] Global test environment tear-down
+1: [==========] 4 tests from 1 test suite ran. (0 ms total)
+1: [  PASSED  ] 4 tests.
+1: -- run_test.py: return code 0
+1: -- run_test.py: inject classname prefix into gtest result file '/mnt/e/dual_arm_system/dual_arm_ws/build/cm530_hardware/test_results/cm530_hardware/cm530_protocol_test.gtest.xml'
+1: -- run_test.py: verify result file '/mnt/e/dual_arm_system/dual_arm_ws/build/cm530_hardware/test_results/cm530_hardware/cm530_protocol_test.gtest.xml'
+1/4 Test #1: cm530_protocol_test ..............   Passed    1.01 sec
+test 2
+    Start 2: cm530_calibration_test
+
+2: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/mnt/e/dual_arm_system/dual_arm_ws/build/cm530_hardware/test_results/cm530_hardware/cm530_calibration_test.gtest.xml" "--package-name" "cm530_hardware" "--output-file" "/mnt/e/dual_arm_system/dual_arm_ws/build/cm530_hardware/ament_cmake_gtest/cm530_calibration_test.txt" "--env" "CM530_TEMPLATE=/mnt/e/dual_arm_system/dual_arm_ws/src/cm530_hardware/config/calibration.yaml" "--command" "/mnt/e/dual_arm_system/dual_arm_ws/build/cm530_hardware/cm530_calibration_test" "--gtest_output=xml:/mnt/e/dual_arm_system/dual_arm_ws/build/cm530_hardware/test_results/cm530_hardware/cm530_calibration_test.gtest.xml"
+2: Working Directory: /mnt/e/dual_arm_system/dual_arm_ws/build/cm530_hardware
+2: Test timeout computed to be: 60
+2: -- run_test.py: extra environment variables:
+2:  - CM530_TEMPLATE=/mnt/e/dual_arm_system/dual_arm_ws/src/cm530_hardware/config/calibration.yaml
+2: -- run_test.py: invoking following command in '/mnt/e/dual_arm_system/dual_arm_ws/build/cm530_hardware':
+2:  - /mnt/e/dual_arm_system/dual_arm_ws/build/cm530_hardware/cm530_calibration_test --gtest_output=xml:/mnt/e/dual_arm_system/dual_arm_ws/build/cm530_hardware/test_results/cm530_hardware/cm530_calibration_test.gtest.xml
+2: Running main() from /opt/ros/jazzy/src/gtest_vendor/src/gtest_main.cc
+2: [==========] Running 7 tests from 1 test suite.
+2: [----------] Global test environment set-up.
+2: [----------] 7 tests from Calibration
+2: [ RUN      ] Calibration.ConvertsLikeTheCoordinator
+2: [       OK ] Calibration.ConvertsLikeTheCoordinator (2 ms)
+2: [ RUN      ] Calibration.RoundTripsEveryRawValue
+2: [       OK ] Calibration.RoundTripsEveryRawValue (0 ms)
+2: [ RUN      ] Calibration.RejectsOutOfLimitAndNonFiniteCommands
+2: [       OK ] Calibration.RejectsOutOfLimitAndNonFiniteCommands (0 ms)
+2: [ RUN      ] Calibration.ShippedTemplateCannotLoad
+2: [       OK ] Calibration.ShippedTemplateCannotLoad (78 ms)
+2: [ RUN      ] Calibration.RejectsInvalidDocuments
+2: [       OK ] Calibration.RejectsInvalidDocuments (1 ms)
+2: [ RUN      ] Calibration.AuthorizesMotionOnlyWithFullPhysicalEvidence
+2: [       OK ] Calibration.AuthorizesMotionOnlyWithFullPhysicalEvidence (2 ms)
+2: [ RUN      ] Calibration.MockEvidenceNeverAuthorizesARealPort
+2: [       OK ] Calibration.MockEvidenceNeverAuthorizesARealPort (0 ms)
+2: [----------] 7 tests from Calibration (85 ms total)
+2: 
+2: [----------] Global test environment tear-down
+2: [==========] 7 tests from 1 test suite ran. (85 ms total)
+2: [  PASSED  ] 7 tests.
+2: -- run_test.py: return code 0
+2: -- run_test.py: inject classname prefix into gtest result file '/mnt/e/dual_arm_system/dual_arm_ws/build/cm530_hardware/test_results/cm530_hardware/cm530_calibration_test.gtest.xml'
+2: -- run_test.py: verify result file '/mnt/e/dual_arm_system/dual_arm_ws/build/cm530_hardware/test_results/cm530_hardware/cm530_calibration_test.gtest.xml'
+2/4 Test #2: cm530_calibration_test ...........   Passed    1.33 sec
+test 3
+    Start 3: cm530_link_test
+
+3: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/mnt/e/dual_arm_system/dual_arm_ws/build/cm530_hardware/test_results/cm530_hardware/cm530_link_test.gtest.xml" "--package-name" "cm530_hardware" "--output-file" "/mnt/e/dual_arm_system/dual_arm_ws/build/cm530_hardware/ament_cmake_gtest/cm530_link_test.txt" "--command" "/mnt/e/dual_arm_system/dual_arm_ws/build/cm530_hardware/cm530_link_test" "--gtest_output=xml:/mnt/e/dual_arm_system/dual_arm_ws/build/cm530_hardware/test_results/cm530_hardware/cm530_link_test.gtest.xml"
+3: Working Directory: /mnt/e/dual_arm_system/dual_arm_ws/build/cm530_hardware
+3: Test timeout computed to be: 60
+3: -- run_test.py: invoking following command in '/mnt/e/dual_arm_system/dual_arm_ws/build/cm530_hardware':
+3:  - /mnt/e/dual_arm_system/dual_arm_ws/build/cm530_hardware/cm530_link_test --gtest_output=xml:/mnt/e/dual_arm_system/dual_arm_ws/build/cm530_hardware/test_results/cm530_hardware/cm530_link_test.gtest.xml
+3: Running main() from /opt/ros/jazzy/src/gtest_vendor/src/gtest_main.cc
+3: [==========] Running 12 tests from 1 test suite.
+3: [----------] Global test environment set-up.
+3: [----------] 12 tests from LinkTest
+3: [ RUN      ] LinkTest.BootsWithTorqueOffAndReady
+3: [       OK ] LinkTest.BootsWithTorqueOffAndReady (0 ms)
+3: [ RUN      ] LinkTest.HandshakesWithOrWithoutReady
+3: [       OK ] LinkTest.HandshakesWithOrWithoutReady (2 ms)
+3: [ RUN      ] LinkTest.RejectsInitFailureAtHandshake
+3: [       OK ] LinkTest.RejectsInitFailureAtHandshake (0 ms)
+3: [ RUN      ] LinkTest.ReadsFirmwareHomePresets
+3: [       OK ] LinkTest.ReadsFirmwareHomePresets (0 ms)
+3: [ RUN      ] LinkTest.MapsJointOrderToMotorIds
+3: [       OK ] LinkTest.MapsJointOrderToMotorIds (0 ms)
+3: [ RUN      ] LinkTest.FirmwareRequiresTargetBeforeTorque
+3: [       OK ] LinkTest.FirmwareRequiresTargetBeforeTorque (0 ms)
+3: [ RUN      ] LinkTest.ReportsMotorFaultsWithoutPartialPose
+3: [       OK ] LinkTest.ReportsMotorFaultsWithoutPartialPose (0 ms)
+3: [ RUN      ] LinkTest.TimeoutLatchesAndNeverResends
+3: [       OK ] LinkTest.TimeoutLatchesAndNeverResends (20 ms)
+3: [ RUN      ] LinkTest.WrongOrRestartRepliesLatch
+3: [       OK ] LinkTest.WrongOrRestartRepliesLatch (0 ms)
+3: [ RUN      ] LinkTest.StaleInputBlocksTheNextRequest
+3: [       OK ] LinkTest.StaleInputBlocksTheNextRequest (0 ms)
+3: [ RUN      ] LinkTest.ToleratesLeftoverLineEndingsAndFragments
+3: [       OK ] LinkTest.ToleratesLeftoverLineEndingsAndFragments (0 ms)
+3: [ RUN      ] LinkTest.TransportFailureLatches
+3: [       OK ] LinkTest.TransportFailureLatches (18 ms)
+3: [----------] 12 tests from LinkTest (41 ms total)
+3: 
+3: [----------] Global test environment tear-down
+3: [==========] 12 tests from 1 test suite ran. (41 ms total)
+3: [  PASSED  ] 12 tests.
+3: -- run_test.py: return code 0
+3: -- run_test.py: inject classname prefix into gtest result file '/mnt/e/dual_arm_system/dual_arm_ws/build/cm530_hardware/test_results/cm530_hardware/cm530_link_test.gtest.xml'
+3: -- run_test.py: verify result file '/mnt/e/dual_arm_system/dual_arm_ws/build/cm530_hardware/test_results/cm530_hardware/cm530_link_test.gtest.xml'
+3/4 Test #3: cm530_link_test ..................   Passed    1.16 sec
+test 4
+    Start 4: cm530_scheduler_test
+
+4: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/mnt/e/dual_arm_system/dual_arm_ws/build/cm530_hardware/test_results/cm530_hardware/cm530_scheduler_test.gtest.xml" "--package-name" "cm530_hardware" "--output-file" "/mnt/e/dual_arm_system/dual_arm_ws/build/cm530_hardware/ament_cmake_gtest/cm530_scheduler_test.txt" "--command" "/mnt/e/dual_arm_system/dual_arm_ws/build/cm530_hardware/cm530_scheduler_test" "--gtest_output=xml:/mnt/e/dual_arm_system/dual_arm_ws/build/cm530_hardware/test_results/cm530_hardware/cm530_scheduler_test.gtest.xml"
+4: Working Directory: /mnt/e/dual_arm_system/dual_arm_ws/build/cm530_hardware
+4: Test timeout computed to be: 60
+4: -- run_test.py: invoking following command in '/mnt/e/dual_arm_system/dual_arm_ws/build/cm530_hardware':
+4:  - /mnt/e/dual_arm_system/dual_arm_ws/build/cm530_hardware/cm530_scheduler_test --gtest_output=xml:/mnt/e/dual_arm_system/dual_arm_ws/build/cm530_hardware/test_results/cm530_hardware/cm530_scheduler_test.gtest.xml
+4: Running main() from /opt/ros/jazzy/src/gtest_vendor/src/gtest_main.cc
+4: [==========] Running 6 tests from 1 test suite.
+4: [----------] Global test environment set-up.
+4: [----------] 6 tests from SchedulerTest
+4: [ RUN      ] SchedulerTest.ReadOnlyModeNeverWritesTargets
+4: [       OK ] SchedulerTest.ReadOnlyModeNeverWritesTargets (1 ms)
+4: [ RUN      ] SchedulerTest.SendsChangedTargetsOnceAndFollowsFeedback
+4: [       OK ] SchedulerTest.SendsChangedTargetsOnceAndFollowsFeedback (21 ms)
+4: [ RUN      ] SchedulerTest.OversizedStepFaultsWithoutWriting
+4: [       OK ] SchedulerTest.OversizedStepFaultsWithoutWriting (1 ms)
+4: [ RUN      ] SchedulerTest.MotorFaultStopsAllTraffic
+4: [       OK ] SchedulerTest.MotorFaultStopsAllTraffic (21 ms)
+4: [ RUN      ] SchedulerTest.LostReplyFaultsWithoutRetry
+4: [       OK ] SchedulerTest.LostReplyFaultsWithoutRetry (60 ms)
+4: [ RUN      ] SchedulerTest.StopJoinsPromptlyAndIsRepeatable
+4: [       OK ] SchedulerTest.StopJoinsPromptlyAndIsRepeatable (0 ms)
+4: [----------] 6 tests from SchedulerTest (106 ms total)
+4: 
+4: [----------] Global test environment tear-down
+4: [==========] 6 tests from 1 test suite ran. (106 ms total)
+4: [  PASSED  ] 6 tests.
+4: -- run_test.py: return code 0
+4: -- run_test.py: inject classname prefix into gtest result file '/mnt/e/dual_arm_system/dual_arm_ws/build/cm530_hardware/test_results/cm530_hardware/cm530_scheduler_test.gtest.xml'
+4: -- run_test.py: verify result file '/mnt/e/dual_arm_system/dual_arm_ws/build/cm530_hardware/test_results/cm530_hardware/cm530_scheduler_test.gtest.xml'
+4/4 Test #4: cm530_scheduler_test .............   Passed    1.61 sec
+
+100% tests passed, 0 tests failed out of 4
+
+Label Time Summary:
+gtest    =   5.12 sec*proc (4 tests)
+
+Total Test time (real) =   5.76 sec
+Finished <<< cm530_hardware [12.2s]
+
+Summary: 1 package finished [18.3s]

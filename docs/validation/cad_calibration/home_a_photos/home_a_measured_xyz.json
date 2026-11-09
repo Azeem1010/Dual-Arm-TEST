@@ -1,0 +1,51 @@
+{
+  "pose": "firmware Home_A",
+  "measurement_source": "user ruler measurement after firmware HOME",
+  "frame_description": "camera calibration convention: base yaw axis projected to field top; +X into field, +Y left, +Z up",
+  "tcp_description": "suction lip centre",
+  "measured_xyz_mm": [
+    135.0,
+    -80.0,
+    120.0
+  ],
+  "measured_xyz_m": [
+    0.135,
+    -0.08,
+    0.12
+  ],
+  "mounting_plate_top_minus_field_top_mm": 0.0,
+  "home_raw": [
+    90,
+    567,
+    712,
+    825
+  ],
+  "last_observed_raw": [
+    90,
+    572,
+    715,
+    825
+  ],
+  "raw_sample_note": "last observed at HOME arrival, not a new simultaneous read",
+  "calibration_validated": false,
+  "platform_height_source": "user confirmed both pink board top surfaces at same height",
+  "nominal_geometry_check": {
+    "assumptions": [
+      "CAD shoulder directly over base yaw axis",
+      "TCP axis vertical downward",
+      "CAD shoulder height 85.5 mm above platform",
+      "wrist axis to TCP 71 mm",
+      "link lengths 93.5 mm each"
+    ],
+    "shoulder_to_wrist_distance_mm": 189.09058675671827,
+    "maximum_two_link_length_mm": 187.0,
+    "excess_mm": 2.0905867567182668,
+    "interpretation": "Ruler measurement convention/precision and model assumptions need checking; not a validated motor calibration.",
+    "max_tcp_height_at_measured_xy_mm": 116.20545708072896,
+    "measured_height_above_nominal_max_mm": 3.794542919271038,
+    "note": "Maximum assumes fully straight shoulder-elbow-wrist chain and vertical downward suction. Do not replace measured Z with this calculated limit."
+  },
+  "x_measurement_convention_confirmed": true,
+  "x_measurement_convention": "135 mm projection along field +X; rightward displacement separately measured as 80 mm",
+  "x_convention_confirmed_on": "2026-11-09"
+}

@@ -1,0 +1,12 @@
+test_arm2_requires_slot_number_verification (test_validity.ValidityTests.test_arm2_requires_slot_number_verification) ... ok
+test_budget_uses_clearance_and_uncertainty (test_validity.ValidityTests.test_budget_uses_clearance_and_uncertainty) ... ok
+test_missing_record_fails_closed (test_validity.ValidityTests.test_missing_record_fails_closed) ... ok
+test_simulation_never_authorizes_hardware (test_validity.ValidityTests.test_simulation_never_authorizes_hardware) ... ok
+test_stale_future_expired_and_changed_pose (test_validity.ValidityTests.test_stale_future_expired_and_changed_pose) ... ok
+test_unverified_errors_and_nan_rejected (test_validity.ValidityTests.test_unverified_errors_and_nan_rejected) ... ok
+test_valid_fixture (test_validity.ValidityTests.test_valid_fixture) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.003s
+
+OK

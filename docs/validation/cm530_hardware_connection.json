@@ -1,0 +1,52 @@
+{
+  "checked_at": "2026-11-05T14:20:18.578847+08:00",
+  "port": "/dev/ttyUSB0",
+  "persistent_port": "/dev/serial/by-id/usb-FTDI_FT232R_USB_UART_AH01R3LJ-if00-port0",
+  "baud": 57600,
+  "format": "8N1",
+  "serial_opened": true,
+  "protocol_5_verified": true,
+  "mode": "persistent_read_only_ros_monitor",
+  "ros_domain_id": 0,
+  "topic": "/cm530/raw_state",
+  "poll_period_seconds": 1.0,
+  "live_state_file": "docs/validation/cm530_live_state.json",
+  "arms": {
+    "arm1": {
+      "home_raw": [
+        90,
+        567,
+        712,
+        825
+      ],
+      "position_raw": [
+        213,
+        524,
+        517,
+        486
+      ],
+      "received_monotonic": 1502.669306755
+    },
+    "arm2": {
+      "home_raw": [
+        590,
+        567,
+        712,
+        825
+      ],
+      "position_raw": [
+        537,
+        505,
+        536,
+        662
+      ],
+      "received_monotonic": 1502.685188893
+    }
+  },
+  "motion_or_torque_commands_sent": false,
+  "firmware_modified_or_flashed": false,
+  "previous_attempt": {
+    "tx": "VERSION",
+    "rx": "ERR,BAD_CMD"
+  }
+}

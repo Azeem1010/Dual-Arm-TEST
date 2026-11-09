@@ -1,0 +1,68 @@
+[INFO] [1794210489.692285947] [move_group.moveit.moveit.ros.rdf_loader]: Loaded robot model in 0.00559171 seconds
+[INFO] [1794210489.692734886] [move_group.moveit.moveit.core.robot_model]: Loading robot model 'dual_arm_pincher'...
+[INFO] [1794210489.692792263] [move_group.moveit.moveit.core.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[INFO] [1794210489.703220657] [move_group.moveit.moveit.kinematics.kdl_kinematics_plugin]: Joint weights for group 'arm1': 1 1 1 1
+[INFO] [1794210489.728013885] [move_group.moveit.moveit.ros.moveit_cpp]: Listening to 'joint_states' for joint states
+[INFO] [1794210489.732741479] [move_group.moveit.moveit.ros.current_state_monitor]: Listening to joint states on topic 'joint_states'
+[INFO] [1794210489.762995886] [move_group.moveit.moveit.ros.planning_scene_monitor]: Listening to '/attached_collision_object' for attached collision objects
+[INFO] [1794210489.766870789] [move_group.moveit.moveit.ros.planning_scene_monitor]: Publishing maintained planning scene on 'monitored_planning_scene'
+[INFO] [1794210489.767394000] [move_group.moveit.moveit.ros.planning_scene_monitor]: Starting planning scene monitor
+[INFO] [1794210489.768634540] [move_group.moveit.moveit.ros.planning_scene_monitor]: Listening to '/planning_scene'
+[INFO] [1794210489.768723630] [move_group.moveit.moveit.ros.planning_scene_monitor]: Starting world geometry update monitor for collision objects, attached objects, octomap updates.
+[INFO] [1794210489.769650435] [move_group.moveit.moveit.ros.planning_scene_monitor]: Listening to 'collision_object'
+[INFO] [1794210489.770586456] [move_group.moveit.moveit.ros.planning_scene_monitor]: Listening to 'planning_scene_world' for planning scene world geometry
+[WARN] [1794210489.771269607] [move_group.moveit.moveit.ros.occupancy_map_monitor]: Resolution not specified for Octomap. Assuming resolution = 0.1 instead
+[ERROR] [1794210489.771316072] [move_group.moveit.moveit.ros.occupancy_map_monitor]: No 3D sensor plugin(s) defined for octomap updates
+[INFO] [1794210489.815717612] [move_group.moveit.moveit.ros.planning_pipeline]: Successfully loaded planner 'OMPL'
+[WARN] [1794210489.815884976] [move_group.moveit.moveit.ros.planning_pipeline]: No planning request adapter names specified.
+[WARN] [1794210489.815914641] [move_group.moveit.moveit.ros.planning_pipeline]: No planning response adapter names specified.
+[WARN] [1794210489.817719545] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Parameter '~moveit_controller_manager' is not specified but only one matching plugin was found: 'moveit_simple_controller_manager/MoveItSimpleControllerManager'. Using that one.
+[ERROR] [1794210489.835837488] [move_group.moveit.moveit.plugins.simple_controller_manager]: No controller_names specified.
+[INFO] [1794210489.836322843] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 0 controllers in list
+[INFO] [1794210489.836388412] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 0 controllers in list
+[INFO] [1794210489.837955999] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Trajectory execution is not managing controllers
+[INFO] [1794210489.838035233] [move_group]: MoveGroup debug mode is ON
+[INFO] [1794210489.877603705] [move_group.moveit.moveit.ros.move_group.executable]: 
+
+********************************************************
+* MoveGroup using: 
+*     - apply_planning_scene_service
+*     - clear_octomap_service
+*     - get_group_urdf
+*     - load_geometry_from_file
+*     - CartesianPathService
+*     - execute_trajectory_action
+*     - get_planning_scene_service
+*     - kinematics_service
+*     - move_action
+*     - motion_plan_service
+*     - query_planners_service
+*     - state_validation_service
+*     - save_geometry_to_file
+********************************************************
+
+[INFO] [1794210489.877794173] [move_group.moveit.moveit.ros.move_group.context]: MoveGroup context using pipeline ompl
+[INFO] [1794210489.877837374] [move_group.moveit.moveit.ros.move_group.context]: MoveGroup context initialization complete
+[96mLoading 'move_group/ApplyPlanningSceneService'...[0m
+[96mLoading 'move_group/ClearOctomapService'...[0m
+[96mLoading 'move_group/GetUrdfService'...[0m
+[96mLoading 'move_group/LoadGeometryFromFileService'...[0m
+[96mLoading 'move_group/MoveGroupCartesianPathService'...[0m
+[96mLoading 'move_group/MoveGroupExecuteTrajectoryAction'...[0m
+[96mLoading 'move_group/MoveGroupGetPlanningSceneService'...[0m
+[96mLoading 'move_group/MoveGroupKinematicsService'...[0m
+[96mLoading 'move_group/MoveGroupMoveAction'...[0m
+[96mLoading 'move_group/MoveGroupPlanService'...[0m
+[96mLoading 'move_group/MoveGroupQueryPlannersService'...[0m
+[96mLoading 'move_group/MoveGroupStateValidationService'...[0m
+[96mLoading 'move_group/SaveGeometryToFileService'...[0m
+
+[92mYou can start planning now![0m
+
+[INFO] [1794210498.603380215] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1794210498.640866438] [move_group.moveit.moveit.ros.moveit_cpp]: Deleting MoveItCpp
+[INFO] [1794210498.659848883] [move_group.moveit.moveit.ros.planning_scene_monitor]: Stopped publishing maintained planning scene.
+[INFO] [1794210498.661088111] [move_group.moveit.moveit.ros.planning_scene_monitor]: Stopping world geometry monitor
+[INFO] [1794210498.661601339] [move_group.moveit.moveit.ros.planning_scene_monitor]: Stopping planning scene monitor
+Stack trace (most recent call last):
+#11   Object "/usr/lib/aarch64-linux-gnu/ld-linux-aarch64.so.1", at 0xffffffffffffffff, in 

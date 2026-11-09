@@ -1,0 +1,24 @@
+=== sanitizer address,undefined
+[ 94%] Building CXX object CMakeFiles/cm530_scheduler_test.dir/test/test_scheduler.cpp.o
+[100%] Linking CXX executable cm530_scheduler_test
+[100%] Built target cm530_scheduler_test
+cm530_protocol_test exit=0 passed=20 failed_lines=0 sanitizer_reports=0
+cm530_calibration_test exit=0 passed=20 failed_lines=0 sanitizer_reports=0
+cm530_link_test exit=0 passed=20 failed_lines=0 sanitizer_reports=0
+cm530_scheduler_test exit=0 passed=20 failed_lines=0 sanitizer_reports=0
+=== sanitizer thread
+[ 94%] Building CXX object CMakeFiles/cm530_scheduler_test.dir/test/test_scheduler.cpp.o
+[100%] Linking CXX executable cm530_scheduler_test
+[100%] Built target cm530_scheduler_test
+cm530_protocol_test exit=66 passed=0 failed_lines=0 sanitizer_reports=0
+FATAL: ThreadSanitizer: unexpected memory mapping 0x6455c075d000-0x6455c0766000
+cm530_calibration_test exit=0 passed=20 failed_lines=0 sanitizer_reports=0
+cm530_link_test exit=66 passed=0 failed_lines=0 sanitizer_reports=0
+FATAL: ThreadSanitizer: unexpected memory mapping 0x6305fa1bb000-0x6305fa1c5000
+cm530_scheduler_test exit=66 passed=0 failed_lines=0 sanitizer_reports=0
+FATAL: ThreadSanitizer: unexpected memory mapping 0x5ca597198000-0x5ca5971a2000
+=== sanitizer thread, ASLR disabled for this process only (WSL mapping limit)
+cm530_protocol_test exit=0 passed=20 failed_lines=0 tsan_reports=0
+cm530_calibration_test exit=0 passed=20 failed_lines=0 tsan_reports=0
+cm530_link_test exit=0 passed=20 failed_lines=0 tsan_reports=0
+cm530_scheduler_test exit=0 passed=20 failed_lines=0 tsan_reports=0

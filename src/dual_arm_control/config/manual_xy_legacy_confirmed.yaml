@@ -1,0 +1,92 @@
+# User-confirmed legacy mapping/installation; clearance is session-limited.
+# TCP alias coincides with legacy end_effector; not physical suction-tip coordinates.
+task_coordinator:
+  ros__parameters:
+    calibrated: true
+    pick_z: 0.02
+    approach_height: 0.03
+    velocity_scale: 0.05
+    acceleration_scale: 0.05
+    table_size:
+    - 0.6
+    - 0.6
+    - 0.04
+    table_center:
+    - 0.3
+    - 0.0
+    - -0.04
+cm530_bridge:
+  ros__parameters:
+    arms:
+    - arm1
+    hardware_calibrated: true
+    serial_port: /dev/serial/by-id/usb-FTDI_FT232R_USB_UART_AH01R3LJ-if00-port0
+    command_period: 0.1
+    command_timeout: 2.0
+    arm1.zero_raw:
+    - 512
+    - 512
+    - 512
+    - 512
+    arm1.direction:
+    - 1
+    - 1
+    - 1
+    - 1
+    arm1.raw_min:
+    - 0
+    - 0
+    - 0
+    - 0
+    arm1.raw_max:
+    - 1023
+    - 1023
+    - 1023
+    - 1023
+    arm1.lower_rad:
+    - -2.6179938779914944
+    - -2.0943951023931953
+    - -2.426007660272118
+    - -1.710422666954443
+    arm1.upper_rad:
+    - 2.6179938779914944
+    - 2.0943951023931953
+    - 2.426007660272118
+    - 1.7976891295541595
+manual_xy:
+  xy_min:
+  - 0.03
+  - -0.2
+  xy_max:
+  - 0.3
+  - 0.2
+  tool:
+    xyz:
+    - 0.0
+    - 0.0
+    - 0.0
+    rpy:
+    - 0.0
+    - 0.0
+    - 0.0
+    box_size:
+    - 0.01
+    - 0.01
+    - 0.01
+    box_center:
+    - 0.0
+    - 0.0
+    - 0.005
+  obstacles: []
+  calibration:
+    method: legacy_user_confirmed
+    source: "/home/orin/\u4E0B\u8F09/Ros2\u667A\u6167\u6A5F\u68B0\u624B\u81C2 Linux\u7248\
+      /jetson-jazzy-roundtrip/config/tabletop.yaml"
+    joint_mapping_user_confirmed: true
+    unchanged_installation_user_confirmed: true
+    workspace_clear_user_confirmed: true
+    # 2026-11-05 photo: actual arm points left while commanded model +X
+    # target was intended for A on the right. Keep motion blocked until the
+    # physical base-to-model direction is established from observed movement.
+    physical_base_alignment_confirmed: false
+    clearance_valid_until_unix_s: 1793865954.8532624

@@ -1,0 +1,41 @@
+{
+  "scenario": "full",
+  "passed": true,
+  "states": [
+    "IDLE",
+    "STARTING",
+    "INITIALIZING",
+    "ARM1_STATE0_WAIT_A",
+    "ARM1_STATE0_QUERY_TARGET",
+    "ARM1_STATE1_APPROACH_A",
+    "ARM1_STATE1_DESCEND_A",
+    "ARM1_STATE1_WAIT_SUCTION_ON",
+    "ARM1_STATE1_ATTACH",
+    "ARM1_STATE1_LIFT_A",
+    "ARM1_STATE1_HOME_HOLDING",
+    "ARM1_STATE1_WAIT_B",
+    "ARM1_STATE2_B_RESERVED",
+    "ARM1_STATE2_APPROACH_B",
+    "ARM1_STATE2_DESCEND_B",
+    "ARM1_STATE2_WAIT_SUCTION_OFF",
+    "ARM1_STATE2_DETACH",
+    "ARM1_STATE3_LIFT_B",
+    "ARM1_STATE3_HOME",
+    "ARM1_STATE3_VERIFY_B",
+    "SUCCEEDED"
+  ],
+  "final": {
+    "state": "SUCCEEDED",
+    "cycle_id": "1d4b8bd444364527b0863ee82f835c30",
+    "holding": "empty",
+    "b_locked": false,
+    "message": "A to B completed; B occupied and arm clear verified",
+    "confirmation_token": "",
+    "confirmation_operation": "",
+    "busy": false
+  },
+  "real_moveit": true,
+  "actuator": "mock",
+  "vision": "mock",
+  "esp32_connected": false
+}

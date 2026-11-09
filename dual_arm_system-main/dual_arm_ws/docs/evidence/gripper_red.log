@@ -1,0 +1,4 @@
+src/dual_arm_gripper/test/policy_test.cpp:1:10: fatal error: dual_arm_gripper/policy.hpp: No such file or directory
+    1 | #include "dual_arm_gripper/policy.hpp"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.

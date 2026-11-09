@@ -1,0 +1,39 @@
+start {"A": [0.14, 0.03, 0.018999999944852998], "B": [0.0, 0.02, 0.019], "C": [-0.1675, 0.02, 0.006]}
+A_approach_start {"arm": "arm1", "target": [0.14, 0.03, 0.053999999944853]}
+A_approach_done {"tcp": [0.14000169705989599, 0.030011052986968354, 0.05400227021633093], "object": [0.14, 0.03, 0.018999999944852998]}
+A_contact_start {"arm": "arm1", "target": [0.14, 0.03, 0.024299999944852997]}
+A_contact_done {"tcp": [0.14000132524128564, 0.03000253222436523, 0.02430902349282138], "object": [0.14, 0.03, 0.018999999944852998]}
+attach_ack {"arm": "arm1", "response": "1794142037785209,attached:cap_5"}
+A_lift_start {"arm": "arm1", "target": [0.14, 0.03, 0.053999999944853]}
+A_lift_done {"tcp": [0.13999944066614856, 0.03000154870886421, 0.053992321834663], "object": [0.13999819324227797, 0.02999924418095045, 0.048681149958489406]}
+physical_lift_verified {"arm": "arm1", "object": [0.13999819324227797, 0.02999924418095045, 0.048681149958489406]}
+B_arm1_approach_start {"arm": "arm1", "target": [0.0, 0.02, 0.054000000000000006]}
+B_arm1_approach_done {"tcp": [6.680987144199943e-06, 0.020006157852602485, 0.054001743271481106], "object": [9.888282099999174e-06, 0.020004989117738507, 0.048693113357387505]}
+B_arm1_place_start {"arm": "arm1", "target": [0.0, 0.02, 0.0243]}
+B_arm1_place_done {"tcp": [-2.165623167639172e-06, 0.020000221206397127, 0.024310213748303264], "object": [-6.784769232947435e-07, 0.019997986763979618, 0.019003269772969553]}
+release_ack {"arm": "arm1", "response": "1794142037785210,released"}
+B_arm1_retreat_start {"arm": "arm1", "target": [0.0, 0.02, 0.054000000000000006]}
+B_arm1_retreat_done {"tcp": [-1.76091887092375e-06, 0.020001014136624265, 0.053991937849398416], "object": [-9.169351574585867e-07, 0.01999822788784159, 0.018999873780081247]}
+arm1_home_start {"arm": "arm1", "target": null}
+arm1_home_done {"tcp": [0.09998926188153488, 0.1308792807578927, 0.17208100866784862], "object": [-7.905064144320509e-07, 0.01999805896888803, 0.019000082951261932]}
+B_placement_verified {"object": [-7.204485872192325e-07, 0.019997990781104553, 0.018999953661121404], "expected": [0.0, 0.02, 0.019]}
+B_arm2_approach_start {"arm": "arm2", "target": [-7.204485872192325e-07, 0.019997990781104553, 0.05399995366112141]}
+B_arm2_approach_done {"tcp": [-5.37698489951749e-07, 0.020007797495043618, 0.054001224669963765], "object": [-4.427562940337388e-07, 0.01999773359076695, 0.018999999801029992]}
+B_arm2_contact_start {"arm": "arm2", "target": [-7.204485872192325e-07, 0.019997990781104553, 0.024299953661121403]}
+B_arm2_contact_done {"tcp": [1.7149306693158006e-06, 0.019998565479006036, 0.024308814788276345], "object": [-4.427562940337388e-07, 0.01999773359076695, 0.018999999801029992]}
+attach_ack {"arm": "arm2", "response": "1794142037785211,attached:cap_5"}
+B_arm2_lift_start {"arm": "arm2", "target": [-7.204485872192325e-07, 0.019997990781104553, 0.05399995366112141]}
+B_arm2_lift_done {"tcp": [3.094562608021295e-07, 0.019999621554444853, 0.053992137093480316], "object": [-1.5902169678630451e-06, 0.019999076325740772, 0.048680277322253065]}
+physical_lift_verified {"arm": "arm2", "object": [-1.5902169678630451e-06, 0.019999076325740772, 0.048680277322253065]}
+C_approach_start {"arm": "arm2", "target": [-0.1675, 0.02, 0.054]}
+C_approach_done {"tcp": [-0.16749274280371912, 0.02000592649080097, 0.054001097201471976], "object": [-0.16749225020011488, 0.02000379483906107, 0.04869245864677778]}
+C_place_start {"arm": "arm2", "target": [-0.1675, 0.02, 0.011300000000000001]}
+stopped {"reason": "C_place: TCP error exceeds 1 mm"}
+Traceback (most recent call last):
+  File "/mnt/e/dual_arm_system/dual_arm_ws/scripts/demo_transfer_one.py", line 197, in <module>
+    demo.run()
+  File "/mnt/e/dual_arm_system/dual_arm_ws/scripts/demo_transfer_one.py", line 184, in run
+    self.move('arm2',[c[0],c[1],c[2]+.0053],stage='C_place')
+  File "/mnt/e/dual_arm_system/dual_arm_ws/scripts/demo_transfer_one.py", line 123, in move
+    raise RuntimeError(f'{stage}: TCP error exceeds 1 mm')
+RuntimeError: C_place: TCP error exceeds 1 mm

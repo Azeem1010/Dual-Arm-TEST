@@ -1,0 +1,12 @@
+Cycle 1: turn_and_lift
+Completed: maximum joint error 0.00505 rad
+Cycle 1: turn_back
+Completed: maximum joint error 0.00481 rad
+Cycle 1: return
+Completed: maximum joint error 0.00525 rad
+Cycle 2: turn_and_lift
+Completed: maximum joint error 0.00427 rad
+Cycle 2: turn_back
+Completed: maximum joint error 0.00432 rad
+Cycle 2: return
+Completed: maximum joint error 0.00441 rad

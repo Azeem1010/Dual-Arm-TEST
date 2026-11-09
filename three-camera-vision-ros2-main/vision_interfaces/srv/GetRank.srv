@@ -1,0 +1,12 @@
+# /vision/env/get_rank
+# 此場地瓶蓋大小相同、不排序：固定回 success=true、rank=0（保留此介面相容舊流程）。
+float64 x_mm
+float64 y_mm
+bool peek_only
+---
+bool success
+string message
+# 固定 0
+int32 rank
+# 固定 0
+float64 distance_mm

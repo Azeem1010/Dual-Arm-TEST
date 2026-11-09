@@ -1,0 +1,44 @@
+# 手眼相機 2 節點 arm2_vision_node 參數（手臂 2 在 Home_C 待機觀測 C 區）
+# 標示「待實測」的數值尚未量測，僅為合理預設，請上線後調整。
+#
+# C 區有 8 個方孔（2 行 x 4 列），從影像自動偵測（粉紅場地上的「洞」）。
+# 格位編號固定：使用者站在場地長邊前、B 區在右手邊時，最下排左 1、右 2，往上 3、4 … 最上排 7、8。
+/**:
+  ros__parameters:
+    image_topic: /arm2_cam/image_raw
+    show_debug: true
+    process_hz: 10.0
+    image_timeout_s: 1.0
+    service_timeout_s: 2.0      # 待實測
+    calib_dir: ''
+    hsv_reload_period_s: 2.0
+    undistort: false
+    intrinsics_file: ''         # 空字串 = <calib_dir>/arm2_cam_intrinsics.yaml
+
+    # ---- 方孔定位 ----
+    field_color: pink           # 場地顏色（hsv.yaml 名稱）；方孔 = 場地色遮罩裡的洞
+    field_mask:
+      blur_ksize: 5
+      open_ksize: 3
+      close_ksize: 5            # 不可大於方孔在影像中的邊長，否則孔會被補掉
+    view_rotation_k: 0          # 0..3：手眼相機影像要「順時針」轉幾個 90° 才會是使用者視角（看 debug 視窗確認 1 號在左下）
+    hole_median_frames: 5       # 孔位取最近幾次偵測的中位數（抗抖動）
+    hole_hold_s: 3.0            # 偵測暫時失敗（例如被夾爪遮住）時，沿用上次孔位的最長秒數，超過就回報失敗
+    hole:                       # 單位：手眼相機原始影像像素（待實測；依相機高度而異）
+      min_area_px: 300.0
+      max_area_px: 20000.0
+      max_aspect: 1.5
+      min_fill: 0.75
+      margin_ratio: 0.1         # 計算占用比例時，孔四邊各內縮的比例
+      occupied_threshold: 0.2   # 孔內藍色比例 >= 此值判定已放置（20 mm 瓶蓋在約 28 mm 方孔中約 0.4）（待實測）
+
+    object_color: blue          # 物件顏色（hsv.yaml 名稱）
+    object_mask:
+      blur_ksize: 5
+      open_ksize: 3
+      close_ksize: 5
+
+    # ---- 放置座標高度（手臂 2 基座座標，公尺 = (場地高度 + 物件高度) / 1000） ----
+    place:
+      station_height_mm: 0.0    # 待實測
+      object_height_mm: 10.0    # 待實測

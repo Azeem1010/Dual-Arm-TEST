@@ -1,0 +1,11 @@
+{
+  "recorded_at": "2026-11-09T13:15:43.784218+08:00",
+  "source": "user photos after joint direction tests",
+  "exact_pose_timestamp_unknown": true,
+  "observations": [
+    "第一張可辨識肩、肘、腕轉軸中心",
+    "上臂向上傾斜，前臂接近水平但非精密角度量測",
+    "照片透視未校正，不直接產生馬達零點"
+  ],
+  "calibrated": false
+}

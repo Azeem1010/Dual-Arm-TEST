@@ -1,0 +1,68 @@
+# 環境相機節點 env_vision_node 參數
+# 標示「待實測」的數值尚未量測，僅為合理預設，請上線後以實際場地調整。
+#
+# 場地：60x30 cm 粉紅色泡棉板（無黑框、無分隔線），由左至右 C | B | A 各 20x30 cm。
+# 物件：藍色圓形瓶蓋，直徑 20 mm，大小都一樣（不排序）。
+/**:
+  ros__parameters:
+    image_topic: /env_cam/image_raw
+    show_debug: true            # debug 視窗；launch 的 show_debug:=false 可關閉。沒有 DISPLAY 時自動停用
+    process_hz: 10.0            # 持續判斷的頻率
+    image_timeout_s: 1.0        # 最新影像/結果超過這個秒數視為過期（影像中斷）
+    service_timeout_s: 2.0      # 所有 service 的等待逾時（待實測）
+    calib_dir: ''               # 空字串 = 環境變數 VISION_CALIB_DIR，再不然 ~/.ros/vision_calib
+    hsv_reload_period_s: 2.0    # 檢查 hsv.yaml 是否被 hsv_tuner 更新的週期
+    undistort: false            # 是否用內參去畸變（要先跑 calibrate_intrinsics；標定 homography 時須一致）
+    intrinsics_file: ''         # 空字串 = <calib_dir>/env_cam_intrinsics.yaml
+
+    # ---- 場地定位（開機時場地淨空） ----
+    boot_locate_frames: 5       # 開機/重新定位時取幾張影格做逐點中位數
+    boot_min_detections: 3      # 其中至少幾張偵測到才採用
+    boot_wait_s: 10.0           # 開機後等待影像的最長秒數，逾時改讀上次存檔
+    min_baseline_ratio: 0.5     # 淨空時場地色佔各區 ROI 的比例下限；低於代表 HSV 不對或有遮擋
+                                # （C 區有 8 個方孔，基準會比 A/B 低約 1 成）
+    roi_erode_px: 6             # 各區 ROI 向內收縮像素，避開場地邊緣與桌面交界（待實測）
+    field:
+      color: pink               # 場地顏色（hsv.yaml 名稱）；場地外框與各區「被遮擋比例」都用它
+      size_mm: [600.0, 300.0]   # 場地 [寬, 高]
+      min_aspect: 1.3           # 場地在影像中 寬/高 的下限（2:1，斜拍會變小）
+      reverse: false            # false = 影像中由左至右是 C|B|A（目前場地）；true = A|B|C
+    field_mask:                 # 找場地外框用的遮罩前處理（閉運算補起兩塊板子的接縫）
+      blur_ksize: 5
+      open_ksize: 3
+      close_ksize: 9
+    zone_mask:                  # 各區「場地色可見比例」的遮罩前處理
+      blur_ksize: 5
+      open_ksize: 3
+      close_ksize: 5
+    zone_find:
+      min_area_px: 20000.0      # 場地色塊最小面積（像素²；640x480 下整塊場地約 10 萬以上）
+      min_quad_fill: 0.85       # 場地輪廓 / 四角點四邊形 面積比下限
+
+    # ---- 持續判斷：各區有無瓶蓋 / B 區手臂 ----
+    object_color: blue          # 物件顏色（hsv.yaml 名稱）
+    object_mask:
+      blur_ksize: 5
+      open_ksize: 3
+      close_ksize: 5
+    black_mask:
+      blur_ksize: 5
+      open_ksize: 5
+      close_ksize: 7
+    occupancy:
+      occ_ratio_thresh: 0.05    # 場地色被遮擋比例 >= 此值判定有東西（大東西；一顆瓶蓋只佔約 0.5%）（待實測）
+      object_ratio_thresh: 0.002  # 區內藍色比例 >= 此值判定有瓶蓋（約半顆瓶蓋；主要依據）（待實測）
+      black_ratio_thresh: 0.15  # 區內黑色比例 >= 此值視為大面積黑色（手臂）（待實測）
+      visible_drop_ratio: 0.6   # B 區場地色可見面積 <= 基準的此比例視為驟降（待實測）
+    debounce:                   # 去彈跳（以處理週期為單位）
+      object_frames: 3          # 物件有/無 需連續幾次相同才切換
+      arm_present_frames: 1     # 偵測到手臂：立刻採信（安全優先）
+      arm_clear_frames: 5       # 手臂離開：需連續幾次確認才回報 clear
+    object_count:
+      min_blob_area_mm2: 150.0  # 藍色塊小於此面積不計（直徑 20 mm 瓶蓋約 314 mm²）（待實測）
+      median_frames: 5          # C 區計數取最近幾次的中位數
+
+    # ---- capture_ranking：此場地不排序，只清點 A 區瓶蓋數量 ----
+    capture:
+      avg_frames: 3             # 清點時平均幾張新影格以降雜訊
+      expected_count: 8         # 數量不符只寫在 message 提醒，不會失敗

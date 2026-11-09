@@ -1,0 +1,35 @@
+{
+  "protocol": 5,
+  "port": "/dev/serial/by-id/usb-FTDI_FT232R_USB_UART_AH01R3LJ-if00-port0",
+  "baud": 57600,
+  "arms": {
+    "arm1": {
+      "home_raw": [
+        90,
+        567,
+        712,
+        825
+      ],
+      "position_raw": [
+        229,
+        490,
+        514,
+        500
+      ]
+    },
+    "arm2": {
+      "home_raw": [
+        590,
+        567,
+        712,
+        825
+      ],
+      "position_raw": [
+        539,
+        505,
+        537,
+        663
+      ]
+    }
+  }
+}

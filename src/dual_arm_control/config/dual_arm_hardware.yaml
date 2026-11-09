@@ -1,0 +1,239 @@
+# MEASUREMENT TEMPLATE; fill calibration and supply a measured dual-arm URDF/SRDF.
+dual_coordinator:
+  ros__parameters:
+    simulation: false
+    auto_confirm_demo: false
+    cycles: 1
+    safety_max_age: 2.0
+    arm1.calibrated: false
+    arm1.base_frame: arm1_base
+    arm1.tcp_link: arm1_suction_tcp
+    arm1.home_joints:
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    arm1.pick_z: 0.045
+    arm1.height_tolerance: 0.003
+    arm1.b_place:
+    - 0.15
+    - -0.04
+    - 0.045
+    arm1.a_min:
+    - 0.08
+    - 0.0
+    - 0.04
+    arm1.a_max:
+    - 0.2
+    - 0.1
+    - 0.05
+    arm1.approach_height: 0.03
+    arm1.home_settle: 1.1
+    arm1.peek_only: true
+    arm1.velocity_scale: 0.15
+    arm1.acceleration_scale: 0.15
+    arm1.table_size:
+    - 0.6
+    - 0.6
+    - 0.02
+    arm1.table_center:
+    - 0.0
+    - 0.0
+    - -0.06
+    arm1.disk_radius: 0.01
+    arm1.disk_thickness: 0.002
+    arm2.calibrated: false
+    arm2.base_frame: arm2_base
+    arm2.tcp_link: arm2_suction_tcp
+    arm2.planning_group: arm2
+    arm2.controller_name: arm2_controller
+    arm2.joint_names:
+    - arm2_arm_shoulder_pan_joint
+    - arm2_arm_shoulder_lift_joint
+    - arm2_arm_elbow_flex_joint
+    - arm2_arm_wrist_flex_joint
+    arm2.grid_verification: true
+    arm2.grid_service: /vision/arm2/get_grid_state
+    arm2.verify_service: /vision/arm2/verify_place
+    arm2.grid_position_tolerance: 0.01
+    arm2.require_size_order: false
+    arm2.service_timeout: 4.0
+    arm2.planning_timeout: 5.0
+    arm2.execution_margin: 20.0
+    arm2.joint_state_max_age: 1.0
+    arm2.zone_wait_timeout: 30.0
+    arm2.zone_poll_period: 0.2
+    arm2.manual_timeout: 600.0
+    arm2.calibration_id: ''
+    arm2.home_joints:
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    arm2.b_pick:
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    arm2.c_poses:
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    arm2.rows: 2
+    arm2.columns: 4
+    arm2.approach_height: .nan
+    arm2.home_settle: 1.1
+    arm2.velocity_scale: 0.1
+    arm2.acceleration_scale: 0.1
+    arm2.table_size:
+    - .nan
+    - .nan
+    - .nan
+    arm2.table_center:
+    - .nan
+    - .nan
+    - .nan
+    arm2.disk_radius: .nan
+    arm2.disk_thickness: .nan
+    arm2.obstacle_boxes:
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    arm2.safety_max_age: 2.0
+cm530_bridge:
+  ros__parameters:
+    mock_hardware: false
+    hardware_calibrated: false
+    serial_port: ''
+    arms:
+    - arm1
+    - arm2
+    command_period: 0.15
+    command_timeout: 2.0
+    max_schedule_lag: 0.25
+    arrival_timeout: 10.0
+    stable_count: 3
+    position_tolerance: .nan
+    arm1.zero_raw:
+    - 512
+    - 512
+    - 512
+    - 512
+    arm1.direction:
+    - 1
+    - 1
+    - 1
+    - 1
+    arm1.raw_min:
+    - 0
+    - 0
+    - 0
+    - 0
+    arm1.raw_max:
+    - 1023
+    - 1023
+    - 1023
+    - 1023
+    arm1.lower_rad:
+    - -2.61799
+    - -2.09439
+    - -2.426
+    - -1.7104
+    arm1.upper_rad:
+    - 2.61799
+    - 2.09439
+    - 2.426
+    - 1.7976
+    arm2.zero_raw:
+    - -1
+    - -1
+    - -1
+    - -1
+    arm2.direction:
+    - 0
+    - 0
+    - 0
+    - 0
+    arm2.raw_min:
+    - -1
+    - -1
+    - -1
+    - -1
+    arm2.raw_max:
+    - -1
+    - -1
+    - -1
+    - -1
+    arm2.lower_rad:
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    arm2.upper_rad:
+    - .nan
+    - .nan
+    - .nan
+    - .nan
+    require_safety_inputs: true
+    require_arm1_clear: false
+    require_coordinator: true
+    startup_listen: 6.0

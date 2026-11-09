@@ -1,0 +1,50 @@
+{
+  "model": "src/dual_arm_description/urdf/arm1.urdf",
+  "target_m": [
+    0.1547973720843003,
+    -0.08301828276060999,
+    0.03
+  ],
+  "frame": "arm1_base",
+  "tcp": "arm1_suction_tcp",
+  "execution_enabled": false,
+  "motor_commands_sent": false,
+  "attempts": [
+    {
+      "seed": [
+        -0.4922664373610317,
+        0.2,
+        0.8,
+        1.5
+      ],
+      "error_code": -31
+    },
+    {
+      "seed": [
+        -0.4922664373610317,
+        0.4,
+        1.0,
+        1.0
+      ],
+      "error_code": -31
+    },
+    {
+      "seed": [
+        -0.4922664373610317,
+        0.0,
+        1.5,
+        1.0
+      ],
+      "error_code": -31
+    },
+    {
+      "seed": [
+        -0.4922664373610317,
+        -0.5,
+        1.5,
+        1.5
+      ],
+      "error_code": -31
+    }
+  ]
+}

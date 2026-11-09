@@ -1,0 +1,81 @@
+CM530 v17 offline recheck, WSL Ubuntu, no board connected
+=== image
+CM530.elf MISSING
+CM530.hex MATCH e03e3d18315d4af6
+CM530.bin MATCH cb18eca1e71f02a4
+bin bytes 12612
+home_A [90, 567, 712, 825] offsets ['0x300c']
+home_C [590, 567, 712, 825] offsets ['0x3014']
+all512 [512, 512, 512, 512] offsets []
+id map True
+b'READY,5\r\n' True
+b'VERSION,5\r\n' True
+b'GET_HOME' True
+b'DXL_TIMEOUT' True
+b'NO_TARGET' True
+absent b'BEGIN\x00'
+absent b'\x00PT\x00'
+absent b'STOP\x00'
+=== python self-test
+test_v17_commands_and_data (test_terminal.TerminalTests.test_v17_commands_and_data) ... ok
+
+----------------------------------------------------------------------
+Ran 25 tests in 0.038s
+
+OK
+selftest_exit=0
+=== tools
+/usr/bin/gcc
+gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0
+note: gcc 13 flags test_bridge.c:38 misleading-indentation under -Werror; relaxed here for this harness only
+=== bridge plain
+compile_exit=0
+FAIL GET_HOME,arm1: want [HOME,arm1,512,512,512,512
+], got [HOME,arm1,90,567,712,825
+]
+FAIL line 78: p[8+(width+1)*j]+(width==2?256*p[9+(width+1)*j]:0)==values[j]
+FAIL line 78: p[8+(width+1)*j]+(width==2?256*p[9+(width+1)*j]:0)==values[j]
+FAIL line 78: p[8+(width+1)*j]+(width==2?256*p[9+(width+1)*j]:0)==values[j]
+FAIL line 78: p[8+(width+1)*j]+(width==2?256*p[9+(width+1)*j]:0)==values[j]
+FAIL GET_HOME,arm2: want [HOME,arm2,512,512,512,512
+], got [HOME,arm2,590,567,712,825
+]
+FAIL line 78: p[8+(width+1)*j]+(width==2?256*p[9+(width+1)*j]:0)==values[j]
+FAIL line 78: p[8+(width+1)*j]+(width==2?256*p[9+(width+1)*j]:0)==values[j]
+FAIL line 78: p[8+(width+1)*j]+(width==2?256*p[9+(width+1)*j]:0)==values[j]
+FAIL line 78: p[8+(width+1)*j]+(width==2?256*p[9+(width+1)*j]:0)==values[j]
+FAIL GET_HOME,arm1: want [HOME,arm1,512,512,512,512
+], got [HOME,arm1,90,567,712,825
+]
+FAIL: 11 checks
+run_exit=1
+=== led plain
+compile_exit=0
+PASS: LED GPIO mapping, active-low, mutual exclusion, port clocks and untouched POWER/UART pins
+run_exit=0
+=== bridge sanitize
+compile_exit=0
+FAIL GET_HOME,arm1: want [HOME,arm1,512,512,512,512
+], got [HOME,arm1,90,567,712,825
+]
+FAIL line 78: p[8+(width+1)*j]+(width==2?256*p[9+(width+1)*j]:0)==values[j]
+FAIL line 78: p[8+(width+1)*j]+(width==2?256*p[9+(width+1)*j]:0)==values[j]
+FAIL line 78: p[8+(width+1)*j]+(width==2?256*p[9+(width+1)*j]:0)==values[j]
+FAIL line 78: p[8+(width+1)*j]+(width==2?256*p[9+(width+1)*j]:0)==values[j]
+FAIL GET_HOME,arm2: want [HOME,arm2,512,512,512,512
+], got [HOME,arm2,590,567,712,825
+]
+FAIL line 78: p[8+(width+1)*j]+(width==2?256*p[9+(width+1)*j]:0)==values[j]
+FAIL line 78: p[8+(width+1)*j]+(width==2?256*p[9+(width+1)*j]:0)==values[j]
+FAIL line 78: p[8+(width+1)*j]+(width==2?256*p[9+(width+1)*j]:0)==values[j]
+FAIL line 78: p[8+(width+1)*j]+(width==2?256*p[9+(width+1)*j]:0)==values[j]
+FAIL GET_HOME,arm1: want [HOME,arm1,512,512,512,512
+], got [HOME,arm1,90,567,712,825
+]
+FAIL: 11 checks
+run_exit=1
+=== led sanitize
+compile_exit=0
+PASS: LED GPIO mapping, active-low, mutual exclusion, port clocks and untouched POWER/UART pins
+run_exit=0
+end

@@ -1,0 +1,50 @@
+{
+  "recorded_at": "2026-11-09T13:26:29.074930+08:00",
+  "user_confirmed_reference": "四顆馬達 raw 512 時手臂伸直、垂直朝天",
+  "reference_physically_read_this_session": false,
+  "source_model": "dual_arm_system-main/dual_arm_ws/src/dual_arm_description/urdf/dual_arm_cad.urdf.xacro",
+  "candidate_mapping": "repository simulation: all directions +1; j1 fixed at 0 for local geometry comparison",
+  "home_raw": [
+    90,
+    567,
+    712,
+    825
+  ],
+  "cad_joint_degrees_with_pan_held_zero": [
+    0.0,
+    -18.87096774193548,
+    3.6510263929618825,
+    91.78885630498534
+  ],
+  "tcp_z_above_equal_platform_top_mm": 130.8076409685825,
+  "tcp_radius_about_pan_mm": 132.68651057679784,
+  "small_step_predictions": [
+    {
+      "joint": 2,
+      "positive_raw_10_delta_tcp_mm": [
+        0.0,
+        2.1441947007203517,
+        -6.847618431515656
+      ]
+    },
+    {
+      "joint": 3,
+      "positive_raw_10_delta_tcp_mm": [
+        0.0,
+        -2.4169962720636122,
+        -5.401134529088663
+      ]
+    },
+    {
+      "joint": 4,
+      "positive_raw_10_delta_tcp_mm": [
+        0.0,
+        -3.554634384924302,
+        -0.7532792931296828
+      ]
+    }
+  ],
+  "status": "BLOCKED",
+  "reason": "Simulation +1 shoulder predicts TCP downward for raw increase, contrary to user observed upward. Do not transfer assumed signs/zeros to hardware.",
+  "motion_commands_sent": false
+}

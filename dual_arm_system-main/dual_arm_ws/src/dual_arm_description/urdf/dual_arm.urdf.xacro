@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<robot name="dual_arm" xmlns:xacro="http://ros.org/wiki/xacro">
+<xacro:arg name="mode" default="mock"/>
+<xacro:include filename="$(find dual_arm_description)/urdf/arm.xacro"/>
+<link name="world"/>
+<xacro:phantomx_pincher prefix="arm1_" ros2_control="false"/>
+<xacro:phantomx_pincher prefix="arm2_" ros2_control="false"/>
+<joint name="arm1_mount" type="fixed"><parent link="world"/><child link="arm1_base_link"/><origin xyz="0.15 0.22 0.03"/></joint>
+<joint name="arm2_mount" type="fixed"><parent link="world"/><child link="arm2_base_link"/><origin xyz="-0.15 0.22 0.03"/></joint>
+<ros2_control name="DualArmSystem" type="system"><hardware>
+<xacro:if value="${'$(arg mode)' == 'sim'}"><plugin>gz_ros2_control/GazeboSimSystem</plugin></xacro:if>
+<xacro:unless value="${'$(arg mode)' == 'sim'}"><plugin>mock_components/GenericSystem</plugin></xacro:unless>
+</hardware><joint name="arm1_arm_shoulder_pan_joint"><command_interface name="position"/><state_interface name="position"><param name="initial_value">0.0</param></state_interface><state_interface name="velocity"/></joint><joint name="arm1_arm_shoulder_lift_joint"><command_interface name="position"/><state_interface name="position"><param name="initial_value">0.0</param></state_interface><state_interface name="velocity"/></joint><joint name="arm1_arm_elbow_flex_joint"><command_interface name="position"/><state_interface name="position"><param name="initial_value">0.0</param></state_interface><state_interface name="velocity"/></joint><joint name="arm1_arm_wrist_flex_joint"><command_interface name="position"/><state_interface name="position"><param name="initial_value">0.0</param></state_interface><state_interface name="velocity"/></joint><joint name="arm2_arm_shoulder_pan_joint"><command_interface name="position"/><state_interface name="position"><param name="initial_value">0.0</param></state_interface><state_interface name="velocity"/></joint><joint name="arm2_arm_shoulder_lift_joint"><command_interface name="position"/><state_interface name="position"><param name="initial_value">0.0</param></state_interface><state_interface name="velocity"/></joint><joint name="arm2_arm_elbow_flex_joint"><command_interface name="position"/><state_interface name="position"><param name="initial_value">0.0</param></state_interface><state_interface name="velocity"/></joint><joint name="arm2_arm_wrist_flex_joint"><command_interface name="position"/><state_interface name="position"><param name="initial_value">0.0</param></state_interface><state_interface name="velocity"/></joint></ros2_control>
+<xacro:if value="${'$(arg mode)' == 'sim'}"><gazebo><plugin filename="libgz_ros2_control-system.so" name="gz_ros2_control::GazeboSimROS2ControlPlugin"><parameters>$(find dual_arm_controllers)/config/controllers.yaml</parameters></plugin></gazebo></xacro:if>
+</robot>

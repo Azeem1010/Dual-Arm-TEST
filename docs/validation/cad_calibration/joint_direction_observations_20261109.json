@@ -1,0 +1,56 @@
+{
+  "recorded_at": "2026-11-09T13:11:06.678625+08:00",
+  "scope": "Home_A 附近小幅正向 raw 增量的實機觀察；尚未換算模型關節零點或完整校正",
+  "hardware_calibration_validated": false,
+  "axes": [
+    {
+      "axis": "j1",
+      "motor_id": 17,
+      "delta_raw": 10,
+      "observation": {
+        "observer": "站在手臂底座後方朝手臂前方看",
+        "positive_raw_step": "吸盤往左",
+        "return_step": "吸盤往右",
+        "source": "user",
+        "model_direction_validated": false
+      },
+      "evidence": "j1_direction_test_20261109_130220.json"
+    },
+    {
+      "axis": "j2",
+      "motor_id": 3,
+      "delta_raw": 10,
+      "observation": {
+        "positive_raw_step": "吸盤往上",
+        "source": "user",
+        "scope": "Home_A 附近姿態",
+        "model_direction_validated": false
+      },
+      "evidence": "j2_direction_test_20261109_130728.json"
+    },
+    {
+      "axis": "j3",
+      "motor_id": 2,
+      "delta_raw": 10,
+      "observation": {
+        "positive_raw_step": "吸盤往下",
+        "source": "user",
+        "scope": "Home_A 附近姿態",
+        "model_direction_validated": false
+      },
+      "evidence": "j3_direction_test_20261109_130840.json"
+    },
+    {
+      "axis": "j4",
+      "motor_id": 15,
+      "delta_raw": 10,
+      "observation": {
+        "positive_raw_step": "吸盤嘴靠近底座",
+        "source": "user",
+        "scope": "Home_A 附近姿態",
+        "model_direction_validated": false
+      },
+      "evidence": "j4_direction_repeat_20261109_131041.json"
+    }
+  ]
+}

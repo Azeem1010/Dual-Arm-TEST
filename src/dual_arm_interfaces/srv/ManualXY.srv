@@ -1,0 +1,9 @@
+# Metres in arm1_base. prepare permits initial positioning onto the travel plane.
+float64 x
+float64 y
+bool execute
+bool prepare
+---
+bool success
+# JSON plan/execution record, or diagnostic text on failure.
+string message

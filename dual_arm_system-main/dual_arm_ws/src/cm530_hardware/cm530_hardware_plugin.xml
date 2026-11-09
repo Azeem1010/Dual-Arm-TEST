@@ -1,0 +1,7 @@
+<library path="cm530_hardware">
+  <class name="cm530_hardware/CM530SystemInterface"
+         type="cm530_hardware::CM530SystemInterface"
+         base_class_type="hardware_interface::SystemInterface">
+    <description>Eight AX-12A joints on one CM-530 (firmware v17, protocol 5). Read-only unless motion is explicitly authorized.</description>
+  </class>
+</library>

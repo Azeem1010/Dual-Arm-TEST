@@ -1,0 +1,8 @@
+Starting >>> dual_arm_description
+Starting >>> dual_arm_gazebo
+Finished <<< dual_arm_gazebo [2.55s]
+Finished <<< dual_arm_description [10.6s]
+Starting >>> dual_arm_bringup
+Finished <<< dual_arm_bringup [5.09s]
+
+Summary: 3 packages finished [16.9s]

@@ -1,0 +1,21 @@
+test_validity (unittest.loader._FailedTest.test_validity) ... ERROR
+
+======================================================================
+ERROR: test_validity (unittest.loader._FailedTest.test_validity)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_validity
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/unittest/loader.py", line 394, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/unittest/loader.py", line 337, in _get_module_from_name
+    __import__(name)
+  File "/mnt/e/dual_arm_system/dual_arm_ws/src/dual_arm_vision_adapter/test/test_validity.py", line 3, in <module>
+    from dual_arm_vision_adapter.validity import validate, position_budget
+ModuleNotFoundError: No module named 'dual_arm_vision_adapter'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)

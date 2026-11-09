@@ -1,0 +1,25 @@
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  python3-graphviz
+The following NEW packages will be installed:
+  python3-graphviz ros-jazzy-ros2controlcli
+0 upgraded, 2 newly installed, 0 to remove and 92 not upgraded.
+Need to get 98.0 kB of archives.
+After this operation, 482 kB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu noble/universe amd64 python3-graphviz all 0.20.2-1 [63.4 kB]
+Get:2 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ros2controlcli amd64 4.48.1-1noble.20261006.035651 [34.6 kB]
+debconf: unable to initialize frontend: Dialog
+debconf: (Dialog frontend requires a screen at least 13 lines tall and 31 columns wide.)
+debconf: falling back to frontend: Readline
+Fetched 98.0 kB in 1s (88.2 kB/s)
+Selecting previously unselected package python3-graphviz.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 164548 files and directories currently installed.)
+Preparing to unpack .../python3-graphviz_0.20.2-1_all.deb ...
+Unpacking python3-graphviz (0.20.2-1) ...
+Selecting previously unselected package ros-jazzy-ros2controlcli.
+Preparing to unpack .../ros-jazzy-ros2controlcli_4.48.1-1noble.20261006.035651_amd64.deb ...
+Unpacking ros-jazzy-ros2controlcli (4.48.1-1noble.20261006.035651) ...
+Setting up python3-graphviz (0.20.2-1) ...
+Setting up ros-jazzy-ros2controlcli (4.48.1-1noble.20261006.035651) ...

@@ -1,0 +1,50 @@
+{
+  "checked_at": "2026-11-05T15:51:27.718393+08:00",
+  "hardware": true,
+  "protocol": 5,
+  "arm": "arm1",
+  "target_frame": "arm1_base",
+  "target_reference": "legacy end_effector (TCP alias at zero offset)",
+  "target_xyz_m": [
+    0.15,
+    0.04,
+    0.05
+  ],
+  "start_raw": [
+    229,
+    490,
+    514,
+    500
+  ],
+  "last_commanded_raw": [
+    563,
+    628,
+    708,
+    813
+  ],
+  "after_hold_raw": [
+    561,
+    633,
+    710,
+    812
+  ],
+  "after_hold_fk_xyz_m": [
+    0.15000005475082456,
+    0.03842837104301612,
+    0.045392128450219366
+  ],
+  "after_hold_fk_position_error_m": 0.004868521110224921,
+  "after_hold_fk_z_error_m": -0.004607871549780637,
+  "moveit_execution_status": "SUCCEEDED",
+  "controller_read_arrival_check": "passed configured joint tolerance",
+  "manual_endpoint_validation": "failed 1 mm travel-plane tolerance",
+  "hold_acknowledged": true,
+  "subsequent_motion_locked": true,
+  "automatic_retry": false,
+  "physical_tip_position_independently_measured": false,
+  "notes": [
+    "Real AX requests and READ feedback observed. Arm2 received no motion command.",
+    "FK is inferred from the user-confirmed legacy mapping, not external metrology.",
+    "Bridge remains connected and fault-latched; HOLD retains torque, no torque-off issued."
+  ]
+}

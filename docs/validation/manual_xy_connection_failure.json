@@ -1,0 +1,11 @@
+{
+  "checked_at": "2026-11-05T15:44:07.831126+08:00",
+  "port": "/dev/serial/by-id/usb-FTDI_FT232R_USB_UART_AH01R3LJ-if00-port0",
+  "command": "VERSION",
+  "response": "ERR,BAD_CMD",
+  "expected": "VERSION,5",
+  "fresh_position_obtained": false,
+  "motion_sent": false,
+  "torque_enable_sent": false,
+  "note": "Read-only probe failed at version handshake; no automatic retry or firmware change."
+}

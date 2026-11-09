@@ -1,0 +1,72 @@
+{
+  "revision": "camera_forward_flush_C_20261109",
+  "transport_speed_scale": 0.5,
+  "contact_speed_scale": 0.25,
+  "acceleration_scale": 0.25,
+  "surface_z_m": 0.014,
+  "cap_height_m": 0.01,
+  "C_support": "flush_white_pads",
+  "home": {
+    "radians_per_count": 0.005118267601156392,
+    "calibration_status": "NOT_RUN",
+    "arm1": {
+      "name": "home_A",
+      "motor_ids": [
+        17,
+        3,
+        2,
+        15
+      ],
+      "raw": [
+        90,
+        567,
+        712,
+        825
+      ],
+      "raw_at_cad_zero": [
+        192.3,
+        631.35,
+        699.55,
+        512
+      ],
+      "direction": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "arm2": {
+      "name": "home_C",
+      "motor_ids": [
+        12,
+        1,
+        8,
+        16
+      ],
+      "raw": [
+        590,
+        567,
+        712,
+        825
+      ],
+      "raw_at_cad_zero": [
+        512,
+        631.35,
+        699.55,
+        512
+      ],
+      "direction": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "mapping_mode": "simulation_assumed",
+    "hardware_use_allowed": false,
+    "zero_reference": "User-stated physical zero: all four motors at raw 512 with the arm straight, read as vertical. CAD equivalent is q=(0,-35,-55,0) deg, so raw_at_cad_zero j2..j4 = 631.35/699.55/512. Directions are inferred, not measured.",
+    "arm1_j1_status": "UNRESOLVED: firmware home_A raw 90 faces zone A on the real arm, but raw 512 faces +Y, which would put raw 90 at about 124 deg. raw_at_cad_zero 192.3 is the earlier -30 deg simulation placeholder until motor 17 is read on the real arm.",
+    "assumption_note": "Simulation only. Not measured calibration; the wrist upper limit was widened to 1.65 rad in simulation so raw 825 fits, without physical clearance checks."
+  }
+}

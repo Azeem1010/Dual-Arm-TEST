@@ -1,0 +1,36 @@
+{
+  "passed": false,
+  "scenario": "full",
+  "state": {
+    "state": "FAULT",
+    "cycle_id": "be50cff546cd4a6ca3515f84d91f2b5c",
+    "active_arm": "arm1",
+    "holding": "empty",
+    "b_locked": false,
+    "b_owner": "",
+    "occupied": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "slot": 0,
+    "completed": 0,
+    "arms": {},
+    "message": "MoveIt failed: status=6, code=-4",
+    "confirmation_token": "f1bf142f6c0c4f83bc2363e22720e754",
+    "confirmation_operation": "recovery",
+    "config_fingerprint": "f8296172f21028e49627519381492e7453da0cb7029094ef7290d3682b4b4528",
+    "busy": false
+  },
+  "history": [
+    "IDLE",
+    "STARTING",
+    "INITIALIZING",
+    "FAULT"
+  ]
+}

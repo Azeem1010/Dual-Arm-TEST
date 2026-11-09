@@ -1,0 +1,3 @@
+home_A_home_C {'valid': True, 'contacts': []}
+home_A_arm2_cad_zero {'valid': True, 'contacts': []}
+arm1_cad_zero_home_C {'valid': True, 'contacts': []}

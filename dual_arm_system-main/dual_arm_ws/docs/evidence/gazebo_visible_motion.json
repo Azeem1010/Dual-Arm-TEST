@@ -1,0 +1,112 @@
+{
+  "scope": "Gazebo domain 42, finite low-speed demonstration",
+  "status": "PASS",
+  "motions": [
+    {
+      "cycle": 1,
+      "motion": "turn_and_lift",
+      "moveit_code": 1,
+      "maximum_joint_error_rad": 0.0050488019720546645,
+      "feedback": {
+        "arm1_arm_elbow_flex_joint": 0.09509722884942398,
+        "arm1_arm_shoulder_lift_joint": -0.11495119801580911,
+        "arm1_arm_shoulder_pan_joint": 0.2037036208163774,
+        "arm1_arm_wrist_flex_joint": -0.08228691360243343,
+        "arm2_arm_elbow_flex_joint": 0.1022801322513166,
+        "arm2_arm_shoulder_lift_joint": -0.11715497980107879,
+        "arm2_arm_shoulder_pan_joint": 0.2035144103750568,
+        "arm2_arm_wrist_flex_joint": -0.0829647349898997
+      }
+    },
+    {
+      "cycle": 1,
+      "motion": "turn_back",
+      "moveit_code": 1,
+      "maximum_joint_error_rad": 0.004812245162705682,
+      "feedback": {
+        "arm1_arm_elbow_flex_joint": 0.05411004404249118,
+        "arm1_arm_shoulder_lift_joint": -0.05767382851468628,
+        "arm1_arm_shoulder_pan_joint": -0.1486660205375002,
+        "arm1_arm_wrist_flex_joint": -0.044597881264887916,
+        "arm2_arm_elbow_flex_joint": 0.0548122451843393,
+        "arm2_arm_shoulder_lift_joint": -0.05621847720109498,
+        "arm2_arm_shoulder_pan_joint": -0.1501330810851222,
+        "arm2_arm_wrist_flex_joint": -0.04269460959348878
+      }
+    },
+    {
+      "cycle": 1,
+      "motion": "return",
+      "moveit_code": 1,
+      "maximum_joint_error_rad": 0.005245640025796665,
+      "feedback": {
+        "arm1_arm_elbow_flex_joint": -0.0029972598955361387,
+        "arm1_arm_shoulder_lift_joint": -0.001621190508311801,
+        "arm1_arm_shoulder_pan_joint": -0.005245640025802786,
+        "arm1_arm_wrist_flex_joint": 0.0007758539659369506,
+        "arm2_arm_elbow_flex_joint": -0.0034206225953816657,
+        "arm2_arm_shoulder_lift_joint": -0.0030360511419266225,
+        "arm2_arm_shoulder_pan_joint": 0.0029684402865500113,
+        "arm2_arm_wrist_flex_joint": 0.0003092477074655693
+      }
+    },
+    {
+      "cycle": 2,
+      "motion": "turn_and_lift",
+      "moveit_code": 1,
+      "maximum_joint_error_rad": 0.004265922281059084,
+      "feedback": {
+        "arm1_arm_elbow_flex_joint": 0.10155185822158427,
+        "arm1_arm_shoulder_lift_joint": -0.1190872123386073,
+        "arm1_arm_shoulder_pan_joint": 0.2028213106688562,
+        "arm1_arm_wrist_flex_joint": -0.07858966258320496,
+        "arm2_arm_elbow_flex_joint": 0.09573407774057455,
+        "arm2_arm_shoulder_lift_joint": -0.12136588621399062,
+        "arm2_arm_shoulder_pan_joint": 0.19848320568886088,
+        "arm2_arm_wrist_flex_joint": -0.0765569434229373
+      }
+    },
+    {
+      "cycle": 2,
+      "motion": "turn_back",
+      "moveit_code": 1,
+      "maximum_joint_error_rad": 0.004316790464641854,
+      "feedback": {
+        "arm1_arm_elbow_flex_joint": 0.05404854425145525,
+        "arm1_arm_shoulder_lift_joint": -0.055728895046575244,
+        "arm1_arm_shoulder_pan_joint": -0.15056868680427085,
+        "arm1_arm_wrist_flex_joint": -0.03776538192722162,
+        "arm2_arm_elbow_flex_joint": 0.04858435984988327,
+        "arm2_arm_shoulder_lift_joint": -0.06431679045250563,
+        "arm2_arm_shoulder_pan_joint": -0.1530788372005502,
+        "arm2_arm_wrist_flex_joint": -0.038778774611164225
+      }
+    },
+    {
+      "cycle": 2,
+      "motion": "return",
+      "moveit_code": 1,
+      "maximum_joint_error_rad": 0.004412032090593542,
+      "feedback": {
+        "arm1_arm_elbow_flex_joint": -0.004412032068959925,
+        "arm1_arm_shoulder_lift_joint": -0.0011864263838177827,
+        "arm1_arm_shoulder_pan_joint": -0.0017928372624228424,
+        "arm1_arm_wrist_flex_joint": -0.0011496658041794988,
+        "arm2_arm_elbow_flex_joint": -0.003256880958906153,
+        "arm2_arm_shoulder_lift_joint": 0.0031271580874875048,
+        "arm2_arm_shoulder_pan_joint": 0.0006835385920185438,
+        "arm2_arm_wrist_flex_joint": -0.002814781344136376
+      }
+    }
+  ],
+  "baseline": {
+    "arm1_arm_elbow_flex_joint": 2.1633616722279826e-11,
+    "arm1_arm_shoulder_lift_joint": 1.2136216685588397e-11,
+    "arm1_arm_shoulder_pan_joint": -6.121179084439565e-15,
+    "arm1_arm_wrist_flex_joint": 2.594178406811753e-12,
+    "arm2_arm_elbow_flex_joint": 2.1633621065017534e-11,
+    "arm2_arm_shoulder_lift_joint": 1.2136221770324541e-11,
+    "arm2_arm_shoulder_pan_joint": -6.121102322925686e-15,
+    "arm2_arm_wrist_flex_joint": 2.594179621118192e-12
+  }
+}

@@ -1,0 +1,40 @@
+# 手眼相機 1 節點 arm1_vision_node 參數（手臂 1 在 Home_A 待機觀測 A 區）
+# 標示「待實測」的數值尚未量測，僅為合理預設，請上線後調整。
+/**:
+  ros__parameters:
+    image_topic: /arm1_cam/image_raw
+    show_debug: true
+    process_hz: 10.0
+    image_timeout_s: 1.0
+    service_timeout_s: 2.0      # get_pick_target 等待新結果的逾時，待實測
+    calib_dir: ''
+    hsv_reload_period_s: 2.0
+    undistort: false
+    intrinsics_file: ''         # 空字串 = <calib_dir>/arm1_cam_intrinsics.yaml
+
+    # A 區平面（a_station_homography.yaml 的輸出座標系）。選用：標定後只偵測 A 區範圍內的瓶蓋，
+    # 並在 detections topic 提供 A 區平面座標；未標定時偵測整張影像。
+    a_station_size_mm: [200.0, 300.0]   # A 區 20x30 cm（x 向右 200、y 向下 300）
+    roi_margin_mm: 0.0          # 偵測範圍相對 A 區向外（正）/向內（負）擴張的 mm 數
+
+    # 目標座標高度（手臂 1 基座座標，公尺 = (場地高度 + 物件高度) / 1000）
+    station_height_mm: 0.0      # 待實測
+    object_height_mm: 10.0      # 瓶蓋高度（夾取高度），待實測
+    reach:                      # 手臂 1 可達範圍：基座座標 xy 半徑（待實測）
+      min_m: 0.05
+      max_m: 0.35
+    pick:
+      min_clearance_m: 0.03     # 優先挑「最近的其他瓶蓋中心距離 >= 此值」者，夾爪才不會碰到旁邊的（待實測）
+
+    object_color: blue          # 物件顏色（hsv.yaml 名稱）
+    object_mask:
+      blur_ksize: 5
+      open_ksize: 5
+      close_ksize: 7
+    cap:                        # 單位：手眼相機原始影像像素（待實測；瓶蓋在影像中的大小隨相機高度而異）
+      min_area_px: 300.0
+      max_area_px: 30000.0      # 目前手眼相機 1（Sonix，Home_A）瓶蓋約 134px、面積約 1.4 萬；換鏡頭後重調
+      min_circularity: 0.75     # 手眼相機有透視，圓會變橢圓，比環境相機放寬
+      min_fill: 0.65
+      reject_border_touch: true
+      border_px: 2

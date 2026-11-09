@@ -1,0 +1,22 @@
+{
+  "phantomx_pincher": {
+    "url": "https://github.com/snt-spacer/phantomx_pincher.git",
+    "commit": "b30cf4195f5c14403f8c4e8408b560f2c9da5782",
+    "branch": "ros2"
+  },
+  "dual_arm_3d": {
+    "url": "https://github.com/xian1022/dual_arm_3d.git",
+    "commit": "1eefc4da57a25008ff037b851b58e24cf8ab7af5",
+    "branch": "main"
+  },
+  "CM530_ROS_BRIDGE": {
+    "url": "https://github.com/xian1022/CM530_ROS_BRIDGE.git",
+    "commit": "07dd98f63f7f838dd83664337623a605b680c663",
+    "branch": "main"
+  },
+  "three-camera-vision-ros2": {
+    "url": "https://github.com/Azeem1010/three-camera-vision-ros2.git",
+    "commit": "b98fb4ef51c2e2c9315cff71711305cedcb4e6b5",
+    "branch": "main"
+  }
+}

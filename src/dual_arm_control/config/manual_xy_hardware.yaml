@@ -1,0 +1,50 @@
+# Measurement worksheet. null/empty values intentionally prevent hardware launch.
+# Values are in arm1_base metres and URDF radians. Never copy demo calibration.
+task_coordinator:
+  ros__parameters:
+    calibrated: false
+    # Imported from the previous single-arm tabletop.yaml after the user
+    # confirmed the tool, base and table installation are unchanged.
+    # These heights were defined for the OLD end_effector planning target.
+    # Do not execute with the new suction TCP until that frame is reconciled.
+    pick_z: 0.02
+    approach_height: 0.03         # old transfer_z_m 0.05 minus pickup_z_m 0.02
+    velocity_scale: 0.10
+    acceleration_scale: 0.10
+    table_size: [0.6, 0.6, 0.04]
+    table_center: [0.3, 0.0, -0.04]
+cm530_bridge:
+  ros__parameters:
+    arms: [arm1]
+    hardware_calibrated: false
+    serial_port: ''
+    command_period: 0.1
+    command_timeout: 2.0
+    # 2026-11-05: user confirmed the previous single-arm mapping was physically
+    # tested and still applies to the current arm, IDs 17,3,2,15 respectively.
+    arm1.zero_raw: [512, 512, 512, 512]
+    arm1.direction: [1, 1, 1, 1]
+    arm1.raw_min: [null, null, null, null]
+    arm1.raw_max: [null, null, null, null]
+    arm1.lower_rad: [null, null, null, null]
+    arm1.upper_rad: [null, null, null, null]
+manual_xy:
+  xy_min: [0.03, -0.2]
+  xy_max: [0.3, 0.2]
+  tool:
+    xyz: [null, null, null]        # end_effector -> suction contact TCP
+    rpy: [null, null, null]        # radians; local TCP +Z points toward object
+    radius: null                  # Conservative collision cylinder
+    length: null                  # Cylinder extends along TCP -Z toward mount
+  obstacles: []                   # [{center: [x,y,z], size: [dx,dy,dz]}], include arm2 envelope
+  calibration:
+    tcp_measured: false
+    plane_measured: false
+    limits_measured: false
+    scene_measured: false
+    # ID order: 17, 3, 2, 15. At least 3 independently measured angles each.
+    # Each entry: {radians: measured_URDF_angle, raw: fresh_READ_integer}
+    joint_references: [[], [], [], []]
+    # At least 3 DIFFERENT poses, excluded from the reference fit, suction downward.
+    # {raw: [j1,j2,j3,j4], measured_xyz: [x,y,z], measured_tool_z: [dx,dy,dz]}
+    validation_poses: []

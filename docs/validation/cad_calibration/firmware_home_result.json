@@ -1,0 +1,65 @@
+{
+  "started_at": "2026-11-06T12:48:11.019337+08:00",
+  "arm": "arm1",
+  "commands": [
+    {
+      "tx": "HOME,arm1",
+      "rx": "OK,HOME,arm1"
+    },
+    {
+      "tx": "TORQUE,arm1,1",
+      "rx": "OK,TORQUE,arm1,1"
+    }
+  ],
+  "samples": [
+    {
+      "raw": [
+        90,
+        572,
+        715,
+        825
+      ],
+      "max_error_ticks": 5
+    },
+    {
+      "raw": [
+        90,
+        572,
+        715,
+        825
+      ],
+      "max_error_ticks": 5
+    },
+    {
+      "raw": [
+        90,
+        572,
+        715,
+        825
+      ],
+      "max_error_ticks": 5
+    }
+  ],
+  "arrival_tolerance_ticks": 5,
+  "stable_samples_required": 3,
+  "home_raw": [
+    90,
+    567,
+    712,
+    825
+  ],
+  "before_raw": [
+    90,
+    573,
+    715,
+    825
+  ],
+  "success": true,
+  "final_raw": [
+    90,
+    572,
+    715,
+    825
+  ],
+  "torque": "enabled; holding firmware HOME target"
+}

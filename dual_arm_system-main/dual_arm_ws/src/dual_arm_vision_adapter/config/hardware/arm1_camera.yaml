@@ -1,0 +1,12 @@
+mode: hardware
+camera_id: arm1
+frame_id: arm1_camera_optical_frame
+reference_frame: arm1_base_link
+status: NOT_RUN
+evidence_verified: false
+budget_verified: false
+slot_order_verified: false
+camera_matrix: null
+distortion: null
+homography: null
+reason: No independently validated calibration evidence

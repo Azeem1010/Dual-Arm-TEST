@@ -1,0 +1,19 @@
+{
+  "captured_at": "2026-11-06T12:45:01.834685+08:00",
+  "arm": "arm1",
+  "home_raw": [
+    90,
+    567,
+    712,
+    825
+  ],
+  "position_raw": [
+    90,
+    572,
+    711,
+    825
+  ],
+  "read_only": true,
+  "user_confirmed_same_pose_as_photos_and_camera_calibration": true,
+  "hardware_calibration_validated": false
+}

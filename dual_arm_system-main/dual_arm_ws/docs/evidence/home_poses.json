@@ -1,0 +1,122 @@
+{
+  "formula": "q_rad = direction * (raw - raw_at_cad_zero) * radians(300) / 1023",
+  "mapping_mode": "simulation_assumed",
+  "hardware_calibration_status": "NOT_RUN",
+  "hardware_use_allowed": false,
+  "reference": "https://emanual.robotis.com/docs/en/dxl/ax/ax-12a/",
+  "note": "Relative-to-512 shaft angles are arithmetic only, not CAD joint angles or physical pose calibration.",
+  "arms": {
+    "arm1": {
+      "name": "home_A",
+      "motor_ids": [
+        17,
+        3,
+        2,
+        15
+      ],
+      "raw": [
+        90,
+        567,
+        712,
+        825
+      ],
+      "shaft_deg_relative_512": [
+        -123.75366568914956,
+        16.129032258064516,
+        58.651026392961874,
+        91.78885630498533
+      ],
+      "status": "PASS",
+      "joint_rad": [
+        -0.5235987755982989,
+        -0.32936052013441397,
+        0.06372243163439731,
+        1.6020177591619507
+      ],
+      "tcp_transform": [
+        [
+          0.8660254037844387,
+          -0.4863250016920203,
+          0.11613781782544666,
+          0.16634325528839894
+        ],
+        [
+          -0.5000000000000001,
+          -0.8423396119215992,
+          0.20115660115385214,
+          0.027659888899019543
+        ],
+        [
+          -4.4450548980224014e-17,
+          -0.23227563565089335,
+          -0.9726500033840404,
+          0.1408076409685825
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "within_model_limits": true,
+      "scope": "Arithmetic/FK only; collision and hardware acceptance not included"
+    },
+    "arm2": {
+      "name": "home_C",
+      "motor_ids": [
+        12,
+        1,
+        8,
+        16
+      ],
+      "raw": [
+        590,
+        567,
+        712,
+        825
+      ],
+      "shaft_deg_relative_512": [
+        22.873900293255133,
+        16.129032258064516,
+        58.651026392961874,
+        91.78885630498533
+      ],
+      "status": "PASS",
+      "joint_rad": [
+        0.3992248728901986,
+        -0.32936052013441397,
+        0.06372243163439731,
+        1.6020177591619507
+      ],
+      "tcp_transform": [
+        [
+          0.9213625659899791,
+          0.3780732251403236,
+          -0.0902865351221084,
+          -0.15157581536200168
+        ],
+        [
+          0.3887042860483551,
+          -0.8961633029280813,
+          0.2140100756802605,
+          0.03500238385729489
+        ],
+        [
+          -4.4450548980224014e-17,
+          -0.23227563565089335,
+          -0.9726500033840404,
+          0.1408076409685825
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "within_model_limits": true,
+      "scope": "Arithmetic/FK only; collision and hardware acceptance not included"
+    }
+  }
+}

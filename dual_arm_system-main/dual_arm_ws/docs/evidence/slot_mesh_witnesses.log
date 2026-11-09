@@ -1,0 +1,6 @@
+toward_user_y slot 1 surface_crossings 0
+toward_user_y slot 2 surface_crossings 0
+toward_arm_base_x slot 1 surface_crossings 0
+toward_arm_base_x slot 2 surface_crossings 0
+toward_user_y_10mm slot 1 surface_crossings 0
+toward_user_y_10mm slot 2 surface_crossings 0

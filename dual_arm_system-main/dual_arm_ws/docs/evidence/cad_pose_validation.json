@@ -1,0 +1,5 @@
+{
+  "status": "PASS",
+  "visual_components": 264,
+  "scope": "At zero joint displacement, each exported CAD visual has exactly the source assembly transform; does not validate fastener assignment during motion or dynamics."
+}

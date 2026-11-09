@@ -1,0 +1,28 @@
+commit=e345638
+=== build as published
+build1_exit=1
+1486:CMake Error at cmake_install.cmake:70 (file):
+1487:  file INSTALL cannot find
+1493:CMake Error at cmake_install.cmake:70 (file):
+1494:  file INSTALL cannot find
+1500:Failed   <<< dual_arm_bringup [1min 27s, exited with code 1]
+1661:Summary: 8 packages finished [4min 39s]
+1663:  1 package aborted: dual_arm_gripper
+CMake Error at cmake_install.cmake:70 (file):
+  file INSTALL cannot find
+  "/tmp/clone_fix_check/dual_arm_system/dual_arm_ws/src/dual_arm_bringup/config":
+  No such file or directory.
+
+
+--- stderr: dual_arm_bringup
+=== apply fix in this copy only
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+build2_exit=0
+Summary: 11 packages finished [40.6s]
+Summary: 1 package finished [0.39s]
+Summary: 33 tests, 0 errors, 0 failures, 0 skipped
+OK
+mock_controllers_active poll=2
+end
+
+[exited with code 0]
